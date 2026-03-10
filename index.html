@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rev.io Channel Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --blue: #4A8EC2;
+      --blue-dark: #3570a0;
+      --blue-light: #e8f2fa;
+      --green: #27ae60;
+      --orange: #e67e22;
+      --red: #e74c3c;
+      --gray: #6c757d;
+      --border: #dde3ea;
+      --bg: #f4f6f9;
+      --card: #ffffff;
+      --text: #1a2332;
+      --text-light: #5a6a7a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+
+    /* Header */
+    header {
+      background: var(--blue);
+      color: #fff;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    header h1 { font-size: 1.3rem; font-weight: 600; letter-spacing: 0.3px; }
+    header .meta { font-size: 0.78rem; opacity: 0.85; text-align: right; }
+    header .logo { font-size: 0.85rem; font-weight: 700; opacity: 0.9; letter-spacing: 1px; text-transform: uppercase; }
+
+    /* Nav tabs */
+    .tabs { background: var(--blue-dark); display: flex; gap: 2px; padding: 0 24px; overflow-x: auto; }
+    .tab { padding: 10px 18px; color: rgba(255,255,255,0.7); font-size: 0.82rem; cursor: pointer; white-space: nowrap; border-bottom: 3px solid transparent; transition: all 0.15s; }
+    .tab:hover { color: #fff; }
+    .tab.active { color: #fff; border-bottom-color: #fff; font-weight: 600; }
+
+    /* Main layout */
+    main { padding: 24px; max-width: 1400px; margin: 0 auto; }
+    .section { display: none; }
+    .section.active { display: block; }
+
+    /* Section header */
+    .section-header { margin-bottom: 20px; }
+    .section-header h2 { font-size: 1.15rem; font-weight: 600; color: var(--text); }
+    .section-header p { font-size: 0.82rem; color: var(--text-light); margin-top: 4px; }
+
+    /* Stat cards row */
+    .stats-row { display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+    .stat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 22px;
+      flex: 1;
+      min-width: 160px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+    .stat-card .label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-light); margin-bottom: 8px; }
+    .stat-card .value { font-size: 1.9rem; font-weight: 700; color: var(--blue); line-height: 1; }
+    .stat-card .sub { font-size: 0.78rem; color: var(--text-light); margin-top: 6px; }
+    .stat-card.green .value { color: var(--green); }
+    .stat-card.orange .value { color: var(--orange); }
+
+    /* Grid */
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    @media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
+
+    /* Cards */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      overflow: hidden;
+    }
+    .card-header {
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-header h3 { font-size: 0.88rem; font-weight: 600; color: var(--text); }
+    .card-header .badge {
+      font-size: 0.72rem;
+      background: var(--blue-light);
+      color: var(--blue);
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .card-body { padding: 18px; }
+    .chart-wrap { position: relative; height: 220px; }
+    .chart-wrap-tall { position: relative; height: 280px; }
+
+    /* Tables */
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    .data-table th { text-align: left; padding: 8px 10px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.4px; color: var(--text-light); border-bottom: 2px solid var(--border); white-space: nowrap; }
+    .data-table td { padding: 8px 10px; border-bottom: 1px solid #f0f2f5; vertical-align: middle; }
+    .data-table tr:last-child td { border-bottom: none; }
+    .data-table tr:hover td { background: var(--blue-light); }
+    .stage-pill {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .stage-won { background: #d4edda; color: #155724; }
+    .stage-lost { background: #f8d7da; color: #721c24; }
+    .stage-open { background: #d1ecf1; color: #0c5460; }
+    .stage-verbal { background: #fff3cd; color: #856404; }
+    .amount { font-weight: 600; color: var(--text); }
+    .owner-badge { font-size: 0.68rem; color: var(--text-light); white-space: nowrap; }
+
+    /* Stage breakdown bars */
+    .stage-bars { display: flex; flex-direction: column; gap: 8px; }
+    .stage-bar-row { display: flex; align-items: center; gap: 10px; }
+    .stage-bar-label { font-size: 0.75rem; color: var(--text-light); width: 180px; flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .stage-bar-track { flex: 1; height: 8px; background: #eef0f3; border-radius: 4px; }
+    .stage-bar-fill { height: 100%; border-radius: 4px; background: var(--blue); transition: width 0.4s; }
+    .stage-bar-count { font-size: 0.75rem; font-weight: 600; color: var(--text); width: 28px; text-align: right; }
+
+    /* Event type pills */
+    .event-type { font-size: 0.7rem; color: var(--blue); font-weight: 600; }
+
+    /* Loading */
+    #loading { text-align: center; padding: 60px 20px; color: var(--text-light); }
+    #error { display: none; text-align: center; padding: 40px 20px; color: var(--red); }
+
+    /* Refresh button */
+    .refresh-btn {
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.4);
+      color: #fff;
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .refresh-btn:hover { background: rgba(255,255,255,0.3); }
+
+    /* Scrollable table wrapper */
+    .table-scroll { overflow-x: auto; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="logo">Rev.io</div>
+    <h1>Channel Dashboard</h1>
+  </div>
+  <div class="meta">
+    <div id="last-updated">Loading...</div>
+    <div style="margin-top:6px"><button class="refresh-btn" onclick="loadData()">↻ Refresh</button></div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <div class="tab active" onclick="showTab('bookings', this)">Channel Bookings</div>
+  <div class="tab" onclick="showTab('cyber', this)">Cyber Protect</div>
+  <div class="tab" onclick="showTab('commerce', this)">CommerceHub</div>
+  <div class="tab" onclick="showTab('bob', this)">BoB Partners</div>
+  <div class="tab" onclick="showTab('events', this)">Partner Events</div>
+</nav>
+
+<main>
+  <div id="loading">Loading dashboard data...</div>
+  <div id="error">Failed to load data. <a href="#" onclick="loadData()">Try again</a></div>
+
+  <!-- CHANNEL BOOKINGS -->
+  <div id="section-bookings" class="section active" style="display:none">
+    <div class="section-header">
+      <h2>Channel-Influenced Bookings</h2>
+      <p>Closed Won deals attributed to partner referral, partner influence, or channel team coverage (Brook Lee, Usman Zahoor, Jake Mitchell)</p>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card green">
+        <div class="label">YTD Revenue</div>
+        <div class="value" id="cb-ytd-total">—</div>
+        <div class="sub" id="cb-ytd-count">— deals closed</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Jan 2026</div>
+        <div class="value" id="cb-jan">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Feb 2026</div>
+        <div class="value" id="cb-feb">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Mar 2026</div>
+        <div class="value" id="cb-mar">—</div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header"><h3>Monthly Bookings</h3></div>
+        <div class="card-body"><div class="chart-wrap"><canvas id="chart-bookings"></canvas></div></div>
+      </div>
+      <div class="card">
+        <div class="card-header"><h3>Recent Deals</h3><span class="badge" id="cb-badge">—</span></div>
+        <div class="card-body table-scroll">
+          <table class="data-table">
+            <thead><tr><th>Date</th><th>Account</th><th>Amount</th><th>Product</th><th>Owner</th></tr></thead>
+            <tbody id="cb-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CYBER PROTECT -->
+  <div id="section-cyber" class="section" style="display:none">
+    <div class="section-header">
+      <h2>Cyber Protect Bookings</h2>
+      <p>Opportunities with Product Type = Cyber Protect — YTD 2026</p>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card green">
+        <div class="label">Won YTD</div>
+        <div class="value" id="cp-won">—</div>
+        <div class="sub">Closed Won revenue</div>
+      </div>
+      <div class="stat-card orange">
+        <div class="label">Active Pipeline</div>
+        <div class="value" id="cp-pipeline">—</div>
+        <div class="sub">Excl. lost deals</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Total Opps</div>
+        <div class="value" id="cp-count">—</div>
+        <div class="sub">YTD all stages</div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header"><h3>Pipeline by Stage</h3></div>
+        <div class="card-body"><div id="cp-stages" class="stage-bars"></div></div>
+      </div>
+      <div class="card">
+        <div class="card-header"><h3>Active Deals</h3></div>
+        <div class="card-body table-scroll">
+          <table class="data-table">
+            <thead><tr><th>Account</th><th>Amount</th><th>Stage</th><th>Owner</th></tr></thead>
+            <tbody id="cp-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMERCEHUB -->
+  <div id="section-commerce" class="section" style="display:none">
+    <div class="section-header">
+      <h2>CommerceHub Pipeline</h2>
+      <p>Opportunities with Type = Channel and Product Type = CommerceHub</p>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card green">
+        <div class="label">Closed Won</div>
+        <div class="value" id="ch-won">—</div>
+        <div class="sub">Deals won</div>
+      </div>
+      <div class="stat-card orange">
+        <div class="label">Open Pipeline</div>
+        <div class="value" id="ch-open">—</div>
+        <div class="sub">Active deals</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Total</div>
+        <div class="value" id="ch-total">—</div>
+        <div class="sub">All stages YTD</div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header"><h3>Pipeline by Stage</h3></div>
+        <div class="card-body"><div class="chart-wrap"><canvas id="chart-commerce"></canvas></div></div>
+      </div>
+      <div class="card">
+        <div class="card-header"><h3>Active Deals</h3></div>
+        <div class="card-body table-scroll">
+          <table class="data-table">
+            <thead><tr><th>Account</th><th>Stage</th><th>Prob %</th><th>Close</th><th>Owner</th></tr></thead>
+            <tbody id="ch-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOB PARTNERS -->
+  <div id="section-bob" class="section" style="display:none">
+    <div class="section-header">
+      <h2>Bill on Behalf (BoB) Partners</h2>
+      <p>Opportunities with "Bill on Behalf", "BoB", or "BOB" in the name</p>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="label">Total Opps</div>
+        <div class="value" id="bob-total">—</div>
+      </div>
+      <div class="stat-card green">
+        <div class="label">Won</div>
+        <div class="value" id="bob-won">—</div>
+      </div>
+      <div class="stat-card orange">
+        <div class="label">In Progress</div>
+        <div class="value" id="bob-open">—</div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header"><h3>By Stage</h3></div>
+        <div class="card-body"><div id="bob-stages" class="stage-bars"></div></div>
+      </div>
+      <div class="card">
+        <div class="card-header"><h3>All BoB Opportunities</h3></div>
+        <div class="card-body table-scroll">
+          <table class="data-table">
+            <thead><tr><th>Account</th><th>Opp Name</th><th>Amount</th><th>Stage</th><th>Owner</th></tr></thead>
+            <tbody id="bob-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PARTNER EVENTS -->
+  <div id="section-events" class="section" style="display:none">
+    <div class="section-header">
+      <h2>Partner Events & Meetings</h2>
+      <p>Logged activities: partner meetings, enablement sessions, referrals, agreements — YTD 2026</p>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="label">Total YTD</div>
+        <div class="value" id="ev-total">—</div>
+        <div class="sub">Partner activities</div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header"><h3>Activity by Type</h3></div>
+        <div class="card-body"><div class="chart-wrap-tall"><canvas id="chart-events"></canvas></div></div>
+      </div>
+      <div class="card">
+        <div class="card-header"><h3>Recent Activities</h3></div>
+        <div class="card-body table-scroll">
+          <table class="data-table">
+            <thead><tr><th>Date</th><th>Type</th><th>Subject</th><th>Account</th><th>Owner</th></tr></thead>
+            <tbody id="ev-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+const BLUE = '#4A8EC2';
+const BLUE_LIGHT = '#a8cce0';
+const GREEN = '#27ae60';
+const ORANGE = '#e67e22';
+
+let charts = {};
+
+function fmt$(n) {
+  if (!n && n !== 0) return '—';
+  return '$' + Math.round(n).toLocaleString();
+}
+function fmtDate(d) {
+  if (!d) return '—';
+  return new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+function stagePill(stage) {
+  let cls = 'stage-open';
+  if (stage === 'Closed Won') cls = 'stage-won';
+  else if (stage === 'Closed Lost') cls = 'stage-lost';
+  else if (stage && stage.includes('Verbal')) cls = 'stage-verbal';
+  return `<span class="stage-pill ${cls}">${stage || '—'}</span>`;
+}
+function destroyChart(id) {
+  if (charts[id]) { charts[id].destroy(); delete charts[id]; }
+}
+
+function renderStageBars(containerId, byStage) {
+  const el = document.getElementById(containerId);
+  if (!el) return;
+  const entries = Object.entries(byStage).sort((a, b) => b[1] - a[1]);
+  const max = Math.max(...entries.map(e => e[1]), 1);
+  el.innerHTML = entries.map(([stage, count]) => `
+    <div class="stage-bar-row">
+      <div class="stage-bar-label" title="${stage}">${stage}</div>
+      <div class="stage-bar-track">
+        <div class="stage-bar-fill" style="width:${(count/max*100).toFixed(0)}%"></div>
+      </div>
+      <div class="stage-bar-count">${count}</div>
+    </div>
+  `).join('');
+}
+
+function renderBookings(data) {
+  const cb = data.channelBookings;
+  document.getElementById('cb-ytd-total').textContent = fmt$(cb.ytdTotal);
+  document.getElementById('cb-ytd-count').textContent = cb.ytdCount + ' deals closed';
+  document.getElementById('cb-badge').textContent = cb.ytdCount;
+  document.getElementById('cb-jan').textContent = fmt$(cb.byMonth['2026-01'] || 0);
+  document.getElementById('cb-feb').textContent = fmt$(cb.byMonth['2026-02'] || 0);
+  document.getElementById('cb-mar').textContent = fmt$(cb.byMonth['2026-03'] || 0);
+
+  // Chart
+  const months = ['2026-01','2026-02','2026-03','2026-04','2026-05','2026-06','2026-07','2026-08','2026-09','2026-10','2026-11','2026-12'];
+  const labels = months.map(m => { const d = new Date(m+'-01'); return d.toLocaleString('default', {month:'short'}); });
+  const values = months.map(m => cb.byMonth[m] || 0);
+  destroyChart('bookings');
+  charts.bookings = new Chart(document.getElementById('chart-bookings'), {
+    type: 'bar',
+    data: { labels, datasets: [{ label: 'Closed Won ($)', data: values, backgroundColor: BLUE, borderRadius: 5 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } },
+      scales: { y: { ticks: { callback: v => '$' + v.toLocaleString() }, grid: { color: '#f0f2f5' } }, x: { grid: { display: false } } } }
+  });
+
+  // Table
+  const tbody = document.getElementById('cb-table');
+  tbody.innerHTML = cb.records.map(r => `
+    <tr>
+      <td>${fmtDate(r.date)}</td>
+      <td>${r.account || r.name || '—'}</td>
+      <td class="amount">${fmt$(r.amount)}</td>
+      <td>${r.productType || '—'}</td>
+      <td class="owner-badge">${r.owner || '—'}</td>
+    </tr>
+  `).join('') || '<tr><td colspan="5" style="text-align:center;color:#999;padding:20px">No data</td></tr>';
+}
+
+function renderCyberProtect(data) {
+  const cp = data.cyberProtect;
+  document.getElementById('cp-won').textContent = fmt$(cp.wonYTD);
+  document.getElementById('cp-pipeline').textContent = fmt$(cp.pipeline);
+  document.getElementById('cp-count').textContent = cp.count;
+  renderStageBars('cp-stages', cp.byStage);
+  const tbody = document.getElementById('cp-table');
+  tbody.innerHTML = cp.records.map(r => `
+    <tr>
+      <td>${r.account || '—'}</td>
+      <td class="amount">${fmt$(r.amount)}</td>
+      <td>${stagePill(r.stage)}</td>
+      <td class="owner-badge">${r.owner || '—'}</td>
+    </tr>
+  `).join('') || '<tr><td colspan="4" style="text-align:center;color:#999;padding:20px">No data</td></tr>';
+}
+
+function renderCommerceHub(data) {
+  const ch = data.commerceHub;
+  document.getElementById('ch-won').textContent = ch.wonCount;
+  document.getElementById('ch-open').textContent = ch.openCount;
+  document.getElementById('ch-total').textContent = ch.totalCount;
+
+  // Donut chart
+  const stageEntries = Object.entries(ch.byStage).sort((a,b) => b[1]-a[1]);
+  const colors = [BLUE, '#27ae60', '#e67e22', '#9b59b6', '#e74c3c', '#1abc9c', '#f39c12', '#3498db'];
+  destroyChart('commerce');
+  charts.commerce = new Chart(document.getElementById('chart-commerce'), {
+    type: 'doughnut',
+    data: {
+      labels: stageEntries.map(e => e[0]),
+      datasets: [{ data: stageEntries.map(e => e[1]), backgroundColor: colors, borderWidth: 2 }]
+    },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: { font: { size: 11 } } } } }
+  });
+
+  const tbody = document.getElementById('ch-table');
+  tbody.innerHTML = ch.records.map(r => `
+    <tr>
+      <td>${r.account || r.name || '—'}</td>
+      <td>${stagePill(r.stage)}</td>
+      <td>${r.probability != null ? r.probability + '%' : '—'}</td>
+      <td>${r.date ? fmtDate(r.date) : '—'}</td>
+      <td class="owner-badge">${r.owner || '—'}</td>
+    </tr>
+  `).join('') || '<tr><td colspan="5" style="text-align:center;color:#999;padding:20px">No data</td></tr>';
+}
+
+function renderBoB(data) {
+  const bob = data.bob;
+  document.getElementById('bob-total').textContent = bob.totalCount;
+  document.getElementById('bob-won').textContent = bob.wonCount;
+  const openCount = bob.totalCount - bob.wonCount - (bob.byStage['Closed Lost'] || 0);
+  document.getElementById('bob-open').textContent = openCount;
+  renderStageBars('bob-stages', bob.byStage);
+  const tbody = document.getElementById('bob-table');
+  tbody.innerHTML = bob.records.map(r => `
+    <tr>
+      <td>${r.account || '—'}</td>
+      <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${r.name}">${r.name || '—'}</td>
+      <td class="amount">${fmt$(r.amount)}</td>
+      <td>${stagePill(r.stage)}</td>
+      <td class="owner-badge">${r.owner || '—'}</td>
+    </tr>
+  `).join('') || '<tr><td colspan="5" style="text-align:center;color:#999;padding:20px">No data</td></tr>';
+}
+
+function renderEvents(data) {
+  const ev = data.events;
+  document.getElementById('ev-total').textContent = ev.ytdCount;
+
+  // Horizontal bar chart by type
+  const entries = Object.entries(ev.byType).sort((a,b) => b[1]-a[1]);
+  destroyChart('events');
+  charts.events = new Chart(document.getElementById('chart-events'), {
+    type: 'bar',
+    data: {
+      labels: entries.map(e => e[0]),
+      datasets: [{ data: entries.map(e => e[1]), backgroundColor: BLUE, borderRadius: 4 }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: { x: { ticks: { stepSize: 1 }, grid: { color: '#f0f2f5' } }, y: { grid: { display: false }, ticks: { font: { size: 11 } } } }
+    }
+  });
+
+  const tbody = document.getElementById('ev-table');
+  tbody.innerHTML = ev.recent.map(r => `
+    <tr>
+      <td style="white-space:nowrap">${fmtDate(r.date)}</td>
+      <td class="event-type">${r.type || '—'}</td>
+      <td style="max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${r.subject}">${r.subject || '—'}</td>
+      <td>${r.account || '—'}</td>
+      <td class="owner-badge">${r.owner || '—'}</td>
+    </tr>
+  `).join('') || '<tr><td colspan="5" style="text-align:center;color:#999;padding:20px">No data</td></tr>';
+}
+
+async function loadData() {
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('error').style.display = 'none';
+  document.querySelectorAll('.section').forEach(s => s.style.display = 'none');
+  try {
+    const r = await fetch('data/metrics.json?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+
+    renderBookings(data);
+    renderCyberProtect(data);
+    renderCommerceHub(data);
+    renderBoB(data);
+    renderEvents(data);
+
+    const d = new Date(data.lastUpdated);
+    document.getElementById('last-updated').textContent = 'Updated ' + d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+
+    document.getElementById('loading').style.display = 'none';
+    // Show active section
+    const activeTab = document.querySelector('.tab.active');
+    const tabId = activeTab?.getAttribute('onclick')?.match(/'([^']+)'/)?.[1];
+    const activeSection = document.getElementById('section-' + (tabId || 'bookings'));
+    if (activeSection) activeSection.style.display = 'block';
+  } catch (e) {
+    console.error(e);
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('error').style.display = 'block';
+  }
+}
+
+function showTab(id, el) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.querySelectorAll('.section').forEach(s => s.style.display = 'none');
+  const sec = document.getElementById('section-' + id);
+  if (sec) sec.style.display = 'block';
+}
+
+loadData();
+// Auto-refresh every 15 minutes
+setInterval(loadData, 15 * 60 * 1000);
+</script>
+</body>
+</html>
