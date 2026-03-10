@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T19:11:06.047Z",
+  "lastUpdated": "2026-03-10T20:11:37.205Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -459,16 +459,30 @@
     ]
   },
   "events": {
-    "ytdCount": 58,
+    "ytdCount": 60,
     "byType": {
-      "Potential Channel Partner Meeting": 15,
-      "Channel Partner Meeting": 16,
+      "Channel Partner Meeting": 17,
+      "Potential Channel Partner Meeting": 16,
       "Channel Enablement / Product Demo": 1,
       "Referral Sent": 16,
       "Referral Received": 3,
       "6-Initial Strategic Partner Meeting": 7
     },
     "recent": [
+      {
+        "subject": "Jake + TurboDocx Intro",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-10T19:30:00.000+0000",
+        "account": "TurboDocx",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Jake + N-able Intro",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-10T19:00:00.000+0000",
+        "account": "N-able",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Omma Bill on Behalf Discssion",
         "type": "Potential Channel Partner Meeting",
@@ -518,17 +532,17 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Alianza Integration Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-04T19:00:00.000+0000",
-        "account": "Alianza",
-        "owner": "Jake Mitchell"
-      },
-      {
         "subject": "Bumblebee Partnership Discussion",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-04T19:00:00.000+0000",
         "account": "Bumblebee",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Alianza Integration Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-04T19:00:00.000+0000",
+        "account": "Alianza",
         "owner": "Jake Mitchell"
       },
       {
@@ -539,13 +553,13 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Bocada Commerce Hub",
+        "subject": "Rev.io Partnership Discussion - Bocada",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-03T20:30:00.000+0000",
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Rev.io Partnership Discussion - Bocada",
+        "subject": "Bocada Commerce Hub",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-03T20:30:00.000+0000",
         "owner": "Jake Mitchell"
@@ -589,20 +603,6 @@
         "date": "2026-03-03T00:00:00.000+0000",
         "account": "CCR",
         "owner": "Cam Sharpe"
-      },
-      {
-        "subject": "Rev.io + HelpGhost Intro",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-02T20:00:00.000+0000",
-        "account": "HelpGhost",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Sent - Xinix Pro",
-        "type": "Referral Sent",
-        "date": "2026-03-02T18:00:00.000+0000",
-        "account": "EisnerAmper",
-        "owner": "Connor Flynn"
       }
     ]
   }
