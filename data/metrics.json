@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T02:11:36.258Z",
+  "lastUpdated": "2026-03-11T03:11:36.568Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -102,11 +102,11 @@
   },
   "commerceHub": {
     "wonCount": 10,
-    "openCount": 30,
-    "totalCount": 42,
+    "openCount": 32,
+    "totalCount": 44,
     "byStage": {
-      "2 - Discovery Completed": 15,
-      "3 - Initial Product Demo": 6,
+      "2 - Discovery Completed": 16,
+      "3 - Initial Product Demo": 7,
       "Closed Won": 10,
       "4 - Proposal Sent": 1,
       "1- Discovery Scheduled": 5,
@@ -116,10 +116,26 @@
     "records": [
       {
         "date": "2026-04-30",
+        "name": "Capchase - CommerceHub",
+        "account": "Capchase",
+        "stage": "2 - Discovery Completed",
+        "probability": 10,
+        "owner": "Usman Zahoor"
+      },
+      {
+        "date": "2026-04-30",
         "name": "PromptVoice - CommerceHub",
         "account": "Prompt Voice",
         "stage": "2 - Discovery Completed",
         "probability": 10,
+        "owner": "Usman Zahoor"
+      },
+      {
+        "date": "2026-03-31",
+        "name": "Scopestack - CommerceHub",
+        "account": "Scopestack",
+        "stage": "3 - Initial Product Demo",
+        "probability": 25,
         "owner": "Usman Zahoor"
       },
       {
@@ -256,22 +272,6 @@
         "account": "Nodeware",
         "stage": "3 - Initial Product Demo",
         "probability": 25,
-        "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "4voice/Yeastar - CommerceHub",
-        "account": "4Voice",
-        "stage": "2 - Discovery Completed",
-        "probability": 10,
-        "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "Bitdefender - CommerceHub",
-        "account": "Bitdefender",
-        "stage": "1- Discovery Scheduled",
-        "probability": 5,
         "owner": "Usman Zahoor"
       }
     ]
@@ -449,16 +449,23 @@
     ]
   },
   "events": {
-    "ytdCount": 93,
+    "ytdCount": 123,
     "byType": {
-      "Channel Partner Meeting": 26,
-      "Potential Channel Partner Meeting": 27,
-      "Channel Enablement / Product Demo": 6,
+      "6-Initial Strategic Partner Meeting": 21,
+      "Channel Partner Meeting": 32,
+      "Potential Channel Partner Meeting": 43,
+      "Channel Enablement / Product Demo": 8,
       "Referral Sent": 16,
-      "Referral Received": 3,
-      "6-Initial Strategic Partner Meeting": 15
+      "Referral Received": 3
     },
     "recent": [
+      {
+        "subject": "Strategic Partner Meeting - CommerceHub",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-03-10T20:30:00.000+0000",
+        "account": "AT&T Partner Exchange",
+        "owner": "Usman Zahoor"
+      },
       {
         "subject": "Jake + TurboDocx Intro",
         "type": "Channel Partner Meeting",
@@ -562,16 +569,16 @@
         "owner": "Jake Mitchell"
       },
       {
+        "subject": "SkySwitch Monthly Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-03T18:00:00.000+0000",
+        "owner": "Jake Mitchell"
+      },
+      {
         "subject": "Rev.io + SkySwitch Monthly Sync",
         "type": "Channel Partner Meeting",
         "date": "2026-03-03T18:00:00.000+0000",
         "account": "SkySwitch",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "SkySwitch Monthly Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-03T18:00:00.000+0000",
         "owner": "Jake Mitchell"
       },
       {
@@ -586,13 +593,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-03-03T17:00:00.000+0000",
         "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Sent - Xinix",
-        "type": "Referral Sent",
-        "date": "2026-03-03T00:00:00.000+0000",
-        "account": "CCR",
-        "owner": "Cam Sharpe"
       }
     ]
   }
