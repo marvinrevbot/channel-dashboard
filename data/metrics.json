@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T21:11:36.027Z",
+  "lastUpdated": "2026-03-11T22:11:36.624Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -43,12 +43,12 @@
   },
   "cyberProtect": {
     "wonYTD": 250,
-    "pipeline": 6690,
+    "pipeline": 5250,
     "count": 27,
     "byStage": {
       "1- Discovery Scheduled": 1,
-      "4 - Proposal Sent": 2,
-      "Closed Lost": 23,
+      "4 - Proposal Sent": 1,
+      "Closed Lost": 24,
       "Closed Won": 1
     },
     "records": [
@@ -66,15 +66,6 @@
         "name": "Centra IP - Cyber Protect",
         "account": "Centra IP Networks",
         "amount": 250,
-        "stage": "4 - Proposal Sent",
-        "owner": "Ingrid Beard",
-        "channelCoverage": null
-      },
-      {
-        "date": "2026-03-31",
-        "name": "Positive Tech - Cyber Protect",
-        "account": "Positive Technologies Inc",
-        "amount": 1440,
         "stage": "4 - Proposal Sent",
         "owner": "Ingrid Beard",
         "channelCoverage": null
