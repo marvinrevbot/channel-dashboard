@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T15:11:37.194Z",
+  "lastUpdated": "2026-03-11T16:11:36.547Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -43,12 +43,13 @@
   },
   "cyberProtect": {
     "wonYTD": 250,
-    "pipeline": 7190,
-    "count": 27,
+    "pipeline": 7440,
+    "count": 28,
     "byStage": {
       "4 - Proposal Sent": 2,
       "1- Discovery Scheduled": 1,
       "3 - Initial Product Demo": 1,
+      "5 - Product / Contract Validated": 1,
       "Closed Lost": 22,
       "Closed Won": 1
     },
@@ -87,6 +88,15 @@
         "amount": 500,
         "stage": "3 - Initial Product Demo",
         "owner": "Ingrid Beard",
+        "channelCoverage": null
+      },
+      {
+        "date": "2026-03-13",
+        "name": "Teraplexis RMM",
+        "account": "TeraPixels Systems",
+        "amount": 250,
+        "stage": "5 - Product / Contract Validated",
+        "owner": "Bryan Bettiol",
         "channelCoverage": null
       },
       {
