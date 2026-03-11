@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T03:11:36.568Z",
+  "lastUpdated": "2026-03-11T03:25:44.132Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -449,16 +449,24 @@
     ]
   },
   "events": {
-    "ytdCount": 123,
+    "ytdCount": 135,
     "byType": {
-      "6-Initial Strategic Partner Meeting": 21,
-      "Channel Partner Meeting": 32,
-      "Potential Channel Partner Meeting": 43,
+      "1-Discovery Call": 1,
+      "6-Initial Strategic Partner Meeting": 23,
+      "Channel Partner Meeting": 34,
+      "Potential Channel Partner Meeting": 45,
       "Channel Enablement / Product Demo": 8,
       "Referral Sent": 16,
-      "Referral Received": 3
+      "Referral Received": 3,
+      "null": 5
     },
     "recent": [
+      {
+        "subject": "Laura Johns: Meet with Brook",
+        "type": "1-Discovery Call",
+        "date": "2026-03-16T19:00:00.000+0000",
+        "owner": "Brook Lee"
+      },
       {
         "subject": "Strategic Partner Meeting - CommerceHub",
         "type": "6-Initial Strategic Partner Meeting",
@@ -569,12 +577,6 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "SkySwitch Monthly Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-03T18:00:00.000+0000",
-        "owner": "Jake Mitchell"
-      },
-      {
         "subject": "Rev.io + SkySwitch Monthly Sync",
         "type": "Channel Partner Meeting",
         "date": "2026-03-03T18:00:00.000+0000",
@@ -582,10 +584,9 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Rev.io + EisnerAmper Monthly Sync",
+        "subject": "SkySwitch Monthly Sync",
         "type": "Channel Partner Meeting",
-        "date": "2026-03-03T17:00:00.000+0000",
-        "account": "EisnerAmper",
+        "date": "2026-03-03T18:00:00.000+0000",
         "owner": "Jake Mitchell"
       },
       {
