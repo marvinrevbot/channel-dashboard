@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T00:11:36.630Z",
+  "lastUpdated": "2026-03-11T01:11:36.356Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -102,18 +102,26 @@
   },
   "commerceHub": {
     "wonCount": 10,
-    "openCount": 27,
-    "totalCount": 39,
+    "openCount": 28,
+    "totalCount": 40,
     "byStage": {
+      "2 - Discovery Completed": 14,
       "Closed Won": 10,
       "4 - Proposal Sent": 1,
       "1- Discovery Scheduled": 5,
-      "2 - Discovery Completed": 13,
       "3 - Initial Product Demo": 5,
       "Closed Lost": 2,
       "6 - Verbal Commit": 3
     },
     "records": [
+      {
+        "date": "2026-04-30",
+        "name": "PromptVoice - CommerceHub",
+        "account": "Prompt Voice",
+        "stage": "2 - Discovery Completed",
+        "probability": 10,
+        "owner": "Usman Zahoor"
+      },
       {
         "date": "2026-03-03",
         "name": "Guardz - CommerceHub",
@@ -264,14 +272,6 @@
         "account": "Asignet Technology Dna",
         "stage": "2 - Discovery Completed",
         "probability": 10,
-        "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "Cloud Adoption Solutions - CommerceHub",
-        "account": "Cloud Adoption Solutions",
-        "stage": "1- Discovery Scheduled",
-        "probability": 5,
         "owner": "Usman Zahoor"
       }
     ]
