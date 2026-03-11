@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T16:11:36.547Z",
+  "lastUpdated": "2026-03-11T17:11:36.148Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -43,17 +43,25 @@
   },
   "cyberProtect": {
     "wonYTD": 250,
-    "pipeline": 7440,
+    "pipeline": 6940,
     "count": 28,
     "byStage": {
-      "4 - Proposal Sent": 2,
       "1- Discovery Scheduled": 1,
-      "3 - Initial Product Demo": 1,
+      "4 - Proposal Sent": 2,
       "5 - Product / Contract Validated": 1,
-      "Closed Lost": 22,
+      "Closed Lost": 23,
       "Closed Won": 1
     },
     "records": [
+      {
+        "date": "2026-04-30",
+        "name": "infosys",
+        "account": "infosys",
+        "amount": 5000,
+        "stage": "1- Discovery Scheduled",
+        "owner": "Andy Whisenant",
+        "channelCoverage": null
+      },
       {
         "date": "2026-03-31",
         "name": "Centra IP - Cyber Protect",
@@ -61,15 +69,6 @@
         "amount": 250,
         "stage": "4 - Proposal Sent",
         "owner": "Ingrid Beard",
-        "channelCoverage": null
-      },
-      {
-        "date": "2026-03-31",
-        "name": "infosys",
-        "account": "infosys",
-        "amount": 5000,
-        "stage": "1- Discovery Scheduled",
-        "owner": "Andy Whisenant",
         "channelCoverage": null
       },
       {
@@ -82,21 +81,12 @@
         "channelCoverage": null
       },
       {
-        "date": "2026-03-31",
-        "name": "Atron - Cyber Protect",
-        "account": "Atron Solutions, LLC",
-        "amount": 500,
-        "stage": "3 - Initial Product Demo",
-        "owner": "Ingrid Beard",
-        "channelCoverage": null
-      },
-      {
         "date": "2026-03-13",
         "name": "Teraplexis RMM",
         "account": "TeraPixels Systems",
         "amount": 250,
         "stage": "5 - Product / Contract Validated",
-        "owner": "Bryan Bettiol",
+        "owner": "Joseph Abarno",
         "channelCoverage": null
       },
       {
@@ -112,18 +102,26 @@
   },
   "commerceHub": {
     "wonCount": 10,
-    "openCount": 32,
-    "totalCount": 44,
+    "openCount": 33,
+    "totalCount": 45,
     "byStage": {
+      "1- Discovery Scheduled": 6,
       "2 - Discovery Completed": 16,
       "3 - Initial Product Demo": 7,
       "Closed Won": 10,
       "4 - Proposal Sent": 1,
-      "1- Discovery Scheduled": 5,
       "Closed Lost": 2,
       "6 - Verbal Commit": 3
     },
     "records": [
+      {
+        "date": "2026-04-30",
+        "name": "Spectrotel - CommerceHub",
+        "account": "Spectrotel",
+        "stage": "1- Discovery Scheduled",
+        "probability": 5,
+        "owner": "Usman Zahoor"
+      },
       {
         "date": "2026-04-30",
         "name": "Capchase - CommerceHub",
@@ -274,14 +272,6 @@
         "account": "VoIP.ms",
         "stage": "Closed Won",
         "probability": 100,
-        "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "Nodeware - CommerceHub",
-        "account": "Nodeware",
-        "stage": "3 - Initial Product Demo",
-        "probability": 25,
         "owner": "Usman Zahoor"
       }
     ]
@@ -459,13 +449,13 @@
     ]
   },
   "events": {
-    "ytdCount": 135,
+    "ytdCount": 138,
     "byType": {
       "1-Discovery Call": 1,
+      "Channel Partner Meeting": 36,
+      "Channel Enablement / Product Demo": 9,
       "6-Initial Strategic Partner Meeting": 23,
-      "Channel Partner Meeting": 34,
       "Potential Channel Partner Meeting": 45,
-      "Channel Enablement / Product Demo": 8,
       "Referral Sent": 16,
       "Referral Received": 3,
       "null": 5
@@ -476,6 +466,27 @@
         "type": "1-Discovery Call",
         "date": "2026-03-16T19:00:00.000+0000",
         "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io + Acronis Bi-Weekly Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-11T16:00:00.000+0000",
+        "account": "Acronis",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Jake + Rabbit Run Into",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-11T14:00:00.000+0000",
+        "account": "RabbitRun",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Cisco Odin Discussion",
+        "type": "Channel Enablement / Product Demo",
+        "date": "2026-03-11T13:00:00.000+0000",
+        "account": "Cisco",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Strategic Partner Meeting - CommerceHub",
@@ -547,17 +558,17 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Bumblebee Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-04T19:00:00.000+0000",
-        "account": "Bumblebee",
-        "owner": "Jake Mitchell"
-      },
-      {
         "subject": "Alianza Integration Sync",
         "type": "Channel Partner Meeting",
         "date": "2026-03-04T19:00:00.000+0000",
         "account": "Alianza",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Bumblebee Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-04T19:00:00.000+0000",
+        "account": "Bumblebee",
         "owner": "Jake Mitchell"
       },
       {
@@ -584,25 +595,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-03-03T20:00:00.000+0000",
         "account": "Altaworx",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + SkySwitch Monthly Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-03T18:00:00.000+0000",
-        "account": "SkySwitch",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "SkySwitch Monthly Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-03T18:00:00.000+0000",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Eisner Amper Partnership Meeting",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-03T17:00:00.000+0000",
         "owner": "Jake Mitchell"
       }
     ]
