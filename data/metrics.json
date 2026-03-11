@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T17:11:36.148Z",
+  "lastUpdated": "2026-03-11T18:11:35.858Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -102,11 +102,11 @@
   },
   "commerceHub": {
     "wonCount": 10,
-    "openCount": 33,
-    "totalCount": 45,
+    "openCount": 35,
+    "totalCount": 47,
     "byStage": {
-      "1- Discovery Scheduled": 6,
-      "2 - Discovery Completed": 16,
+      "1- Discovery Scheduled": 7,
+      "2 - Discovery Completed": 17,
       "3 - Initial Product Demo": 7,
       "Closed Won": 10,
       "4 - Proposal Sent": 1,
@@ -120,6 +120,22 @@
         "account": "Spectrotel",
         "stage": "1- Discovery Scheduled",
         "probability": 5,
+        "owner": "Usman Zahoor"
+      },
+      {
+        "date": "2026-04-30",
+        "name": "Sabrhub - CommerceHub",
+        "account": "Sabrhub",
+        "stage": "1- Discovery Scheduled",
+        "probability": 5,
+        "owner": "Usman Zahoor"
+      },
+      {
+        "date": "2026-04-30",
+        "name": "Connectbase - CommerceHub",
+        "account": "Connectbase",
+        "stage": "2 - Discovery Completed",
+        "probability": 10,
         "owner": "Usman Zahoor"
       },
       {
@@ -254,22 +270,6 @@
         "date": "2025-10-31",
         "name": "TurboDocx - CommerceHub",
         "account": "TurboDocx",
-        "stage": "Closed Won",
-        "probability": 100,
-        "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "APEX - CommerceHub",
-        "account": "AT&T Partner Exchange",
-        "stage": "Closed Won",
-        "probability": 100,
-        "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "VoIP.ms - CommerceHub",
-        "account": "VoIP.ms",
         "stage": "Closed Won",
         "probability": 100,
         "owner": "Usman Zahoor"
@@ -449,12 +449,12 @@
     ]
   },
   "events": {
-    "ytdCount": 138,
+    "ytdCount": 139,
     "byType": {
       "1-Discovery Call": 1,
+      "6-Initial Strategic Partner Meeting": 24,
       "Channel Partner Meeting": 36,
       "Channel Enablement / Product Demo": 9,
-      "6-Initial Strategic Partner Meeting": 23,
       "Potential Channel Partner Meeting": 45,
       "Referral Sent": 16,
       "Referral Received": 3,
@@ -466,6 +466,13 @@
         "type": "1-Discovery Call",
         "date": "2026-03-16T19:00:00.000+0000",
         "owner": "Brook Lee"
+      },
+      {
+        "subject": "Strategic Partner Monthly Sync",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-03-11T17:00:00.000+0000",
+        "account": "Avalara",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Rev.io + Acronis Bi-Weekly Sync",
@@ -588,13 +595,6 @@
         "subject": "Rev.io Partnership Discussion - Bocada",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-03T20:30:00.000+0000",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Altaworx Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-03T20:00:00.000+0000",
-        "account": "Altaworx",
         "owner": "Jake Mitchell"
       }
     ]
