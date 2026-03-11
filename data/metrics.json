@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T01:11:36.356Z",
+  "lastUpdated": "2026-03-11T02:11:36.258Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -102,14 +102,14 @@
   },
   "commerceHub": {
     "wonCount": 10,
-    "openCount": 28,
-    "totalCount": 40,
+    "openCount": 30,
+    "totalCount": 42,
     "byStage": {
-      "2 - Discovery Completed": 14,
+      "2 - Discovery Completed": 15,
+      "3 - Initial Product Demo": 6,
       "Closed Won": 10,
       "4 - Proposal Sent": 1,
       "1- Discovery Scheduled": 5,
-      "3 - Initial Product Demo": 5,
       "Closed Lost": 2,
       "6 - Verbal Commit": 3
     },
@@ -118,6 +118,22 @@
         "date": "2026-04-30",
         "name": "PromptVoice - CommerceHub",
         "account": "Prompt Voice",
+        "stage": "2 - Discovery Completed",
+        "probability": 10,
+        "owner": "Usman Zahoor"
+      },
+      {
+        "date": "2026-03-31",
+        "name": "Sectigo - CommerceHub",
+        "account": "Sectigo",
+        "stage": "3 - Initial Product Demo",
+        "probability": 25,
+        "owner": "Usman Zahoor"
+      },
+      {
+        "date": "2026-03-31",
+        "name": "Cavelo - CommerceHub",
+        "account": "Cavelo Inc.",
         "stage": "2 - Discovery Completed",
         "probability": 10,
         "owner": "Usman Zahoor"
@@ -257,35 +273,27 @@
         "stage": "1- Discovery Scheduled",
         "probability": 5,
         "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "Owlshead - CommerceHub",
-        "account": "Owlshead.io",
-        "stage": "2 - Discovery Completed",
-        "probability": 10,
-        "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "Asignet - CommerceHub",
-        "account": "Asignet Technology Dna",
-        "stage": "2 - Discovery Completed",
-        "probability": 10,
-        "owner": "Usman Zahoor"
       }
     ]
   },
   "bob": {
-    "totalCount": 47,
+    "totalCount": 48,
     "wonCount": 7,
     "byStage": {
-      "3 - Initial Product Demo": 1,
+      "3 - Initial Product Demo": 2,
       "4 - Proposal Sent": 1,
       "Closed Won": 7,
       "Closed Lost": 38
     },
     "records": [
+      {
+        "date": "2026-03-31",
+        "name": "voip.ms - BoB",
+        "account": "VoIP.ms",
+        "amount": 0,
+        "stage": "3 - Initial Product Demo",
+        "owner": "Usman Zahoor"
+      },
       {
         "date": "2026-02-28",
         "name": "In-Telecom - BoB",
@@ -336,14 +344,6 @@
       },
       {
         "date": "2025-03-14",
-        "name": "Cloudli - Bill on Behalf",
-        "account": "Cloudli Communications",
-        "amount": 500,
-        "stage": "Closed Won",
-        "owner": "Patrick Dahlstrom"
-      },
-      {
-        "date": "2025-03-14",
         "name": "Ultatel - Bill on Behalf",
         "account": "Ultatel LLC",
         "amount": 500,
@@ -351,12 +351,12 @@
         "owner": "Jamie Butler"
       },
       {
-        "date": "2025-03-07",
-        "name": "In-Telecom - BoB",
-        "account": "In-Telecom",
+        "date": "2025-03-14",
+        "name": "Cloudli - Bill on Behalf",
+        "account": "Cloudli Communications",
         "amount": 500,
-        "stage": "Closed Lost",
-        "owner": "Luke Yntema"
+        "stage": "Closed Won",
+        "owner": "Patrick Dahlstrom"
       },
       {
         "date": "2025-03-07",
@@ -365,6 +365,14 @@
         "amount": 500,
         "stage": "Closed Lost",
         "owner": "Patrick Dahlstrom"
+      },
+      {
+        "date": "2025-03-07",
+        "name": "In-Telecom - BoB",
+        "account": "In-Telecom",
+        "amount": 500,
+        "stage": "Closed Lost",
+        "owner": "Luke Yntema"
       },
       {
         "date": "2024-10-28",
@@ -437,26 +445,18 @@
         "amount": 5500,
         "stage": "Closed Lost",
         "owner": "Charles Barber"
-      },
-      {
-        "date": "2023-02-23",
-        "name": "Connecting Britain BoB",
-        "account": "Connecting Britain",
-        "amount": 3500,
-        "stage": "Closed Lost",
-        "owner": "Cam Sharpe"
       }
     ]
   },
   "events": {
-    "ytdCount": 60,
+    "ytdCount": 93,
     "byType": {
-      "Channel Partner Meeting": 17,
-      "Potential Channel Partner Meeting": 16,
-      "Channel Enablement / Product Demo": 1,
+      "Channel Partner Meeting": 26,
+      "Potential Channel Partner Meeting": 27,
+      "Channel Enablement / Product Demo": 6,
       "Referral Sent": 16,
       "Referral Received": 3,
-      "6-Initial Strategic Partner Meeting": 7
+      "6-Initial Strategic Partner Meeting": 15
     },
     "recent": [
       {
@@ -543,13 +543,13 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Rev.io Partnership Discussion - Bocada",
+        "subject": "Bocada Commerce Hub",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-03T20:30:00.000+0000",
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Bocada Commerce Hub",
+        "subject": "Rev.io Partnership Discussion - Bocada",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-03T20:30:00.000+0000",
         "owner": "Jake Mitchell"
@@ -575,16 +575,16 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Eisner Amper Partnership Meeting",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-03T17:00:00.000+0000",
-        "owner": "Jake Mitchell"
-      },
-      {
         "subject": "Rev.io + EisnerAmper Monthly Sync",
         "type": "Channel Partner Meeting",
         "date": "2026-03-03T17:00:00.000+0000",
         "account": "EisnerAmper",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Eisner Amper Partnership Meeting",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-03T17:00:00.000+0000",
         "owner": "Jake Mitchell"
       },
       {
