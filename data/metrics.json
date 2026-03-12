@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T13:11:35.929Z",
+  "lastUpdated": "2026-03-12T14:11:36.785Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -42,14 +42,13 @@
     ]
   },
   "cyberProtect": {
-    "wonYTD": 250,
-    "pipeline": 5350,
+    "wonYTD": 600,
+    "pipeline": 5000,
     "count": 27,
     "byStage": {
       "1- Discovery Scheduled": 1,
-      "6 - Verbal Commit": 1,
-      "Closed Lost": 24,
-      "Closed Won": 1
+      "Closed Won": 2,
+      "Closed Lost": 24
     },
     "records": [
       {
@@ -62,11 +61,11 @@
         "channelCoverage": null
       },
       {
-        "date": "2026-03-31",
+        "date": "2026-03-12",
         "name": "Centra IP - Cyber Protect",
         "account": "Centra IP Networks",
         "amount": 350,
-        "stage": "6 - Verbal Commit",
+        "stage": "Closed Won",
         "owner": "Ingrid Beard",
         "channelCoverage": null
       },
@@ -430,11 +429,11 @@
     ]
   },
   "events": {
-    "ytdCount": 139,
+    "ytdCount": 140,
     "byType": {
       "1-Discovery Call": 1,
+      "Channel Partner Meeting": 37,
       "6-Initial Strategic Partner Meeting": 24,
-      "Channel Partner Meeting": 36,
       "Channel Enablement / Product Demo": 9,
       "Potential Channel Partner Meeting": 45,
       "Referral Sent": 16,
@@ -447,6 +446,13 @@
         "type": "1-Discovery Call",
         "date": "2026-03-16T19:00:00.000+0000",
         "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io + Shannon Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-12T13:00:00.000+0000",
+        "account": "Alarm Association of Florida, Inc.",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Strategic Partner Monthly Sync",
@@ -546,17 +552,17 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Alianza Integration Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-04T19:00:00.000+0000",
-        "account": "Alianza",
-        "owner": "Jake Mitchell"
-      },
-      {
         "subject": "Bumblebee Partnership Discussion",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-04T19:00:00.000+0000",
         "account": "Bumblebee",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Alianza Integration Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-04T19:00:00.000+0000",
+        "account": "Alianza",
         "owner": "Jake Mitchell"
       },
       {
@@ -568,12 +574,6 @@
       },
       {
         "subject": "Bocada Commerce Hub",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-03T20:30:00.000+0000",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io Partnership Discussion - Bocada",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-03T20:30:00.000+0000",
         "owner": "Jake Mitchell"
