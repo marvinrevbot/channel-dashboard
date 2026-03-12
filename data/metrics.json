@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T12:11:36.103Z",
+  "lastUpdated": "2026-03-12T13:11:35.929Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -43,11 +43,11 @@
   },
   "cyberProtect": {
     "wonYTD": 250,
-    "pipeline": 5250,
+    "pipeline": 5350,
     "count": 27,
     "byStage": {
       "1- Discovery Scheduled": 1,
-      "4 - Proposal Sent": 1,
+      "6 - Verbal Commit": 1,
       "Closed Lost": 24,
       "Closed Won": 1
     },
@@ -65,8 +65,8 @@
         "date": "2026-03-31",
         "name": "Centra IP - Cyber Protect",
         "account": "Centra IP Networks",
-        "amount": 250,
-        "stage": "4 - Proposal Sent",
+        "amount": 350,
+        "stage": "6 - Verbal Commit",
         "owner": "Ingrid Beard",
         "channelCoverage": null
       },
