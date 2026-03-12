@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T15:11:37.252Z",
+  "lastUpdated": "2026-03-12T16:11:41.135Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -82,11 +82,11 @@
   },
   "commerceHub": {
     "wonCount": 10,
-    "openCount": 35,
-    "totalCount": 47,
+    "openCount": 37,
+    "totalCount": 49,
     "byStage": {
+      "2 - Discovery Completed": 19,
       "1- Discovery Scheduled": 7,
-      "2 - Discovery Completed": 17,
       "3 - Initial Product Demo": 7,
       "Closed Won": 10,
       "4 - Proposal Sent": 1,
@@ -94,6 +94,14 @@
       "6 - Verbal Commit": 3
     },
     "records": [
+      {
+        "date": "2026-04-30",
+        "name": "Authvia - CommerceHub",
+        "account": "Authvia",
+        "stage": "2 - Discovery Completed",
+        "probability": 10,
+        "owner": "Usman Zahoor"
+      },
       {
         "date": "2026-04-30",
         "name": "Spectrotel - CommerceHub",
@@ -130,6 +138,14 @@
         "date": "2026-04-30",
         "name": "PromptVoice - CommerceHub",
         "account": "Prompt Voice",
+        "stage": "2 - Discovery Completed",
+        "probability": 10,
+        "owner": "Usman Zahoor"
+      },
+      {
+        "date": "2026-03-31",
+        "name": "Impossible Cloud - CommerceHub",
+        "account": "Impossible Cloud",
         "stage": "2 - Discovery Completed",
         "probability": 10,
         "owner": "Usman Zahoor"
@@ -234,22 +250,6 @@
         "date": "2025-10-31",
         "name": "MSP Hub - CommerceHub",
         "account": "MSP Hub",
-        "stage": "Closed Won",
-        "probability": 100,
-        "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "Cyber Trends - CommerceHub",
-        "account": "Cyber Trends, Inc",
-        "stage": "Closed Won",
-        "probability": 100,
-        "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "TurboDocx - CommerceHub",
-        "account": "TurboDocx",
         "stage": "Closed Won",
         "probability": 100,
         "owner": "Usman Zahoor"
