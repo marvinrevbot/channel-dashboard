@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T20:11:39.026Z",
+  "lastUpdated": "2026-03-13T21:11:35.443Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -82,10 +82,10 @@
   },
   "commerceHub": {
     "wonCount": 10,
-    "openCount": 37,
-    "totalCount": 49,
+    "openCount": 38,
+    "totalCount": 50,
     "byStage": {
-      "2 - Discovery Completed": 19,
+      "2 - Discovery Completed": 20,
       "1- Discovery Scheduled": 7,
       "3 - Initial Product Demo": 7,
       "Closed Won": 10,
@@ -138,6 +138,14 @@
         "date": "2026-04-30",
         "name": "PromptVoice - CommerceHub",
         "account": "Prompt Voice",
+        "stage": "2 - Discovery Completed",
+        "probability": 10,
+        "owner": "Usman Zahoor"
+      },
+      {
+        "date": "2026-03-31",
+        "name": "QueSee - CommerceHub",
+        "account": "QueSee AI",
         "stage": "2 - Discovery Completed",
         "probability": 10,
         "owner": "Usman Zahoor"
@@ -242,14 +250,6 @@
         "date": "2025-11-28",
         "name": "Atlantech - CommerceHub",
         "account": "Atlantech Online",
-        "stage": "Closed Won",
-        "probability": 100,
-        "owner": "Usman Zahoor"
-      },
-      {
-        "date": "2025-10-31",
-        "name": "MSP Hub - CommerceHub",
-        "account": "MSP Hub",
         "stage": "Closed Won",
         "probability": 100,
         "owner": "Usman Zahoor"
@@ -429,14 +429,14 @@
     ]
   },
   "events": {
-    "ytdCount": 141,
+    "ytdCount": 142,
     "byType": {
       "1-Discovery Call": 1,
+      "Potential Channel Partner Meeting": 46,
       "Referral Sent": 17,
       "Channel Partner Meeting": 37,
       "6-Initial Strategic Partner Meeting": 24,
       "Channel Enablement / Product Demo": 9,
-      "Potential Channel Partner Meeting": 45,
       "Referral Received": 3,
       "null": 5
     },
@@ -446,6 +446,13 @@
         "type": "1-Discovery Call",
         "date": "2026-03-16T19:00:00.000+0000",
         "owner": "Brook Lee"
+      },
+      {
+        "subject": "Partner Prospect - Intro Meeting",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-13T20:00:00.000+0000",
+        "account": "QueSee AI",
+        "owner": "Usman Zahoor"
       },
       {
         "subject": "Referral Sent - Dr. IT",
@@ -570,13 +577,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-04T19:00:00.000+0000",
         "account": "Bumblebee",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "CyberProtect/Broadstar",
-        "type": "Channel Enablement / Product Demo",
-        "date": "2026-03-04T17:30:00.000+0000",
-        "account": "Sunshine Communications Mgt LLC - Broadstar",
         "owner": "Jake Mitchell"
       }
     ]
