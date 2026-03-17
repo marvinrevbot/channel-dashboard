@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T16:11:36.457Z",
+  "lastUpdated": "2026-03-17T17:11:36.742Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -439,11 +439,11 @@
     ]
   },
   "events": {
-    "ytdCount": 142,
+    "ytdCount": 143,
     "byType": {
+      "Referral Sent": 18,
       "1-Discovery Call": 1,
       "Potential Channel Partner Meeting": 46,
-      "Referral Sent": 17,
       "Channel Partner Meeting": 37,
       "6-Initial Strategic Partner Meeting": 24,
       "Channel Enablement / Product Demo": 9,
@@ -451,6 +451,13 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral Sent - Devera Technologies",
+        "type": "Referral Sent",
+        "date": "2026-03-17T17:00:00.000+0000",
+        "account": "CCR",
+        "owner": "Jamie Butler"
+      },
       {
         "subject": "Laura Johns: Meet with Brook",
         "type": "1-Discovery Call",
@@ -580,13 +587,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-03-04T19:00:00.000+0000",
         "account": "Alianza",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Bumblebee Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-04T19:00:00.000+0000",
-        "account": "Bumblebee",
         "owner": "Jake Mitchell"
       }
     ]
