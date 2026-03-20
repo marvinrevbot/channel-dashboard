@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-20T19:11:36.852Z",
+  "lastUpdated": "2026-03-20T20:11:38.035Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -439,13 +439,12 @@
     ]
   },
   "events": {
-    "ytdCount": 153,
+    "ytdCount": 154,
     "byType": {
-      "6-Initial Strategic Partner Meeting": 27,
+      "6-Initial Strategic Partner Meeting": 28,
+      "Referral Sent": 19,
       "Potential Channel Partner Meeting": 51,
       "Channel Partner Meeting": 39,
-      "Referral Sent": 18,
-      "1-Discovery Call": 1,
       "Channel Enablement / Product Demo": 9,
       "Referral Received": 3,
       "null": 5
@@ -456,6 +455,13 @@
         "type": "6-Initial Strategic Partner Meeting",
         "date": "2026-03-26T17:00:00.000+0000",
         "owner": "Christina Oudin"
+      },
+      {
+        "subject": "Referral Sent - Gulf Telecom",
+        "type": "Referral Sent",
+        "date": "2026-03-20T20:00:00.000+0000",
+        "account": "CCR",
+        "owner": "Andy Whisenant"
       },
       {
         "subject": "Rev.io + Moovila Partnership Discussion",
@@ -522,7 +528,7 @@
       },
       {
         "subject": "Laura Johns: Meet with Brook",
-        "type": "1-Discovery Call",
+        "type": "6-Initial Strategic Partner Meeting",
         "date": "2026-03-16T19:00:00.000+0000",
         "owner": "Brook Lee"
       },
@@ -581,13 +587,6 @@
         "date": "2026-03-11T13:00:00.000+0000",
         "account": "Cisco",
         "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Strategic Partner Meeting - CommerceHub",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-03-10T20:30:00.000+0000",
-        "account": "AT&T Partner Exchange",
-        "owner": "Usman Zahoor"
       }
     ]
   }
