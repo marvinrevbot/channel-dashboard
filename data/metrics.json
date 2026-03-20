@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-20T01:11:36.806Z",
+  "lastUpdated": "2026-03-20T02:11:35.973Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -449,13 +449,13 @@
     ]
   },
   "events": {
-    "ytdCount": 144,
+    "ytdCount": 151,
     "byType": {
-      "6-Initial Strategic Partner Meeting": 25,
+      "6-Initial Strategic Partner Meeting": 27,
+      "Potential Channel Partner Meeting": 50,
       "Referral Sent": 18,
       "1-Discovery Call": 1,
-      "Potential Channel Partner Meeting": 46,
-      "Channel Partner Meeting": 37,
+      "Channel Partner Meeting": 38,
       "Channel Enablement / Product Demo": 9,
       "Referral Received": 3,
       "null": 5
@@ -466,6 +466,48 @@
         "type": "6-Initial Strategic Partner Meeting",
         "date": "2026-03-26T17:00:00.000+0000",
         "owner": "Christina Oudin"
+      },
+      {
+        "subject": "Rev.io + Thread",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-19T19:30:00.000+0000",
+        "account": "Thread",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Pia Potential Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-19T19:00:00.000+0000",
+        "account": "Pia",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Bocada Follow-up",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-19T18:30:00.000+0000",
+        "account": "Bocada",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Ooma BoB Demo",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-03-19T18:00:00.000+0000",
+        "account": "Ooma Inc.",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Nodeware Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-19T14:30:00.000+0000",
+        "account": "Nodeware",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Yeastar CH Discussion",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-03-19T13:00:00.000+0000",
+        "account": "Yeastar",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Referral Sent - Devera Technologies",
@@ -486,6 +528,13 @@
         "date": "2026-03-13T20:00:00.000+0000",
         "account": "QueSee AI",
         "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io + Jenne Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-13T17:00:00.000+0000",
+        "account": "Jenne",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Referral Sent - Dr. IT",
@@ -548,54 +597,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-10T19:00:00.000+0000",
         "account": "N-able",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Omma Bill on Behalf Discssion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-09T18:00:00.000+0000",
-        "account": "Ooma Inc.",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + MSP Hub Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-09T15:00:00.000+0000",
-        "account": "MSP Hub",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Intro Sync w/ TRX",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-09T14:00:00.000+0000",
-        "account": "TRX Services",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + HelpGhost CH Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-06T20:00:00.000+0000",
-        "account": "HelpGhost",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Alcatel Rainbow Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-06T19:00:00.000+0000",
-        "account": "Alcatel-Lucent Enterpise",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io Partnership Discussion",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-05T20:00:00.000+0000",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Mitel Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-04T20:30:00.000+0000",
-        "account": "Mitel",
         "owner": "Jake Mitchell"
       }
     ]
