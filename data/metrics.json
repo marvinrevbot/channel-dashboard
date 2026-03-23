@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T19:11:36.507Z",
+  "lastUpdated": "2026-03-23T20:11:36.823Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -429,11 +429,11 @@
     ]
   },
   "events": {
-    "ytdCount": 154,
+    "ytdCount": 156,
     "byType": {
       "6-Initial Strategic Partner Meeting": 28,
-      "Referral Sent": 19,
-      "Potential Channel Partner Meeting": 51,
+      "Referral Sent": 20,
+      "Potential Channel Partner Meeting": 52,
       "Channel Partner Meeting": 39,
       "Channel Enablement / Product Demo": 9,
       "Referral Received": 3,
@@ -445,6 +445,20 @@
         "type": "6-Initial Strategic Partner Meeting",
         "date": "2026-03-26T17:00:00.000+0000",
         "owner": "Christina Oudin"
+      },
+      {
+        "subject": "Referral Sent - Yovu",
+        "type": "Referral Sent",
+        "date": "2026-03-23T19:00:00.000+0000",
+        "account": "Inteserra/JSI",
+        "owner": "Jamie Butler"
+      },
+      {
+        "subject": "Rev.io + SabrHub CH Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-23T19:00:00.000+0000",
+        "account": "Sabrhub",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Referral Sent - Gulf Telecom",
@@ -562,20 +576,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-03-11T16:00:00.000+0000",
         "account": "Acronis",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Jake + Rabbit Run Into",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-11T14:00:00.000+0000",
-        "account": "RabbitRun",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Cisco Odin Discussion",
-        "type": "Channel Enablement / Product Demo",
-        "date": "2026-03-11T13:00:00.000+0000",
-        "account": "Cisco",
         "owner": "Jake Mitchell"
       }
     ]
