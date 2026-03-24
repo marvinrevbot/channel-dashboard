@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T13:11:36.783Z",
+  "lastUpdated": "2026-03-24T14:11:36.309Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -429,12 +429,12 @@
     ]
   },
   "events": {
-    "ytdCount": 157,
+    "ytdCount": 158,
     "byType": {
       "6-Initial Strategic Partner Meeting": 28,
       "Referral Sent": 21,
+      "Channel Partner Meeting": 40,
       "Potential Channel Partner Meeting": 52,
-      "Channel Partner Meeting": 39,
       "Channel Enablement / Product Demo": 9,
       "Referral Received": 3,
       "null": 5
@@ -454,10 +454,10 @@
         "owner": "Jamie Butler"
       },
       {
-        "subject": "Rev.io + SabrHub CH Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-23T19:00:00.000+0000",
-        "account": "Sabrhub",
+        "subject": "Rev.io + Documo Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-23T19:30:00.000+0000",
+        "account": "Documo",
         "owner": "Jake Mitchell"
       },
       {
@@ -466,6 +466,13 @@
         "date": "2026-03-23T19:00:00.000+0000",
         "account": "Inteserra/JSI",
         "owner": "Jamie Butler"
+      },
+      {
+        "subject": "Rev.io + SabrHub CH Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-23T19:00:00.000+0000",
+        "account": "Sabrhub",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Referral Sent - Gulf Telecom",
@@ -569,13 +576,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-03-12T13:00:00.000+0000",
         "account": "Alarm Association of Florida, Inc.",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Strategic Partner Monthly Sync",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-03-11T17:00:00.000+0000",
-        "account": "Avalara",
         "owner": "Jake Mitchell"
       }
     ]
