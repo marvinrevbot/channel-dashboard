@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T02:11:36.384Z",
+  "lastUpdated": "2026-03-28T12:11:40.068Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -257,22 +257,30 @@
     ]
   },
   "bob": {
-    "totalCount": 48,
+    "totalCount": 49,
     "wonCount": 7,
     "byStage": {
-      "3 - Initial Product Demo": 2,
+      "3 - Initial Product Demo": 3,
       "4 - Proposal Sent": 1,
       "Closed Won": 7,
       "Closed Lost": 38
     },
     "records": [
       {
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "name": "voip.ms - BoB",
         "account": "VoIP.ms",
         "amount": 0,
         "stage": "3 - Initial Product Demo",
         "owner": "Usman Zahoor"
+      },
+      {
+        "date": "2026-04-30",
+        "name": "Comm-Core - BoB",
+        "account": "Comm-Core",
+        "amount": 500,
+        "stage": "3 - Initial Product Demo",
+        "owner": "Ingrid Beard"
       },
       {
         "date": "2026-02-28",
@@ -324,19 +332,19 @@
       },
       {
         "date": "2025-03-14",
-        "name": "Ultatel - Bill on Behalf",
-        "account": "Ultatel LLC",
-        "amount": 500,
-        "stage": "Closed Lost",
-        "owner": "Jamie Butler"
-      },
-      {
-        "date": "2025-03-14",
         "name": "Cloudli - Bill on Behalf",
         "account": "Cloudli Communications",
         "amount": 500,
         "stage": "Closed Won",
         "owner": "Patrick Dahlstrom"
+      },
+      {
+        "date": "2025-03-14",
+        "name": "Ultatel - Bill on Behalf",
+        "account": "Ultatel LLC",
+        "amount": 500,
+        "stage": "Closed Lost",
+        "owner": "Jamie Butler"
       },
       {
         "date": "2025-03-07",
@@ -417,26 +425,18 @@
         "amount": 3000,
         "stage": "Closed Lost",
         "owner": "Daniel Sekerak"
-      },
-      {
-        "date": "2023-03-01",
-        "name": "Intermedia BoB",
-        "account": "Intermedia",
-        "amount": 5500,
-        "stage": "Closed Lost",
-        "owner": "Charles Barber"
       }
     ]
   },
   "events": {
-    "ytdCount": 159,
+    "ytdCount": 161,
     "byType": {
       "6-Initial Strategic Partner Meeting": 28,
+      "Referral Received": 4,
+      "Referral Sent": 22,
       "Potential Channel Partner Meeting": 53,
-      "Referral Sent": 21,
       "Channel Partner Meeting": 40,
       "Channel Enablement / Product Demo": 9,
-      "Referral Received": 3,
       "null": 5
     },
     "recent": [
@@ -445,6 +445,20 @@
         "type": "6-Initial Strategic Partner Meeting",
         "date": "2026-03-26T17:00:00.000+0000",
         "owner": "Christina Oudin"
+      },
+      {
+        "subject": "Referral Received - Priority",
+        "type": "Referral Received",
+        "date": "2026-03-26T15:00:00.000+0000",
+        "account": "Voxtelesys",
+        "owner": "Cam Sharpe"
+      },
+      {
+        "subject": "Referral Sent - Wireless Innovations",
+        "type": "Referral Sent",
+        "date": "2026-03-25T18:00:00.000+0000",
+        "account": "Inteserra/JSI",
+        "owner": "Jamie Butler"
       },
       {
         "subject": "Rev.io + ESET Partnership Discussion",
@@ -563,20 +577,6 @@
         "date": "2026-03-13T20:00:00.000+0000",
         "account": "QueSee AI",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io + Jenne Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-13T17:00:00.000+0000",
-        "account": "Jenne",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Sent - Dr. IT",
-        "type": "Referral Sent",
-        "date": "2026-03-12T22:00:00.000+0000",
-        "account": "EisnerAmper",
-        "owner": "Jamie Butler"
       }
     ]
   }
