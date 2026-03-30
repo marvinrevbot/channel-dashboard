@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T04:11:40.821Z",
+  "lastUpdated": "2026-03-30T05:11:40.730Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -429,13 +429,13 @@
     ]
   },
   "events": {
-    "ytdCount": 161,
+    "ytdCount": 168,
     "byType": {
-      "6-Initial Strategic Partner Meeting": 28,
+      "6-Initial Strategic Partner Meeting": 31,
       "Referral Received": 4,
       "Referral Sent": 22,
-      "Potential Channel Partner Meeting": 53,
-      "Channel Partner Meeting": 40,
+      "Potential Channel Partner Meeting": 56,
+      "Channel Partner Meeting": 41,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
@@ -482,18 +482,18 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Referral Sent - Yovu",
-        "type": "Referral Sent",
-        "date": "2026-03-23T19:00:00.000+0000",
-        "account": "Inteserra/JSI",
-        "owner": "Jamie Butler"
-      },
-      {
         "subject": "Rev.io + SabrHub CH Sync",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-23T19:00:00.000+0000",
         "account": "Sabrhub",
         "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Referral Sent - Yovu",
+        "type": "Referral Sent",
+        "date": "2026-03-23T19:00:00.000+0000",
+        "account": "Inteserra/JSI",
+        "owner": "Jamie Butler"
       },
       {
         "subject": "Referral Sent - Gulf Telecom",
@@ -559,23 +559,24 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Referral Sent - Devera Technologies",
-        "type": "Referral Sent",
-        "date": "2026-03-17T17:00:00.000+0000",
-        "account": "CCR",
-        "owner": "Jamie Butler"
-      },
-      {
-        "subject": "Laura Johns: Meet with Brook",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-03-16T19:00:00.000+0000",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Partner Prospect - Intro Meeting",
+        "subject": "Sync with John - Billing/BoB",
         "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-13T20:00:00.000+0000",
-        "account": "QueSee AI",
+        "date": "2026-03-18T22:30:00.000+0000",
+        "account": "Amiba",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "GTIA Channel Council Sync",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-03-18T19:00:00.000+0000",
+        "account": "GTIA",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Partner Prospect Meeting - Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-17T20:30:00.000+0000",
+        "account": "Pax8",
         "owner": "Usman Zahoor"
       }
     ]
