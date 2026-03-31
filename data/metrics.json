@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T18:11:40.412Z",
+  "lastUpdated": "2026-03-31T19:11:40.421Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -429,22 +429,57 @@
     ]
   },
   "events": {
-    "ytdCount": 169,
+    "ytdCount": 183,
     "byType": {
-      "Potential Channel Partner Meeting": 57,
-      "6-Initial Strategic Partner Meeting": 31,
+      "Channel Partner Meeting": 46,
+      "Potential Channel Partner Meeting": 64,
+      "6-Initial Strategic Partner Meeting": 33,
       "Referral Received": 4,
       "Referral Sent": 22,
-      "Channel Partner Meeting": 41,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
       {
+        "subject": "Rev.io + SpanDocs CH discussion",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-31T17:30:00.000+0000",
+        "account": "SpanDocs",
+        "owner": "Jake Mitchell"
+      },
+      {
         "subject": "Rev.io + TCX Partnership Discussion",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-31T14:00:00.000+0000",
         "account": "The Connection Xchange",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Quesee Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-30T19:30:00.000+0000",
+        "account": "QueSee AI",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Nodeware CH Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-30T19:00:00.000+0000",
+        "account": "Nodeware",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Ooma B.o.B Discussion",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-03-27T19:00:00.000+0000",
+        "account": "Ooma Inc.",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Comm-Core BoB Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-27T16:00:00.000+0000",
+        "account": "Comm-Core",
         "owner": "Jake Mitchell"
       },
       {
@@ -461,11 +496,53 @@
         "owner": "Cam Sharpe"
       },
       {
+        "subject": "Rev.io + Pax8 Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-26T15:00:00.000+0000",
+        "account": "Pax8",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Yeastar Sync",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-03-26T13:00:00.000+0000",
+        "account": "Yeastar",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Alianza Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-25T19:30:00.000+0000",
+        "account": "Alianza",
+        "owner": "Jake Mitchell"
+      },
+      {
         "subject": "Referral Sent - Wireless Innovations",
         "type": "Referral Sent",
         "date": "2026-03-25T18:00:00.000+0000",
         "account": "Inteserra/JSI",
         "owner": "Jamie Butler"
+      },
+      {
+        "subject": "Rev.io + Acronis Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-25T16:00:00.000+0000",
+        "account": "Acronis",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + JAC Potential Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-25T13:00:00.000+0000",
+        "account": "John Alexander Consulting LLC",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Guardz CH Discussion",
+        "type": "Channel Partner Meeting",
+        "date": "2026-03-24T18:30:00.000+0000",
+        "account": "Guardz",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Rev.io + ESET Partnership Discussion",
@@ -489,13 +566,6 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Referral Sent - Yovu",
-        "type": "Referral Sent",
-        "date": "2026-03-23T19:00:00.000+0000",
-        "account": "Inteserra/JSI",
-        "owner": "Jamie Butler"
-      },
-      {
         "subject": "Rev.io + SabrHub CH Sync",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-23T19:00:00.000+0000",
@@ -503,81 +573,11 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Referral Sent - Gulf Telecom",
+        "subject": "Referral Sent - Yovu",
         "type": "Referral Sent",
-        "date": "2026-03-20T20:00:00.000+0000",
-        "account": "CCR",
-        "owner": "Andy Whisenant"
-      },
-      {
-        "subject": "Rev.io + Moovila Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-20T17:00:00.000+0000",
-        "account": "Moovila",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + MSP Hub Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-20T14:30:00.000+0000",
-        "account": "MSP Hub",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Thread",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-19T19:30:00.000+0000",
-        "account": "Thread",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Pia Potential Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-19T19:00:00.000+0000",
-        "account": "Pia",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Bocada Follow-up",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-19T18:30:00.000+0000",
-        "account": "Bocada",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Ooma BoB Demo",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-03-19T18:00:00.000+0000",
-        "account": "Ooma Inc.",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Nodeware Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-19T14:30:00.000+0000",
-        "account": "Nodeware",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Yeastar CH Discussion",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-03-19T13:00:00.000+0000",
-        "account": "Yeastar",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Sync with John - Billing/BoB",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-18T22:30:00.000+0000",
-        "account": "Amiba",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "GTIA Channel Council Sync",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-03-18T19:00:00.000+0000",
-        "account": "GTIA",
-        "owner": "Usman Zahoor"
+        "date": "2026-03-23T19:00:00.000+0000",
+        "account": "Inteserra/JSI",
+        "owner": "Jamie Butler"
       }
     ]
   }
