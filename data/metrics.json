@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T14:11:40.513Z",
+  "lastUpdated": "2026-03-31T15:11:40.762Z",
   "channelBookings": {
     "ytdTotal": 3220,
     "ytdCount": 3,
@@ -429,17 +429,24 @@
     ]
   },
   "events": {
-    "ytdCount": 168,
+    "ytdCount": 169,
     "byType": {
+      "Potential Channel Partner Meeting": 57,
       "6-Initial Strategic Partner Meeting": 31,
       "Referral Received": 4,
       "Referral Sent": 22,
-      "Potential Channel Partner Meeting": 56,
       "Channel Partner Meeting": 41,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + TCX Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-31T14:00:00.000+0000",
+        "account": "The Connection Xchange",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Peter: 2026 Rev.io Summit Sponsorship Overview",
         "type": "6-Initial Strategic Partner Meeting",
@@ -482,18 +489,18 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Rev.io + SabrHub CH Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-23T19:00:00.000+0000",
-        "account": "Sabrhub",
-        "owner": "Jake Mitchell"
-      },
-      {
         "subject": "Referral Sent - Yovu",
         "type": "Referral Sent",
         "date": "2026-03-23T19:00:00.000+0000",
         "account": "Inteserra/JSI",
         "owner": "Jamie Butler"
+      },
+      {
+        "subject": "Rev.io + SabrHub CH Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-03-23T19:00:00.000+0000",
+        "account": "Sabrhub",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Referral Sent - Gulf Telecom",
@@ -570,13 +577,6 @@
         "type": "6-Initial Strategic Partner Meeting",
         "date": "2026-03-18T19:00:00.000+0000",
         "account": "GTIA",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Partner Prospect Meeting - Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-17T20:30:00.000+0000",
-        "account": "Pax8",
         "owner": "Usman Zahoor"
       }
     ]
