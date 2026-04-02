@@ -1,14 +1,25 @@
 {
-  "lastUpdated": "2026-04-02T17:11:42.618Z",
+  "lastUpdated": "2026-04-02T18:11:43.094Z",
   "channelBookings": {
     "ytdTotal": 3720,
     "ytdCount": 4,
     "byMonth": {
+      "2026-04": 500,
       "2026-03": 2070,
-      "2026-02": 1000,
+      "2026-02": 500,
       "2026-01": 650
     },
     "records": [
+      {
+        "date": "2026-04-02",
+        "name": "In-Telecom - BoB",
+        "account": "In-Telecom",
+        "amount": 500,
+        "owner": "Justin Lee",
+        "productType": "Billing Add-on",
+        "source": null,
+        "channelCoverage": "Usman Zahoor"
+      },
       {
         "date": "2026-03-06",
         "name": "GuentherTech",
@@ -18,16 +29,6 @@
         "productType": "PSA 2.0",
         "source": null,
         "channelCoverage": "Brook Lee"
-      },
-      {
-        "date": "2026-02-28",
-        "name": "In-Telecom - BoB",
-        "account": "In-Telecom",
-        "amount": 500,
-        "owner": "Justin Lee",
-        "productType": "Billing Add-on",
-        "source": null,
-        "channelCoverage": "Usman Zahoor"
       },
       {
         "date": "2026-02-20",
@@ -270,10 +271,10 @@
     "totalCount": 49,
     "wonCount": 8,
     "byStage": {
-      "3 - Initial Product Demo": 2,
+      "3 - Initial Product Demo": 1,
       "Closed Won": 8,
-      "4 - Proposal Sent": 1,
-      "Closed Lost": 38
+      "Closed Lost": 39,
+      "4 - Proposal Sent": 1
     },
     "records": [
       {
@@ -285,20 +286,20 @@
         "owner": "Usman Zahoor"
       },
       {
-        "date": "2026-04-30",
-        "name": "Comm-Core - BoB",
-        "account": "Comm-Core",
-        "amount": 500,
-        "stage": "3 - Initial Product Demo",
-        "owner": "Ingrid Beard"
-      },
-      {
-        "date": "2026-02-28",
+        "date": "2026-04-02",
         "name": "In-Telecom - BoB",
         "account": "In-Telecom",
         "amount": 500,
         "stage": "Closed Won",
         "owner": "Justin Lee"
+      },
+      {
+        "date": "2026-04-02",
+        "name": "Comm-Core - BoB",
+        "account": "Comm-Core",
+        "amount": 500,
+        "stage": "Closed Lost",
+        "owner": "Ingrid Beard"
       },
       {
         "date": "2026-01-31",
@@ -439,12 +440,12 @@
     ]
   },
   "events": {
-    "ytdCount": 187,
+    "ytdCount": 190,
     "byType": {
+      "Potential Channel Partner Meeting": 67,
       "Partner Agreement Signed": 2,
-      "Potential Channel Partner Meeting": 65,
+      "Channel Partner Meeting": 47,
       "Referral Sent": 23,
-      "Channel Partner Meeting": 46,
       "6-Initial Strategic Partner Meeting": 33,
       "Referral Received": 4,
       "Channel Enablement / Product Demo": 9,
@@ -452,10 +453,17 @@
     },
     "recent": [
       {
-        "subject": "Partner Agreement Signed",
-        "type": "Partner Agreement Signed",
-        "date": "2026-04-02T15:00:00.000+0000",
-        "account": "The Connection Xchange",
+        "subject": "Rev.io +. Crexendo Ai solution discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-02T17:00:00.000+0000",
+        "account": "Crexendo Business Solutions",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Quesee partnership discussion con't",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-02T16:30:00.000+0000",
+        "account": "QueSee AI",
         "owner": "Jake Mitchell"
       },
       {
@@ -464,6 +472,20 @@
         "date": "2026-04-02T15:00:00.000+0000",
         "account": "In-Telecom",
         "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Partner Agreement Signed",
+        "type": "Partner Agreement Signed",
+        "date": "2026-04-02T15:00:00.000+0000",
+        "account": "The Connection Xchange",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Business Growers Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-02T14:00:00.000+0000",
+        "account": "The Business Growers",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Rev.io + ADI Integration Discussion",
@@ -528,18 +550,18 @@
         "owner": "Christina Oudin"
       },
       {
-        "subject": "Referral Received - Priority",
-        "type": "Referral Received",
-        "date": "2026-03-26T15:00:00.000+0000",
-        "account": "Voxtelesys",
-        "owner": "Cam Sharpe"
-      },
-      {
         "subject": "Rev.io + Pax8 Sync",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-03-26T15:00:00.000+0000",
         "account": "Pax8",
         "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Referral Received - Priority",
+        "type": "Referral Received",
+        "date": "2026-03-26T15:00:00.000+0000",
+        "account": "Voxtelesys",
+        "owner": "Cam Sharpe"
       },
       {
         "subject": "Rev.io + Yeastar Sync",
@@ -567,27 +589,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-03-25T16:00:00.000+0000",
         "account": "Acronis",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + JAC Potential Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-25T13:00:00.000+0000",
-        "account": "John Alexander Consulting LLC",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Guardz CH Discussion",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-24T18:30:00.000+0000",
-        "account": "Guardz",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + ESET Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-24T14:00:00.000+0000",
-        "account": "ESET",
         "owner": "Jake Mitchell"
       }
     ]
