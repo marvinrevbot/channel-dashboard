@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T18:11:43.094Z",
+  "lastUpdated": "2026-04-02T19:11:43.211Z",
   "channelBookings": {
     "ytdTotal": 3720,
     "ytdCount": 4,
@@ -440,18 +440,25 @@
     ]
   },
   "events": {
-    "ytdCount": 190,
+    "ytdCount": 191,
     "byType": {
+      "6-Initial Strategic Partner Meeting": 34,
       "Potential Channel Partner Meeting": 67,
       "Partner Agreement Signed": 2,
       "Channel Partner Meeting": 47,
       "Referral Sent": 23,
-      "6-Initial Strategic Partner Meeting": 33,
       "Referral Received": 4,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Jake + Randy Intro",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-04-02T18:30:00.000+0000",
+        "account": "TaxConnex",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Rev.io +. Crexendo Ai solution discussion",
         "type": "Potential Channel Partner Meeting",
@@ -467,18 +474,18 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Partner Agreement Signed - Bill on Behalf",
-        "type": "Partner Agreement Signed",
-        "date": "2026-04-02T15:00:00.000+0000",
-        "account": "In-Telecom",
-        "owner": "Usman Zahoor"
-      },
-      {
         "subject": "Partner Agreement Signed",
         "type": "Partner Agreement Signed",
         "date": "2026-04-02T15:00:00.000+0000",
         "account": "The Connection Xchange",
         "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Partner Agreement Signed - Bill on Behalf",
+        "type": "Partner Agreement Signed",
+        "date": "2026-04-02T15:00:00.000+0000",
+        "account": "In-Telecom",
+        "owner": "Usman Zahoor"
       },
       {
         "subject": "Rev.io + Business Growers Sync",
@@ -583,13 +590,6 @@
         "date": "2026-03-25T18:00:00.000+0000",
         "account": "Inteserra/JSI",
         "owner": "Jamie Butler"
-      },
-      {
-        "subject": "Rev.io + Acronis Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-25T16:00:00.000+0000",
-        "account": "Acronis",
-        "owner": "Jake Mitchell"
       }
     ]
   }
