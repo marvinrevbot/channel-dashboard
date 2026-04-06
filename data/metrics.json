@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T12:11:49.227Z",
+  "lastUpdated": "2026-04-06T13:11:49.713Z",
   "channelBookings": {
     "ytdTotal": 3720,
     "ytdCount": 4,
@@ -440,18 +440,46 @@
     ]
   },
   "events": {
-    "ytdCount": 191,
+    "ytdCount": 195,
     "byType": {
+      "Potential Channel Partner Meeting": 69,
+      "Channel Partner Meeting": 49,
       "6-Initial Strategic Partner Meeting": 34,
-      "Potential Channel Partner Meeting": 67,
       "Partner Agreement Signed": 2,
-      "Channel Partner Meeting": 47,
       "Referral Sent": 23,
       "Referral Received": 4,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + SHC Potential Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-03T17:00:00.000+0000",
+        "account": "Stafford Hill Consulting",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Textable Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-03T16:00:00.000+0000",
+        "account": "textable",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Jake + Caroline Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-03T14:00:00.000+0000",
+        "account": "Alarm Association of Florida, Inc.",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Ucc integration discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-02T20:00:00.000+0000",
+        "account": "UCC",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Jake + Randy Intro",
         "type": "6-Initial Strategic Partner Meeting",
@@ -474,18 +502,18 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Partner Agreement Signed",
-        "type": "Partner Agreement Signed",
-        "date": "2026-04-02T15:00:00.000+0000",
-        "account": "The Connection Xchange",
-        "owner": "Jake Mitchell"
-      },
-      {
         "subject": "Partner Agreement Signed - Bill on Behalf",
         "type": "Partner Agreement Signed",
         "date": "2026-04-02T15:00:00.000+0000",
         "account": "In-Telecom",
         "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Partner Agreement Signed",
+        "type": "Partner Agreement Signed",
+        "date": "2026-04-02T15:00:00.000+0000",
+        "account": "The Connection Xchange",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Rev.io + Business Growers Sync",
@@ -562,34 +590,6 @@
         "date": "2026-03-26T15:00:00.000+0000",
         "account": "Pax8",
         "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Received - Priority",
-        "type": "Referral Received",
-        "date": "2026-03-26T15:00:00.000+0000",
-        "account": "Voxtelesys",
-        "owner": "Cam Sharpe"
-      },
-      {
-        "subject": "Rev.io + Yeastar Sync",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-03-26T13:00:00.000+0000",
-        "account": "Yeastar",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Alianza Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-03-25T19:30:00.000+0000",
-        "account": "Alianza",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Sent - Wireless Innovations",
-        "type": "Referral Sent",
-        "date": "2026-03-25T18:00:00.000+0000",
-        "account": "Inteserra/JSI",
-        "owner": "Jamie Butler"
       }
     ]
   }
