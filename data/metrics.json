@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T17:11:54.812Z",
+  "lastUpdated": "2026-04-08T18:11:54.722Z",
   "channelBookings": {
     "ytdTotal": 3720,
     "ytdCount": 4,
@@ -440,11 +440,11 @@
     ]
   },
   "events": {
-    "ytdCount": 202,
+    "ytdCount": 204,
     "byType": {
+      "Channel Partner Meeting": 52,
+      "6-Initial Strategic Partner Meeting": 36,
       "Potential Channel Partner Meeting": 73,
-      "Channel Partner Meeting": 51,
-      "6-Initial Strategic Partner Meeting": 35,
       "Partner Agreement Signed": 2,
       "Referral Sent": 23,
       "Referral Received": 4,
@@ -452,6 +452,20 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + MSP Hub Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-08T17:30:00.000+0000",
+        "account": "MSP Hub",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Avalara Sync",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-04-08T17:00:00.000+0000",
+        "account": "Avalara",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Rev.io Snelling Walters Partnership discussion",
         "type": "Potential Channel Partner Meeting",
@@ -576,20 +590,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-04-01T15:00:00.000+0000",
         "account": "ADI",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Sent - Tricom Technology",
-        "type": "Referral Sent",
-        "date": "2026-04-01T14:00:00.000+0000",
-        "account": "textable",
-        "owner": "Jamie Butler"
-      },
-      {
-        "subject": "Rev.io + SpanDocs CH discussion",
-        "type": "Channel Partner Meeting",
-        "date": "2026-03-31T17:30:00.000+0000",
-        "account": "SpanDocs",
         "owner": "Jake Mitchell"
       }
     ]
