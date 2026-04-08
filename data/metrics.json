@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T18:11:54.722Z",
+  "lastUpdated": "2026-04-08T19:11:54.263Z",
   "channelBookings": {
     "ytdTotal": 3720,
     "ytdCount": 4,
@@ -440,9 +440,9 @@
     ]
   },
   "events": {
-    "ytdCount": 204,
+    "ytdCount": 205,
     "byType": {
-      "Channel Partner Meeting": 52,
+      "Channel Partner Meeting": 53,
       "6-Initial Strategic Partner Meeting": 36,
       "Potential Channel Partner Meeting": 73,
       "Partner Agreement Signed": 2,
@@ -452,6 +452,13 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + Guardz CH Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-08T18:30:00.000+0000",
+        "account": "Guardz",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Rev.io + MSP Hub Sync",
         "type": "Channel Partner Meeting",
@@ -565,13 +572,6 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Partner Agreement Signed",
-        "type": "Partner Agreement Signed",
-        "date": "2026-04-02T15:00:00.000+0000",
-        "account": "The Connection Xchange",
-        "owner": "Jake Mitchell"
-      },
-      {
         "subject": "Partner Agreement Signed - Bill on Behalf",
         "type": "Partner Agreement Signed",
         "date": "2026-04-02T15:00:00.000+0000",
@@ -579,17 +579,17 @@
         "owner": "Usman Zahoor"
       },
       {
+        "subject": "Partner Agreement Signed",
+        "type": "Partner Agreement Signed",
+        "date": "2026-04-02T15:00:00.000+0000",
+        "account": "The Connection Xchange",
+        "owner": "Jake Mitchell"
+      },
+      {
         "subject": "Rev.io + Business Growers Sync",
         "type": "Channel Partner Meeting",
         "date": "2026-04-02T14:00:00.000+0000",
         "account": "The Business Growers",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + ADI Integration Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-01T15:00:00.000+0000",
-        "account": "ADI",
         "owner": "Jake Mitchell"
       }
     ]
