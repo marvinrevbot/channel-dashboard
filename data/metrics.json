@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T14:11:53.730Z",
+  "lastUpdated": "2026-04-09T15:11:54.287Z",
   "channelBookings": {
     "ytdTotal": 3720,
     "ytdCount": 4,
@@ -440,18 +440,25 @@
     ]
   },
   "events": {
-    "ytdCount": 205,
+    "ytdCount": 206,
     "byType": {
+      "Referral Received": 5,
       "Channel Partner Meeting": 53,
       "6-Initial Strategic Partner Meeting": 36,
       "Potential Channel Partner Meeting": 73,
       "Partner Agreement Signed": 2,
       "Referral Sent": 23,
-      "Referral Received": 4,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral Received - JD Telecom",
+        "type": "Referral Received",
+        "date": "2026-04-09T16:00:00.000+0000",
+        "account": "Inteserra/JSI",
+        "owner": "Jamie Butler"
+      },
       {
         "subject": "Rev.io + Guardz CH Sync",
         "type": "Channel Partner Meeting",
@@ -583,13 +590,6 @@
         "type": "Partner Agreement Signed",
         "date": "2026-04-02T15:00:00.000+0000",
         "account": "The Connection Xchange",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Business Growers Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-02T14:00:00.000+0000",
-        "account": "The Business Growers",
         "owner": "Jake Mitchell"
       }
     ]
