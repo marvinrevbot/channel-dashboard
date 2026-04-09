@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T16:11:55.030Z",
+  "lastUpdated": "2026-04-09T17:11:53.797Z",
   "channelBookings": {
     "ytdTotal": 3720,
     "ytdCount": 4,
@@ -440,12 +440,12 @@
     ]
   },
   "events": {
-    "ytdCount": 206,
+    "ytdCount": 219,
     "byType": {
       "Referral Received": 5,
-      "Channel Partner Meeting": 53,
+      "Channel Partner Meeting": 55,
       "6-Initial Strategic Partner Meeting": 36,
-      "Potential Channel Partner Meeting": 73,
+      "Potential Channel Partner Meeting": 84,
       "Partner Agreement Signed": 2,
       "Referral Sent": 23,
       "Channel Enablement / Product Demo": 9,
