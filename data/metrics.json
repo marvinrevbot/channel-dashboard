@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T17:11:53.797Z",
+  "lastUpdated": "2026-04-09T18:11:54.490Z",
   "channelBookings": {
     "ytdTotal": 3720,
     "ytdCount": 4,
@@ -440,18 +440,25 @@
     ]
   },
   "events": {
-    "ytdCount": 219,
+    "ytdCount": 220,
     "byType": {
+      "Potential Channel Partner Meeting": 85,
       "Referral Received": 5,
       "Channel Partner Meeting": 55,
       "6-Initial Strategic Partner Meeting": 36,
-      "Potential Channel Partner Meeting": 84,
       "Partner Agreement Signed": 2,
       "Referral Sent": 23,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + Wesco Integration Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-09T17:00:00.000+0000",
+        "account": "Wesco International, Inc",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Referral Received - JD Telecom",
         "type": "Referral Received",
@@ -584,13 +591,6 @@
         "date": "2026-04-02T15:00:00.000+0000",
         "account": "In-Telecom",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Partner Agreement Signed",
-        "type": "Partner Agreement Signed",
-        "date": "2026-04-02T15:00:00.000+0000",
-        "account": "The Connection Xchange",
-        "owner": "Jake Mitchell"
       }
     ]
   }
