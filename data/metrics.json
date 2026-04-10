@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T18:11:54.143Z",
+  "lastUpdated": "2026-04-10T19:11:53.751Z",
   "channelBookings": {
     "ytdTotal": 3720,
     "ytdCount": 4,
@@ -440,18 +440,38 @@
     ]
   },
   "events": {
-    "ytdCount": 220,
+    "ytdCount": 223,
     "byType": {
-      "Potential Channel Partner Meeting": 85,
+      "Potential Channel Partner Meeting": 86,
+      "Channel Partner Meeting": 56,
+      "6-Initial Strategic Partner Meeting": 37,
       "Referral Received": 5,
-      "Channel Partner Meeting": 55,
-      "6-Initial Strategic Partner Meeting": 36,
       "Partner Agreement Signed": 2,
       "Referral Sent": 23,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + DataBank Potential Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-10T18:15:00.000+0000",
+        "account": "DataBank Holdings, Ltd.",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Voxtelesys Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-10T17:00:00.000+0000",
+        "account": "Voxtelesys",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Ashley Jones: 2026 Rev.io Summit Sponsorship Overview",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-04-10T15:00:00.000+0000",
+        "owner": "Christina Oudin"
+      },
       {
         "subject": "Rev.io + Wesco Integration Sync",
         "type": "Potential Channel Partner Meeting",
@@ -570,27 +590,6 @@
         "date": "2026-04-02T18:30:00.000+0000",
         "account": "TaxConnex",
         "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io +. Crexendo Ai solution discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-02T17:00:00.000+0000",
-        "account": "Crexendo Business Solutions",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Quesee partnership discussion con't",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-02T16:30:00.000+0000",
-        "account": "QueSee AI",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Partner Agreement Signed - Bill on Behalf",
-        "type": "Partner Agreement Signed",
-        "date": "2026-04-02T15:00:00.000+0000",
-        "account": "In-Telecom",
-        "owner": "Usman Zahoor"
       }
     ]
   }
