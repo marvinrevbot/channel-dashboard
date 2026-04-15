@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T14:12:01.593Z",
+  "lastUpdated": "2026-04-15T15:12:01.724Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,9 +440,9 @@
     ]
   },
   "events": {
-    "ytdCount": 223,
+    "ytdCount": 225,
     "byType": {
-      "Potential Channel Partner Meeting": 86,
+      "Potential Channel Partner Meeting": 88,
       "Channel Partner Meeting": 56,
       "6-Initial Strategic Partner Meeting": 37,
       "Referral Received": 5,
@@ -452,6 +452,20 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + Info-Tech Potential Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-15T14:00:00.000+0000",
+        "account": "Info-Tech Research Group",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Telimatic PSA Overview",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-14T18:00:00.000+0000",
+        "account": "Telimatic",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Rev.io + DataBank Potential Partnership Discussion",
         "type": "Potential Channel Partner Meeting",
@@ -575,20 +589,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-04-03T14:00:00.000+0000",
         "account": "Alarm Association of Florida, Inc.",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Ucc integration discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-02T20:00:00.000+0000",
-        "account": "UCC",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Jake + Randy Intro",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-04-02T18:30:00.000+0000",
-        "account": "TaxConnex",
         "owner": "Jake Mitchell"
       }
     ]
