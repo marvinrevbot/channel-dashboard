@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T12:12:01.046Z",
+  "lastUpdated": "2026-04-15T13:12:02.749Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -64,23 +64,13 @@
   },
   "cyberProtect": {
     "wonYTD": 600,
-    "pipeline": 400,
+    "pipeline": 0,
     "count": 28,
     "byStage": {
-      "3 - Initial Product Demo": 1,
-      "Closed Lost": 25,
+      "Closed Lost": 26,
       "Closed Won": 2
     },
     "records": [
-      {
-        "date": "2026-04-30",
-        "name": "Advanced Hosted - Cyber Protect",
-        "account": "Advanced Hosted Services",
-        "amount": 400,
-        "stage": "3 - Initial Product Demo",
-        "owner": "Ingrid Beard",
-        "channelCoverage": null
-      },
       {
         "date": "2026-03-12",
         "name": "Centra IP - Cyber Protect",
