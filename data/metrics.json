@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T14:12:03.571Z",
+  "lastUpdated": "2026-04-17T15:12:03.325Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,10 +440,10 @@
     ]
   },
   "events": {
-    "ytdCount": 226,
+    "ytdCount": 228,
     "byType": {
+      "Channel Partner Meeting": 58,
       "Potential Channel Partner Meeting": 89,
-      "Channel Partner Meeting": 56,
       "6-Initial Strategic Partner Meeting": 37,
       "Referral Received": 5,
       "Partner Agreement Signed": 2,
@@ -452,6 +452,20 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + VoIP.ms Summit Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-17T14:30:00.000+0000",
+        "account": "VoIP.ms",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Documo Monthly Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-17T14:00:00.000+0000",
+        "account": "Documo",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Rev.io + OpenText Partnership Discussion",
         "type": "Potential Channel Partner Meeting",
@@ -575,20 +589,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-04-03T18:00:00.000+0000",
         "account": "Bumblebee",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + SHC Potential Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-03T17:00:00.000+0000",
-        "account": "Stafford Hill Consulting",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Textable Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-03T16:00:00.000+0000",
-        "account": "textable",
         "owner": "Jake Mitchell"
       }
     ]
