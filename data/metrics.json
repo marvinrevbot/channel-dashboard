@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T13:12:03.628Z",
+  "lastUpdated": "2026-04-17T14:12:03.571Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,9 +440,9 @@
     ]
   },
   "events": {
-    "ytdCount": 225,
+    "ytdCount": 226,
     "byType": {
-      "Potential Channel Partner Meeting": 88,
+      "Potential Channel Partner Meeting": 89,
       "Channel Partner Meeting": 56,
       "6-Initial Strategic Partner Meeting": 37,
       "Referral Received": 5,
@@ -452,6 +452,13 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + OpenText Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-16T14:00:00.000+0000",
+        "account": "OpenText",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Rev.io + Info-Tech Potential Partnership Discussion",
         "type": "Potential Channel Partner Meeting",
@@ -582,13 +589,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-04-03T16:00:00.000+0000",
         "account": "textable",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Jake + Caroline Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-03T14:00:00.000+0000",
-        "account": "Alarm Association of Florida, Inc.",
         "owner": "Jake Mitchell"
       }
     ]
