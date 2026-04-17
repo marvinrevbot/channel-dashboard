@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T17:12:03.774Z",
+  "lastUpdated": "2026-04-17T18:12:04.299Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,18 +440,25 @@
     ]
   },
   "events": {
-    "ytdCount": 228,
+    "ytdCount": 229,
     "byType": {
+      "Referral Received": 6,
       "Channel Partner Meeting": 58,
       "Potential Channel Partner Meeting": 89,
       "6-Initial Strategic Partner Meeting": 37,
-      "Referral Received": 5,
       "Partner Agreement Signed": 2,
       "Referral Sent": 23,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral - AVIT Partners",
+        "type": "Referral Received",
+        "date": "2026-04-17T16:00:00.000+0000",
+        "account": "Pax8",
+        "owner": "Connor Flynn"
+      },
       {
         "subject": "Rev.io + VoIP.ms Summit Sync",
         "type": "Channel Partner Meeting",
@@ -582,13 +589,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-04-03T18:30:00.000+0000",
         "account": "Bocada",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Jake + Hexi Sandbox sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-03T18:00:00.000+0000",
-        "account": "Bumblebee",
         "owner": "Jake Mitchell"
       }
     ]
