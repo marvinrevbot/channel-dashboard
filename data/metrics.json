@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T14:12:06.087Z",
+  "lastUpdated": "2026-04-20T15:12:06.651Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -92,14 +92,14 @@
     ]
   },
   "commerceHub": {
-    "wonCount": 10,
-    "openCount": 38,
+    "wonCount": 11,
+    "openCount": 37,
     "totalCount": 50,
     "byStage": {
-      "2 - Discovery Completed": 20,
+      "2 - Discovery Completed": 19,
       "1- Discovery Scheduled": 7,
+      "Closed Won": 11,
       "3 - Initial Product Demo": 7,
-      "Closed Won": 10,
       "4 - Proposal Sent": 1,
       "Closed Lost": 2,
       "6 - Verbal Commit": 3
@@ -157,8 +157,8 @@
         "date": "2026-03-31",
         "name": "QueSee - CommerceHub",
         "account": "QueSee AI",
-        "stage": "2 - Discovery Completed",
-        "probability": 10,
+        "stage": "Closed Won",
+        "probability": 100,
         "owner": "Usman Zahoor"
       },
       {
@@ -440,18 +440,25 @@
     ]
   },
   "events": {
-    "ytdCount": 229,
+    "ytdCount": 230,
     "byType": {
+      "Partner Agreement Signed": 3,
       "Referral Received": 6,
       "Channel Partner Meeting": 58,
       "Potential Channel Partner Meeting": 89,
       "6-Initial Strategic Partner Meeting": 37,
-      "Partner Agreement Signed": 2,
       "Referral Sent": 23,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "CH Agreement Signed-QueSee",
+        "type": "Partner Agreement Signed",
+        "date": "2026-04-20T14:00:00.000+0000",
+        "account": "QueSee AI",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Referral - AVIT Partners",
         "type": "Referral Received",
@@ -582,13 +589,6 @@
         "type": "6-Initial Strategic Partner Meeting",
         "date": "2026-04-07T16:00:00.000+0000",
         "account": "EisnerAmper",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Boccada Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-03T18:30:00.000+0000",
-        "account": "Bocada",
         "owner": "Jake Mitchell"
       }
     ]
