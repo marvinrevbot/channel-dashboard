@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T18:12:12.949Z",
+  "lastUpdated": "2026-04-21T19:12:08.659Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,18 +440,25 @@
     ]
   },
   "events": {
-    "ytdCount": 233,
+    "ytdCount": 234,
     "byType": {
+      "Referral Received": 8,
       "Potential Channel Partner Meeting": 90,
       "Channel Partner Meeting": 59,
       "Partner Agreement Signed": 3,
-      "Referral Received": 7,
       "6-Initial Strategic Partner Meeting": 37,
       "Referral Sent": 23,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral Received - Impossible Cloud Billing",
+        "type": "Referral Received",
+        "date": "2026-04-21T19:00:00.000+0000",
+        "account": "Impossible Cloud",
+        "owner": "Usman Zahoor"
+      },
       {
         "subject": "Rev.io + Impossible Cloud CH Discussion",
         "type": "Potential Channel Partner Meeting",
@@ -582,13 +589,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-04-08T14:30:00.000+0000",
         "account": "Snellings Walters Insurance Agency",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Canopy CH Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-08T14:00:00.000+0000",
-        "account": "Canopy",
         "owner": "Jake Mitchell"
       }
     ]
