@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T17:12:05.995Z",
+  "lastUpdated": "2026-04-21T17:12:10.686Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,12 +440,12 @@
     ]
   },
   "events": {
-    "ytdCount": 230,
+    "ytdCount": 233,
     "byType": {
+      "Potential Channel Partner Meeting": 90,
+      "Channel Partner Meeting": 59,
       "Partner Agreement Signed": 3,
-      "Referral Received": 6,
-      "Channel Partner Meeting": 58,
-      "Potential Channel Partner Meeting": 89,
+      "Referral Received": 7,
       "6-Initial Strategic Partner Meeting": 37,
       "Referral Sent": 23,
       "Channel Enablement / Product Demo": 9,
@@ -453,11 +453,32 @@
     },
     "recent": [
       {
+        "subject": "Rev.io + Impossible Cloud CH Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-20T21:00:00.000+0000",
+        "account": "Impossible Cloud",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io Summit Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-20T19:00:00.000+0000",
+        "account": "GIA",
+        "owner": "Jake Mitchell"
+      },
+      {
         "subject": "CH Agreement Signed-QueSee",
         "type": "Partner Agreement Signed",
         "date": "2026-04-20T14:00:00.000+0000",
         "account": "QueSee AI",
         "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Referral Received",
+        "type": "Referral Received",
+        "date": "2026-04-17T19:00:00.000+0000",
+        "account": "Verizon Enterprise Solutions",
+        "owner": "Usman Zahoor"
       },
       {
         "subject": "Referral - AVIT Partners",
@@ -568,27 +589,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-04-08T14:00:00.000+0000",
         "account": "Canopy",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Cyber Trends Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-07T19:00:00.000+0000",
-        "account": "Cyber Trends, Inc",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Pax8 Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-07T18:00:00.000+0000",
-        "account": "Pax8",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + EisnerAmper Sync",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-04-07T16:00:00.000+0000",
-        "account": "EisnerAmper",
         "owner": "Jake Mitchell"
       }
     ]
