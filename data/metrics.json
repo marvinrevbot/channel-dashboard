@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T18:12:34.986Z",
+  "lastUpdated": "2026-04-22T19:12:36.771Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,10 +440,10 @@
     ]
   },
   "events": {
-    "ytdCount": 236,
+    "ytdCount": 237,
     "byType": {
+      "Channel Partner Meeting": 61,
       "Referral Received": 8,
-      "Channel Partner Meeting": 60,
       "Potential Channel Partner Meeting": 91,
       "Partner Agreement Signed": 3,
       "6-Initial Strategic Partner Meeting": 37,
@@ -452,6 +452,13 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Acronis Bi Weekly Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-22T16:00:00.000+0000",
+        "account": "Acronis",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Referral Received - Impossible Cloud Billing",
         "type": "Referral Received",
@@ -582,13 +589,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-04-08T18:30:00.000+0000",
         "account": "Guardz",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + MSP Hub Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-08T17:30:00.000+0000",
-        "account": "MSP Hub",
         "owner": "Jake Mitchell"
       }
     ]
