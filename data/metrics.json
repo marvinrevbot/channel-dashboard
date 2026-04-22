@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T15:12:38.206Z",
+  "lastUpdated": "2026-04-22T16:12:35.410Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -432,7 +432,7 @@
       {
         "date": "2023-11-13",
         "name": "Sinch BoB",
-        "account": "Sinch",
+        "account": "Sinch(DO NOT CALL)",
         "amount": 3000,
         "stage": "Closed Lost",
         "owner": "Daniel Sekerak"
