@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T14:12:26.430Z",
+  "lastUpdated": "2026-04-22T15:12:38.206Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,11 +440,11 @@
     ]
   },
   "events": {
-    "ytdCount": 234,
+    "ytdCount": 236,
     "byType": {
       "Referral Received": 8,
-      "Potential Channel Partner Meeting": 90,
-      "Channel Partner Meeting": 59,
+      "Channel Partner Meeting": 60,
+      "Potential Channel Partner Meeting": 91,
       "Partner Agreement Signed": 3,
       "6-Initial Strategic Partner Meeting": 37,
       "Referral Sent": 23,
@@ -458,6 +458,20 @@
         "date": "2026-04-21T19:00:00.000+0000",
         "account": "Impossible Cloud",
         "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Jake + Randy Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-21T18:30:00.000+0000",
+        "account": "TaxConnex",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + ScalePad Summit Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-21T18:00:00.000+0000",
+        "account": "ScalePad",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Rev.io + Impossible Cloud CH Discussion",
@@ -575,20 +589,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-04-08T17:30:00.000+0000",
         "account": "MSP Hub",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Avalara Sync",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-04-08T17:00:00.000+0000",
-        "account": "Avalara",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io Snelling Walters Partnership discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-08T14:30:00.000+0000",
-        "account": "Snellings Walters Insurance Agency",
         "owner": "Jake Mitchell"
       }
     ]
