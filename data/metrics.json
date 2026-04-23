@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T18:13:22.342Z",
+  "lastUpdated": "2026-04-23T19:13:21.807Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,9 +440,9 @@
     ]
   },
   "events": {
-    "ytdCount": 239,
+    "ytdCount": 240,
     "byType": {
-      "Potential Channel Partner Meeting": 92,
+      "Potential Channel Partner Meeting": 93,
       "Channel Partner Meeting": 62,
       "Referral Received": 8,
       "Partner Agreement Signed": 3,
@@ -452,6 +452,13 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + Telimatic Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-23T18:00:00.000+0000",
+        "account": "Telimatic",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Rev.io + Mailprotector Partnership Discussion",
         "type": "Potential Channel Partner Meeting",
@@ -583,13 +590,6 @@
         "type": "6-Initial Strategic Partner Meeting",
         "date": "2026-04-10T15:00:00.000+0000",
         "owner": "Christina Oudin"
-      },
-      {
-        "subject": "Rev.io + Wesco Integration Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-09T17:00:00.000+0000",
-        "account": "Wesco International, Inc",
-        "owner": "Jake Mitchell"
       }
     ]
   }
