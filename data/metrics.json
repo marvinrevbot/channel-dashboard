@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T15:13:23.195Z",
+  "lastUpdated": "2026-04-23T16:13:23.050Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,11 +440,11 @@
     ]
   },
   "events": {
-    "ytdCount": 237,
+    "ytdCount": 239,
     "byType": {
-      "Channel Partner Meeting": 61,
+      "Potential Channel Partner Meeting": 92,
+      "Channel Partner Meeting": 62,
       "Referral Received": 8,
-      "Potential Channel Partner Meeting": 91,
       "Partner Agreement Signed": 3,
       "6-Initial Strategic Partner Meeting": 37,
       "Referral Sent": 23,
@@ -452,6 +452,20 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + Mailprotector Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-23T15:00:00.000+0000",
+        "account": "Mailprotector",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io PSA Demo",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-23T14:00:00.000+0000",
+        "account": "EisnerAmper",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Acronis Bi Weekly Sync",
         "type": "Channel Partner Meeting",
@@ -575,20 +589,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-04-09T17:00:00.000+0000",
         "account": "Wesco International, Inc",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Received - JD Telecom",
-        "type": "Referral Received",
-        "date": "2026-04-09T16:00:00.000+0000",
-        "account": "Inteserra/JSI",
-        "owner": "Jamie Butler"
-      },
-      {
-        "subject": "Rev.io + Guardz CH Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-08T18:30:00.000+0000",
-        "account": "Guardz",
         "owner": "Jake Mitchell"
       }
     ]
