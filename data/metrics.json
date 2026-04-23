@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T20:13:22.224Z",
+  "lastUpdated": "2026-04-23T21:13:22.570Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -440,9 +440,9 @@
     ]
   },
   "events": {
-    "ytdCount": 240,
+    "ytdCount": 242,
     "byType": {
-      "Potential Channel Partner Meeting": 93,
+      "Potential Channel Partner Meeting": 95,
       "Channel Partner Meeting": 62,
       "Referral Received": 8,
       "Partner Agreement Signed": 3,
@@ -452,6 +452,20 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + C1st CH Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-23T20:00:00.000+0000",
+        "account": "C1st Technologies",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Sangoma Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-23T18:30:00.000+0000",
+        "account": "Sangoma",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Rev.io + Telimatic Partnership Discussion",
         "type": "Potential Channel Partner Meeting",
@@ -577,19 +591,6 @@
         "date": "2026-04-10T18:15:00.000+0000",
         "account": "DataBank Holdings, Ltd.",
         "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Voxtelesys Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-10T17:00:00.000+0000",
-        "account": "Voxtelesys",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Ashley Jones: 2026 Rev.io Summit Sponsorship Overview",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-04-10T15:00:00.000+0000",
-        "owner": "Christina Oudin"
       }
     ]
   }
