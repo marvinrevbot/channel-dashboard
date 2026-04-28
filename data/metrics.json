@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T16:16:33.377Z",
+  "lastUpdated": "2026-04-28T17:16:31.617Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -450,9 +450,9 @@
     ]
   },
   "events": {
-    "ytdCount": 244,
+    "ytdCount": 245,
     "byType": {
-      "Potential Channel Partner Meeting": 97,
+      "Potential Channel Partner Meeting": 98,
       "Channel Partner Meeting": 62,
       "Referral Received": 8,
       "Partner Agreement Signed": 3,
@@ -462,6 +462,13 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + Medjay Intro",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-28T16:00:00.000+0000",
+        "account": "Medjay.io",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Rev.io + HelpGhost Sync",
         "type": "Potential Channel Partner Meeting",
@@ -593,13 +600,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-04-16T14:00:00.000+0000",
         "account": "OpenText",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Info-Tech Potential Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-15T14:00:00.000+0000",
-        "account": "Info-Tech Research Group",
         "owner": "Jake Mitchell"
       }
     ]
