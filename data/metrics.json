@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T14:16:18.346Z",
+  "lastUpdated": "2026-04-28T15:16:27.003Z",
   "channelBookings": {
     "ytdTotal": 5970,
     "ytdCount": 5,
@@ -64,13 +64,23 @@
   },
   "cyberProtect": {
     "wonYTD": 600,
-    "pipeline": 0,
-    "count": 28,
+    "pipeline": 250,
+    "count": 29,
     "byStage": {
+      "1- Discovery Scheduled": 1,
       "Closed Lost": 26,
       "Closed Won": 2
     },
     "records": [
+      {
+        "date": "2026-05-31",
+        "name": "Parrk Analytics",
+        "account": "Parrk Analytics",
+        "amount": 250,
+        "stage": "1- Discovery Scheduled",
+        "owner": "Andy Whisenant",
+        "channelCoverage": null
+      },
       {
         "date": "2026-03-12",
         "name": "Centra IP - Cyber Protect",
