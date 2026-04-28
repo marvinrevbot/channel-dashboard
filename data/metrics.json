@@ -1,15 +1,25 @@
 {
-  "lastUpdated": "2026-04-28T19:16:30.894Z",
+  "lastUpdated": "2026-04-28T20:16:31.872Z",
   "channelBookings": {
-    "ytdTotal": 5970,
-    "ytdCount": 5,
+    "ytdTotal": 6495,
+    "ytdCount": 6,
     "byMonth": {
-      "2026-04": 2750,
+      "2026-04": 3275,
       "2026-03": 2070,
       "2026-02": 500,
       "2026-01": 650
     },
     "records": [
+      {
+        "date": "2026-04-28",
+        "name": "EM Business Solutions",
+        "account": "EM Business Solutions",
+        "amount": 525,
+        "owner": "Jamie Butler",
+        "productType": "PSA 2.0",
+        "source": null,
+        "channelCoverage": null
+      },
       {
         "date": "2026-04-13",
         "name": "C1st Technologies",
