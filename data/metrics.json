@@ -1,15 +1,25 @@
 {
-  "lastUpdated": "2026-04-28T23:16:32.763Z",
+  "lastUpdated": "2026-04-29T00:16:38.101Z",
   "channelBookings": {
-    "ytdTotal": 6495,
-    "ytdCount": 6,
+    "ytdTotal": 7245,
+    "ytdCount": 7,
     "byMonth": {
-      "2026-04": 3275,
+      "2026-04": 4025,
       "2026-03": 2070,
       "2026-02": 500,
       "2026-01": 650
     },
     "records": [
+      {
+        "date": "2026-04-28",
+        "name": "JD Telecom",
+        "account": "JD Telecom",
+        "amount": 750,
+        "owner": "Jamie Butler",
+        "productType": "Billing",
+        "source": null,
+        "channelCoverage": null
+      },
       {
         "date": "2026-04-28",
         "name": "EM Business Solutions",
