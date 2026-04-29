@@ -1,15 +1,25 @@
 {
-  "lastUpdated": "2026-04-29T17:17:04.447Z",
+  "lastUpdated": "2026-04-29T18:17:04.186Z",
   "channelBookings": {
-    "ytdTotal": 7245,
-    "ytdCount": 7,
+    "ytdTotal": 7875,
+    "ytdCount": 8,
     "byMonth": {
-      "2026-04": 4025,
+      "2026-04": 4655,
       "2026-03": 2070,
       "2026-02": 500,
       "2026-01": 650
     },
     "records": [
+      {
+        "date": "2026-04-28",
+        "name": "JD Telecom (PSA)",
+        "account": "JD Telecom",
+        "amount": 630,
+        "owner": "Jamie Butler",
+        "productType": "PSA 2.0",
+        "source": null,
+        "channelCoverage": null
+      },
       {
         "date": "2026-04-28",
         "name": "JD Telecom",
@@ -470,18 +480,25 @@
     ]
   },
   "events": {
-    "ytdCount": 245,
+    "ytdCount": 246,
     "byType": {
+      "Referral Sent": 24,
       "Potential Channel Partner Meeting": 98,
       "Channel Partner Meeting": 62,
       "Referral Received": 8,
       "Partner Agreement Signed": 3,
       "6-Initial Strategic Partner Meeting": 37,
-      "Referral Sent": 23,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral Sent - Ithryn Technologies",
+        "type": "Referral Sent",
+        "date": "2026-04-29T18:00:00.000+0000",
+        "account": "EisnerAmper",
+        "owner": "Jamie Butler"
+      },
       {
         "subject": "Rev.io + Medjay Intro",
         "type": "Potential Channel Partner Meeting",
@@ -613,13 +630,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-04-17T14:00:00.000+0000",
         "account": "Documo",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + OpenText Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-16T14:00:00.000+0000",
-        "account": "OpenText",
         "owner": "Jake Mitchell"
       }
     ]
