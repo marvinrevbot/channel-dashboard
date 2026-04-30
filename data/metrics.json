@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T13:17:53.759Z",
+  "lastUpdated": "2026-04-30T14:17:54.196Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -94,10 +94,11 @@
   },
   "cyberProtect": {
     "wonYTD": 600,
-    "pipeline": 250,
-    "count": 29,
+    "pipeline": 350,
+    "count": 30,
     "byStage": {
       "1- Discovery Scheduled": 1,
+      "2 - Discovery Completed": 1,
       "Closed Lost": 26,
       "Closed Won": 2
     },
@@ -109,6 +110,15 @@
         "amount": 250,
         "stage": "1- Discovery Scheduled",
         "owner": "Andy Whisenant",
+        "channelCoverage": null
+      },
+      {
+        "date": "2026-05-29",
+        "name": "Revolve - Cyber Security",
+        "account": "Revolve Tech",
+        "amount": 100,
+        "stage": "2 - Discovery Completed",
+        "owner": "Ingrid Beard",
         "channelCoverage": null
       },
       {
@@ -480,14 +490,14 @@
     ]
   },
   "events": {
-    "ytdCount": 247,
+    "ytdCount": 251,
     "byType": {
       "Referral Received": 9,
+      "Potential Channel Partner Meeting": 99,
       "Referral Sent": 24,
-      "Potential Channel Partner Meeting": 98,
-      "Channel Partner Meeting": 62,
+      "6-Initial Strategic Partner Meeting": 38,
+      "Channel Partner Meeting": 64,
       "Partner Agreement Signed": 3,
-      "6-Initial Strategic Partner Meeting": 37,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
@@ -500,11 +510,39 @@
         "owner": "Cam Sharpe"
       },
       {
+        "subject": "Rev.io + Gorilla Channel Potential Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-29T19:00:00.000+0000",
+        "account": "Gorilla Channel",
+        "owner": "Jake Mitchell"
+      },
+      {
         "subject": "Referral Sent - Ithryn Technologies",
         "type": "Referral Sent",
         "date": "2026-04-29T18:00:00.000+0000",
         "account": "EisnerAmper",
         "owner": "Jamie Butler"
+      },
+      {
+        "subject": "Rev.io + Oculum Sync",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-04-29T17:00:00.000+0000",
+        "account": "Oculum",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "High level CommerceHub Demo w/ Luke",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-29T16:30:00.000+0000",
+        "account": "MSP Hub",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "MSP Summit Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-29T14:00:00.000+0000",
+        "account": "MSP Hub",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Rev.io + Medjay Intro",
@@ -602,34 +640,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-04-20T19:00:00.000+0000",
         "account": "GIA",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "CH Agreement Signed-QueSee",
-        "type": "Partner Agreement Signed",
-        "date": "2026-04-20T14:00:00.000+0000",
-        "account": "QueSee AI",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Received",
-        "type": "Referral Received",
-        "date": "2026-04-17T19:00:00.000+0000",
-        "account": "Verizon Enterprise Solutions",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Referral - AVIT Partners",
-        "type": "Referral Received",
-        "date": "2026-04-17T16:00:00.000+0000",
-        "account": "Pax8",
-        "owner": "Connor Flynn"
-      },
-      {
-        "subject": "Rev.io + VoIP.ms Summit Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-17T14:30:00.000+0000",
-        "account": "VoIP.ms",
         "owner": "Jake Mitchell"
       }
     ]
