@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T18:18:20.824Z",
+  "lastUpdated": "2026-04-30T19:18:27.153Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,18 +490,25 @@
     ]
   },
   "events": {
-    "ytdCount": 251,
+    "ytdCount": 252,
     "byType": {
+      "Channel Partner Meeting": 65,
       "Referral Received": 9,
       "Potential Channel Partner Meeting": 99,
       "Referral Sent": 24,
       "6-Initial Strategic Partner Meeting": 38,
-      "Channel Partner Meeting": 64,
       "Partner Agreement Signed": 3,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Jake + Laura Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-30T15:00:00.000+0000",
+        "account": "The Business Growers",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Referral Received - 3CX Solutions",
         "type": "Referral Received",
@@ -633,13 +640,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-04-20T21:00:00.000+0000",
         "account": "Impossible Cloud",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io Summit Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-20T19:00:00.000+0000",
-        "account": "GIA",
         "owner": "Jake Mitchell"
       }
     ]
