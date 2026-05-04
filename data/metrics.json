@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T20:20:38.901Z",
+  "lastUpdated": "2026-05-04T21:20:46.907Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -97,8 +97,7 @@
     "pipeline": 350,
     "count": 30,
     "byStage": {
-      "1- Discovery Scheduled": 1,
-      "2 - Discovery Completed": 1,
+      "2 - Discovery Completed": 2,
       "Closed Lost": 26,
       "Closed Won": 2
     },
@@ -108,7 +107,7 @@
         "name": "Parrk Analytics",
         "account": "Parrk Analytics",
         "amount": 250,
-        "stage": "1- Discovery Scheduled",
+        "stage": "2 - Discovery Completed",
         "owner": "Andy Whisenant",
         "channelCoverage": null
       },
