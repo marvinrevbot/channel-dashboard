@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T13:20:31.284Z",
+  "lastUpdated": "2026-05-04T14:20:31.600Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,11 +490,11 @@
     ]
   },
   "events": {
-    "ytdCount": 252,
+    "ytdCount": 256,
     "byType": {
-      "Channel Partner Meeting": 65,
+      "Channel Partner Meeting": 68,
+      "Potential Channel Partner Meeting": 100,
       "Referral Received": 9,
-      "Potential Channel Partner Meeting": 99,
       "Referral Sent": 24,
       "6-Initial Strategic Partner Meeting": 38,
       "Partner Agreement Signed": 3,
@@ -502,6 +502,34 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + Guardz Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-01T18:30:00.000+0000",
+        "account": "Guardz",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Great America Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-01T18:00:00.000+0000",
+        "account": "Great America",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Intuist Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-01T17:00:00.000+0000",
+        "account": "Intuist",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + TGB Integration Discussion",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-01T15:30:00.000+0000",
+        "account": "The Business Growers",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Jake + Laura Sync",
         "type": "Channel Partner Meeting",
@@ -612,34 +640,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-04-22T16:00:00.000+0000",
         "account": "Acronis",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Received - Impossible Cloud Billing",
-        "type": "Referral Received",
-        "date": "2026-04-21T19:00:00.000+0000",
-        "account": "Impossible Cloud",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Jake + Randy Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-21T18:30:00.000+0000",
-        "account": "TaxConnex",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + ScalePad Summit Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-21T18:00:00.000+0000",
-        "account": "ScalePad",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Impossible Cloud CH Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-20T21:00:00.000+0000",
-        "account": "Impossible Cloud",
         "owner": "Jake Mitchell"
       }
     ]
