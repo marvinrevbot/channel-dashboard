@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T20:21:52.770Z",
+  "lastUpdated": "2026-05-05T21:21:53.831Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -489,18 +489,25 @@
     ]
   },
   "events": {
-    "ytdCount": 256,
+    "ytdCount": 257,
     "byType": {
+      "Referral Sent": 25,
       "Channel Partner Meeting": 68,
       "Potential Channel Partner Meeting": 100,
       "Referral Received": 9,
-      "Referral Sent": 24,
       "6-Initial Strategic Partner Meeting": 38,
       "Partner Agreement Signed": 3,
       "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral Sent",
+        "type": "Referral Sent",
+        "date": "2026-05-05T21:00:00.000+0000",
+        "account": "EisnerAmper",
+        "owner": "Connor Flynn"
+      },
       {
         "subject": "Rev.io + Guardz Sync",
         "type": "Channel Partner Meeting",
@@ -632,13 +639,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-04-23T14:00:00.000+0000",
         "account": "EisnerAmper",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Acronis Bi Weekly Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-22T16:00:00.000+0000",
-        "account": "Acronis",
         "owner": "Jake Mitchell"
       }
     ]
