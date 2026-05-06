@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T05:22:19.255Z",
+  "lastUpdated": "2026-05-06T06:22:24.444Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -489,15 +489,15 @@
     ]
   },
   "events": {
-    "ytdCount": 261,
+    "ytdCount": 375,
     "byType": {
       "Referral Sent": 25,
-      "6-Initial Strategic Partner Meeting": 39,
-      "Channel Partner Meeting": 69,
-      "Potential Channel Partner Meeting": 102,
+      "6-Initial Strategic Partner Meeting": 58,
+      "Potential Channel Partner Meeting": 159,
+      "Channel Partner Meeting": 103,
       "Referral Received": 9,
+      "Channel Enablement / Product Demo": 13,
       "Partner Agreement Signed": 3,
-      "Channel Enablement / Product Demo": 9,
       "null": 5
     },
     "recent": [
@@ -509,6 +509,33 @@
         "owner": "Connor Flynn"
       },
       {
+        "subject": "GTIA Mentor Drop in Call",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-05-05T16:30:00.000+0000",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "15 Minute Google Meet: Intuist (Jake Mitchell)",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-05T15:30:00.000+0000",
+        "account": "Intuist",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io / Sherweb Connect",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-05T15:00:00.000+0000",
+        "account": "Sherweb",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io + MSP Hub CommerceHub Integration Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-04T19:00:00.000+0000",
+        "account": "MSP Hub",
+        "owner": "Jake Mitchell"
+      },
+      {
         "subject": "Usman / Michael Sync",
         "type": "6-Initial Strategic Partner Meeting",
         "date": "2026-05-01T19:30:00.000+0000",
@@ -516,7 +543,21 @@
         "owner": "Usman Zahoor"
       },
       {
+        "subject": "Rev.io + RightWorks Transaction Pro Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-01T19:00:00.000+0000",
+        "account": "Rightworks Corporation",
+        "owner": "Jake Mitchell"
+      },
+      {
         "subject": "Rev.io + Guardz Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-01T18:30:00.000+0000",
+        "account": "Guardz",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Jake Mitchell and Laura Rodrigues | Guardz",
         "type": "Channel Partner Meeting",
         "date": "2026-05-01T18:30:00.000+0000",
         "account": "Guardz",
@@ -530,10 +571,31 @@
         "owner": "Jake Mitchell"
       },
       {
+        "subject": "Rev.io // GreatAmerica Synch up",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-01T18:00:00.000+0000",
+        "account": "Great America",
+        "owner": "Jake Mitchell"
+      },
+      {
         "subject": "Rev.io + Intuist Partnership Discussion",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-05-01T17:00:00.000+0000",
         "account": "Intuist",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Google Meet with IntuistAI | 1 Hour RevIO (Jake Mitchell)",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-01T17:00:00.000+0000",
+        "account": "Intuist",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + TBG PSA Integration Discussion",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-01T15:30:00.000+0000",
+        "account": "The Business Growers",
         "owner": "Jake Mitchell"
       },
       {
@@ -577,69 +639,6 @@
         "date": "2026-04-29T18:00:00.000+0000",
         "account": "EisnerAmper",
         "owner": "Jamie Butler"
-      },
-      {
-        "subject": "Rev.io + Oculum Sync",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-04-29T17:00:00.000+0000",
-        "account": "Oculum",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "High level CommerceHub Demo w/ Luke",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-29T16:30:00.000+0000",
-        "account": "MSP Hub",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "MSP Summit Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-29T14:00:00.000+0000",
-        "account": "MSP Hub",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io / Cavelo Dinner @ Kaseya Connect",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-29T02:00:00.000+0000",
-        "account": "Cavelo Inc.",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io / Bumblebee @ Kaseya Connect",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-28T21:00:00.000+0000",
-        "account": "Bumblebee",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io + Medjay Intro",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-28T16:00:00.000+0000",
-        "account": "Medjay.io",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + HelpGhost Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-24T19:30:00.000+0000",
-        "account": "HelpGhost",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Bocada Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-24T18:30:00.000+0000",
-        "account": "Bocada",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + C1st CH Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-23T20:00:00.000+0000",
-        "account": "C1st Technologies",
-        "owner": "Jake Mitchell"
       }
     ]
   }
