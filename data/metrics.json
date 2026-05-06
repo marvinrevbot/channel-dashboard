@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T03:22:07.539Z",
+  "lastUpdated": "2026-05-06T04:22:12.806Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -489,13 +489,13 @@
     ]
   },
   "events": {
-    "ytdCount": 257,
+    "ytdCount": 259,
     "byType": {
       "Referral Sent": 25,
-      "Channel Partner Meeting": 68,
+      "6-Initial Strategic Partner Meeting": 39,
+      "Channel Partner Meeting": 69,
       "Potential Channel Partner Meeting": 100,
       "Referral Received": 9,
-      "6-Initial Strategic Partner Meeting": 38,
       "Partner Agreement Signed": 3,
       "Channel Enablement / Product Demo": 9,
       "null": 5
@@ -507,6 +507,13 @@
         "date": "2026-05-05T21:00:00.000+0000",
         "account": "EisnerAmper",
         "owner": "Connor Flynn"
+      },
+      {
+        "subject": "Usman / Michael Sync",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-05-01T19:30:00.000+0000",
+        "account": "KealyWalker",
+        "owner": "Usman Zahoor"
       },
       {
         "subject": "Rev.io + Guardz Sync",
@@ -586,6 +593,13 @@
         "owner": "Jake Mitchell"
       },
       {
+        "subject": "Rev.io / Bumblebee @ Kaseya Connect",
+        "type": "Channel Partner Meeting",
+        "date": "2026-04-28T21:00:00.000+0000",
+        "account": "Bumblebee",
+        "owner": "Usman Zahoor"
+      },
+      {
         "subject": "Rev.io + Medjay Intro",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-04-28T16:00:00.000+0000",
@@ -625,20 +639,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-04-23T18:00:00.000+0000",
         "account": "Telimatic",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Mailprotector Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-23T15:00:00.000+0000",
-        "account": "Mailprotector",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io PSA Demo",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-23T14:00:00.000+0000",
-        "account": "EisnerAmper",
         "owner": "Jake Mitchell"
       }
     ]
