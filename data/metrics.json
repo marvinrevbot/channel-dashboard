@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T22:24:16.495Z",
+  "lastUpdated": "2026-05-06T23:24:21.774Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -94,15 +94,24 @@
   },
   "cyberProtect": {
     "wonYTD": 600,
-    "pipeline": 500,
-    "count": 31,
+    "pipeline": 1000,
+    "count": 32,
     "byStage": {
+      "1- Discovery Scheduled": 2,
       "2 - Discovery Completed": 2,
-      "1- Discovery Scheduled": 1,
       "Closed Lost": 26,
       "Closed Won": 2
     },
     "records": [
+      {
+        "date": "2026-05-31",
+        "name": "MTA Solutions",
+        "account": "MTA Solutions",
+        "amount": 500,
+        "stage": "1- Discovery Scheduled",
+        "owner": "Connor Flynn",
+        "channelCoverage": null
+      },
       {
         "date": "2026-05-31",
         "name": "Parrk Analytics",
