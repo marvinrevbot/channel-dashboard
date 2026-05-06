@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T19:23:56.682Z",
+  "lastUpdated": "2026-05-06T20:24:03.120Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -94,10 +94,11 @@
   },
   "cyberProtect": {
     "wonYTD": 600,
-    "pipeline": 350,
-    "count": 30,
+    "pipeline": 500,
+    "count": 31,
     "byStage": {
       "2 - Discovery Completed": 2,
+      "1- Discovery Scheduled": 1,
       "Closed Lost": 26,
       "Closed Won": 2
     },
@@ -109,6 +110,15 @@
         "amount": 250,
         "stage": "2 - Discovery Completed",
         "owner": "Andy Whisenant",
+        "channelCoverage": null
+      },
+      {
+        "date": "2026-05-29",
+        "name": "First Class - Cyber Protect",
+        "account": "First Class Technology (MI)",
+        "amount": 150,
+        "stage": "1- Discovery Scheduled",
+        "owner": "Ingrid Beard",
         "channelCoverage": null
       },
       {
