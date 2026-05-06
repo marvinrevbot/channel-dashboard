@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T04:22:12.806Z",
+  "lastUpdated": "2026-05-06T05:22:19.255Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -489,12 +489,12 @@
     ]
   },
   "events": {
-    "ytdCount": 259,
+    "ytdCount": 261,
     "byType": {
       "Referral Sent": 25,
       "6-Initial Strategic Partner Meeting": 39,
       "Channel Partner Meeting": 69,
-      "Potential Channel Partner Meeting": 100,
+      "Potential Channel Partner Meeting": 102,
       "Referral Received": 9,
       "Partner Agreement Signed": 3,
       "Channel Enablement / Product Demo": 9,
@@ -551,6 +551,13 @@
         "owner": "Jake Mitchell"
       },
       {
+        "subject": "Rev.io / C1st Dinner @ Kaseya Connect",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-30T00:30:00.000+0000",
+        "account": "C1St Technologies",
+        "owner": "Usman Zahoor"
+      },
+      {
         "subject": "Referral Received - 3CX Solutions",
         "type": "Referral Received",
         "date": "2026-04-29T21:00:00.000+0000",
@@ -593,6 +600,13 @@
         "owner": "Jake Mitchell"
       },
       {
+        "subject": "Rev.io / Cavelo Dinner @ Kaseya Connect",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-04-29T02:00:00.000+0000",
+        "account": "Cavelo Inc.",
+        "owner": "Usman Zahoor"
+      },
+      {
         "subject": "Rev.io / Bumblebee @ Kaseya Connect",
         "type": "Channel Partner Meeting",
         "date": "2026-04-28T21:00:00.000+0000",
@@ -625,20 +639,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-04-23T20:00:00.000+0000",
         "account": "C1st Technologies",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Sangoma Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-23T18:30:00.000+0000",
-        "account": "Sangoma",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Telimatic Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-23T18:00:00.000+0000",
-        "account": "Telimatic",
         "owner": "Jake Mitchell"
       }
     ]
