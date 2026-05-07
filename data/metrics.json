@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T01:24:33.904Z",
+  "lastUpdated": "2026-05-07T02:24:39.088Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -508,10 +508,10 @@
     ]
   },
   "events": {
-    "ytdCount": 375,
+    "ytdCount": 378,
     "byType": {
-      "Channel Partner Meeting": 102,
-      "Potential Channel Partner Meeting": 160,
+      "Potential Channel Partner Meeting": 161,
+      "Channel Partner Meeting": 104,
       "Referral Sent": 25,
       "6-Initial Strategic Partner Meeting": 57,
       "Channel Enablement / Product Demo": 14,
@@ -520,6 +520,20 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + Empath Partnership Discussion",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-06T19:15:00.000+0000",
+        "account": "Empathmsp",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "CCR Strategic Partner Sync - NetLink and AT&T Package Discussion",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-06T17:30:00.000+0000",
+        "account": "CCR",
+        "owner": "Usman Zahoor"
+      },
       {
         "subject": "Rev.io/Acronis - Bi-weekly Sync",
         "type": "Channel Partner Meeting",
@@ -567,6 +581,13 @@
         "date": "2026-05-05T14:00:00.000+0000",
         "account": "Acronis",
         "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "GTIA GLC Bi-Weekly Touch Base",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-05T14:00:00.000+0000",
+        "account": "GTIA",
+        "owner": "Brook Lee"
       },
       {
         "subject": "Rev.io + MSP Hub CommerceHub Integration Sync",
@@ -636,27 +657,6 @@
         "type": "Channel Partner Meeting",
         "date": "2026-04-30T15:00:00.000+0000",
         "account": "The Business Growers",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io / C1st Dinner @ Kaseya Connect",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-30T00:30:00.000+0000",
-        "account": "C1St Technologies",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Referral Received - 3CX Solutions",
-        "type": "Referral Received",
-        "date": "2026-04-29T21:00:00.000+0000",
-        "account": "Voxtelesys",
-        "owner": "Cam Sharpe"
-      },
-      {
-        "subject": "Rev.io + Gorilla Channel Potential Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-04-29T19:00:00.000+0000",
-        "account": "Gorilla Channel",
         "owner": "Jake Mitchell"
       }
     ]
