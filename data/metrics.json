@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T01:27:03.834Z",
+  "lastUpdated": "2026-05-08T02:27:08.150Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -508,18 +508,74 @@
     ]
   },
   "events": {
-    "ytdCount": 379,
+    "ytdCount": 387,
     "byType": {
-      "Potential Channel Partner Meeting": 161,
+      "Potential Channel Partner Meeting": 166,
+      "Channel Enablement / Product Demo": 15,
+      "6-Initial Strategic Partner Meeting": 59,
       "Channel Partner Meeting": 104,
       "Referral Sent": 25,
-      "6-Initial Strategic Partner Meeting": 57,
-      "Channel Enablement / Product Demo": 14,
       "Referral Received": 10,
       "Partner Agreement Signed": 3,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io & ninjaone Telecom intro",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-07T21:00:00.000+0000",
+        "account": "NinjaOne",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Southeast Network Specialists LLC - Partner Exploration",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-07T19:00:00.000+0000",
+        "account": "Southeast Network Specialists LLC",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + Snelling Walters Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-07T18:30:00.000+0000",
+        "account": "Snellings Walters Insurance Agency",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io Review",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-07T18:30:00.000+0000",
+        "account": "Kaseya Limited",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "Usman/DTS Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-07T17:30:00.000+0000",
+        "account": "DTS Technology",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io PSA Demo",
+        "type": "Channel Enablement / Product Demo",
+        "date": "2026-05-07T15:30:00.000+0000",
+        "account": "TrimaxSecure",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io + KealyWalker Summit Sync",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-05-07T15:30:00.000+0000",
+        "account": "KealyWalker",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "GTIA Strategic Partner Meeting - Brook Lee & MJ Shoer",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-05-07T13:00:00.000+0000",
+        "account": "GTIA",
+        "owner": "Brook Lee"
+      },
       {
         "subject": "Rev.io + Empath Partnership Discussion",
         "type": "Potential Channel Partner Meeting",
@@ -576,18 +632,18 @@
         "owner": "Usman Zahoor"
       },
       {
-        "subject": "GTIA GLC Bi-Weekly Touch Base",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-05T14:00:00.000+0000",
-        "account": "GTIA",
-        "owner": "Brook Lee"
-      },
-      {
         "subject": "Acronis Roleplay Session",
         "type": "Channel Enablement / Product Demo",
         "date": "2026-05-05T14:00:00.000+0000",
         "account": "Acronis",
         "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "GTIA GLC Bi-Weekly Touch Base",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-05T14:00:00.000+0000",
+        "account": "GTIA",
+        "owner": "Brook Lee"
       },
       {
         "subject": "Rev.io + MSP Hub CommerceHub Integration Sync",
@@ -602,62 +658,6 @@
         "date": "2026-05-01T19:30:00.000+0000",
         "account": "KealyWalker",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io + RightWorks Transaction Pro Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-01T19:00:00.000+0000",
-        "account": "Rightworks Corporation",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Guardz Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-01T18:30:00.000+0000",
-        "account": "Guardz",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Great America Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-01T18:00:00.000+0000",
-        "account": "Great America",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + Intuist Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-01T17:00:00.000+0000",
-        "account": "Intuist",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io PSA Platform Updates - DigitalMarket POS",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-01T16:00:00.000+0000",
-        "account": "Digital Market POS",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + TGB Integration Discussion",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-01T15:30:00.000+0000",
-        "account": "The Business Growers",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Acronis Role Play Session",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-30T19:00:00.000+0000",
-        "account": "Acronis",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Jake + Laura Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-04-30T15:00:00.000+0000",
-        "account": "The Business Growers",
-        "owner": "Jake Mitchell"
       }
     ]
   }
