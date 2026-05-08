@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T23:26:49.227Z",
+  "lastUpdated": "2026-05-08T00:26:57.035Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -508,14 +508,14 @@
     ]
   },
   "events": {
-    "ytdCount": 378,
+    "ytdCount": 379,
     "byType": {
       "Potential Channel Partner Meeting": 161,
       "Channel Partner Meeting": 104,
       "Referral Sent": 25,
       "6-Initial Strategic Partner Meeting": 57,
       "Channel Enablement / Product Demo": 14,
-      "Referral Received": 9,
+      "Referral Received": 10,
       "Partner Agreement Signed": 3,
       "null": 5
     },
@@ -576,18 +576,18 @@
         "owner": "Usman Zahoor"
       },
       {
-        "subject": "Acronis Roleplay Session",
-        "type": "Channel Enablement / Product Demo",
-        "date": "2026-05-05T14:00:00.000+0000",
-        "account": "Acronis",
-        "owner": "Jake Mitchell"
-      },
-      {
         "subject": "GTIA GLC Bi-Weekly Touch Base",
         "type": "Channel Partner Meeting",
         "date": "2026-05-05T14:00:00.000+0000",
         "account": "GTIA",
         "owner": "Brook Lee"
+      },
+      {
+        "subject": "Acronis Roleplay Session",
+        "type": "Channel Enablement / Product Demo",
+        "date": "2026-05-05T14:00:00.000+0000",
+        "account": "Acronis",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Rev.io + MSP Hub CommerceHub Integration Sync",
