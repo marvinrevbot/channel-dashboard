@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T16:30:30.792Z",
+  "lastUpdated": "2026-05-10T22:25:19.493Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -508,8 +508,9 @@
     ]
   },
   "events": {
-    "ytdCount": 387,
+    "ytdCount": 388,
     "byType": {
+      "1-Discovery Call": 1,
       "Potential Channel Partner Meeting": 166,
       "Channel Enablement / Product Demo": 15,
       "6-Initial Strategic Partner Meeting": 59,
@@ -521,6 +522,12 @@
     },
     "recent": [
       {
+        "subject": "John Albert: Meet with Brook",
+        "type": "1-Discovery Call",
+        "date": "2026-05-15T15:00:00.000+0000",
+        "owner": "Brook Lee"
+      },
+      {
         "subject": "Rev.io & ninjaone Telecom intro",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-05-07T21:00:00.000+0000",
@@ -531,7 +538,7 @@
         "subject": "Southeast Network Specialists LLC - Partner Exploration",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-05-07T19:00:00.000+0000",
-        "account": "Southeast Network Specialists LLC",
+        "account": "Southeast Network Specialists",
         "owner": "Jake Mitchell"
       },
       {
@@ -651,13 +658,6 @@
         "date": "2026-05-04T19:00:00.000+0000",
         "account": "MSP Hub",
         "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Usman / Michael Sync",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-05-01T19:30:00.000+0000",
-        "account": "KealyWalker",
-        "owner": "Usman Zahoor"
       }
     ]
   }
