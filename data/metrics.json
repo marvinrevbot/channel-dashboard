@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T14:29:33.535Z",
+  "lastUpdated": "2026-05-11T15:44:33.440Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -508,13 +508,13 @@
     ]
   },
   "events": {
-    "ytdCount": 388,
+    "ytdCount": 392,
     "byType": {
       "1-Discovery Call": 1,
-      "Potential Channel Partner Meeting": 166,
-      "Channel Enablement / Product Demo": 15,
+      "Potential Channel Partner Meeting": 168,
+      "Channel Enablement / Product Demo": 16,
+      "Channel Partner Meeting": 105,
       "6-Initial Strategic Partner Meeting": 59,
-      "Channel Partner Meeting": 104,
       "Referral Sent": 25,
       "Referral Received": 10,
       "Partner Agreement Signed": 3,
@@ -526,6 +526,34 @@
         "type": "1-Discovery Call",
         "date": "2026-05-15T15:00:00.000+0000",
         "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io / Crexendo EVP Next Steps",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-08T19:30:00.000+0000",
+        "account": "Crexendo Business Solutions",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io + Rightworks (Transaction Pro) Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-08T19:00:00.000+0000",
+        "account": "Rightworks Corporation",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "MSP Hub | Rev.io Onboarding Training",
+        "type": "Channel Enablement / Product Demo",
+        "date": "2026-05-08T17:30:00.000+0000",
+        "account": "MSP Hub",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "REv.io / ATT APEX Sync - BaaS",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-08T14:00:00.000+0000",
+        "account": "AT&T Partner Exchange",
+        "owner": "Usman Zahoor"
       },
       {
         "subject": "Rev.io & ninjaone Telecom intro",
@@ -542,18 +570,18 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Rev.io + Snelling Walters Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-07T18:30:00.000+0000",
-        "account": "Snellings Walters Insurance Agency",
-        "owner": "Jake Mitchell"
-      },
-      {
         "subject": "Rev.io Review",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-05-07T18:30:00.000+0000",
         "account": "Kaseya Limited",
         "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io + Snelling Walters Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-07T18:30:00.000+0000",
+        "account": "Snellings Walters Insurance Agency",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Usman/DTS Sync",
@@ -630,34 +658,6 @@
         "date": "2026-05-05T15:30:00.000+0000",
         "account": "Intuist",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io / Sherweb Connect",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-05T15:00:00.000+0000",
-        "account": "Sherweb",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Acronis Roleplay Session",
-        "type": "Channel Enablement / Product Demo",
-        "date": "2026-05-05T14:00:00.000+0000",
-        "account": "Acronis",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "GTIA GLC Bi-Weekly Touch Base",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-05T14:00:00.000+0000",
-        "account": "GTIA",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Rev.io + MSP Hub CommerceHub Integration Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-04T19:00:00.000+0000",
-        "account": "MSP Hub",
-        "owner": "Jake Mitchell"
       }
     ]
   }
