@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T21:44:33.257Z",
+  "lastUpdated": "2026-05-12T22:44:33.612Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -508,13 +508,14 @@
     ]
   },
   "events": {
-    "ytdCount": 397,
+    "ytdCount": 403,
     "byType": {
       "1-Discovery Call": 1,
       "Referral Sent": 26,
+      "Channel Partner Meeting": 109,
+      "Channel Enablement / Demo Support": 3,
+      "Potential Channel Partner Meeting": 170,
       "Referral Received": 11,
-      "Potential Channel Partner Meeting": 169,
-      "Channel Partner Meeting": 107,
       "Channel Enablement / Product Demo": 16,
       "6-Initial Strategic Partner Meeting": 59,
       "Partner Agreement Signed": 3,
@@ -533,6 +534,48 @@
         "date": "2026-05-12T21:00:00.000+0000",
         "account": "SkySwitch",
         "owner": "Cam Sharpe"
+      },
+      {
+        "subject": "Usman / Shauna Sync - Zoom Opportunity",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-12T21:00:00.000+0000",
+        "account": "Wolters Kluwer",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "(Product Demo) Avtek Solutions / Rev.io PSA",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-12T21:00:00.000+0000",
+        "account": "Avtek Solutions",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io / Acronis - Valhelio Billing",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-12T20:30:00.000+0000",
+        "account": "Acronis",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "(Product Demo) Minerva Technology Services / Rev.io",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-12T20:00:00.000+0000",
+        "account": "Minerva Technology Services",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io / Medjay Reconnect",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-12T18:00:00.000+0000",
+        "account": "Medjay.io",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io / CCR Sync - Agreement Review",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-12T15:00:00.000+0000",
+        "account": "CCR",
+        "owner": "Usman Zahoor"
       },
       {
         "subject": "AIN Referral Received",
@@ -617,48 +660,6 @@
         "date": "2026-05-07T18:30:00.000+0000",
         "account": "Snellings Walters Insurance Agency",
         "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Usman/DTS Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-07T17:30:00.000+0000",
-        "account": "DTS Technology",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io PSA Demo",
-        "type": "Channel Enablement / Product Demo",
-        "date": "2026-05-07T15:30:00.000+0000",
-        "account": "TrimaxSecure",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io + KealyWalker Summit Sync",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-05-07T15:30:00.000+0000",
-        "account": "KealyWalker",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "GTIA Strategic Partner Meeting - Brook Lee & MJ Shoer",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-05-07T13:00:00.000+0000",
-        "account": "GTIA",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Rev.io + Empath Partnership Discussion",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-06T19:15:00.000+0000",
-        "account": "Empathmsp",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "CCR Strategic Partner Sync - NetLink and AT&T Package Discussion",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-06T17:30:00.000+0000",
-        "account": "CCR",
-        "owner": "Usman Zahoor"
       }
     ]
   }
