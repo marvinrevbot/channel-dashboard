@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T19:44:33.870Z",
+  "lastUpdated": "2026-05-14T20:44:34.098Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -499,14 +499,14 @@
     ]
   },
   "events": {
-    "ytdCount": 409,
+    "ytdCount": 410,
     "byType": {
       "1-Discovery Call": 1,
+      "Referral Sent": 27,
       "Potential Channel Partner Meeting": 172,
       "6-Initial Strategic Partner Meeting": 61,
       "Channel Enablement / Demo Support": 4,
       "Channel Partner Meeting": 110,
-      "Referral Sent": 26,
       "Referral Received": 11,
       "Channel Enablement / Product Demo": 16,
       "Partner Agreement Signed": 3,
@@ -518,6 +518,13 @@
         "type": "1-Discovery Call",
         "date": "2026-05-15T15:00:00.000+0000",
         "owner": "Brook Lee"
+      },
+      {
+        "subject": "Referral Sent - Nexcom Networks",
+        "type": "Referral Sent",
+        "date": "2026-05-14T20:00:00.000+0000",
+        "account": "EisnerAmper",
+        "owner": "Connor Flynn"
       },
       {
         "subject": "ApplicationLink / Rev.io Sync",
@@ -644,13 +651,6 @@
         "date": "2026-05-08T19:30:00.000+0000",
         "account": "Crexendo Business Solutions",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io + Rightworks (Transaction Pro) Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-08T19:00:00.000+0000",
-        "account": "Rightworks Corporation",
-        "owner": "Jake Mitchell"
       }
     ]
   }
