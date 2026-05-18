@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T12:44:33.630Z",
+  "lastUpdated": "2026-05-18T13:44:33.725Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -94,24 +94,15 @@
   },
   "cyberProtect": {
     "wonYTD": 600,
-    "pipeline": 500,
+    "pipeline": 250,
     "count": 32,
     "byStage": {
-      "2 - Discovery Completed": 2,
       "1- Discovery Scheduled": 1,
-      "Closed Lost": 27,
+      "2 - Discovery Completed": 1,
+      "Closed Lost": 28,
       "Closed Won": 2
     },
     "records": [
-      {
-        "date": "2026-05-31",
-        "name": "Parrk Analytics",
-        "account": "Parrk Analytics",
-        "amount": 250,
-        "stage": "2 - Discovery Completed",
-        "owner": "Andy Whisenant",
-        "channelCoverage": null
-      },
       {
         "date": "2026-05-29",
         "name": "First Class - Cyber Protect",
