@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T21:44:34.502Z",
+  "lastUpdated": "2026-05-18T22:44:33.794Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,10 +490,10 @@
     ]
   },
   "events": {
-    "ytdCount": 417,
+    "ytdCount": 419,
     "byType": {
-      "Channel Enablement / Demo Support": 6,
-      "Potential Channel Partner Meeting": 176,
+      "Potential Channel Partner Meeting": 177,
+      "Channel Enablement / Demo Support": 7,
       "1-Discovery Call": 1,
       "Referral Sent": 27,
       "Channel Partner Meeting": 111,
@@ -504,6 +504,20 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io + DMM Direct Potential Partnership Discussions",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-18T19:00:00.000+0000",
+        "account": "DMM Direct",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "(Product Demo) Pinnacle Communications / Rev.io",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-18T16:00:00.000+0000",
+        "account": "Pinnacle Communications",
+        "owner": "Brook Lee"
+      },
       {
         "subject": "(Channel Partners Follow Up) Revolve Tech & Rev.io",
         "type": "Channel Enablement / Demo Support",
@@ -627,20 +641,6 @@
         "type": "Channel Enablement / Demo Support",
         "date": "2026-05-12T21:00:00.000+0000",
         "account": "Avtek Solutions",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Rev.io / Acronis - Valhelio Billing",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-12T20:30:00.000+0000",
-        "account": "Acronis",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "(Product Demo) Minerva Technology Services / Rev.io",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-12T20:00:00.000+0000",
-        "account": "Minerva Technology Services",
         "owner": "Brook Lee"
       }
     ]
