@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T21:44:35.024Z",
+  "lastUpdated": "2026-05-19T22:44:35.282Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,20 +490,27 @@
     ]
   },
   "events": {
-    "ytdCount": 421,
+    "ytdCount": 427,
     "byType": {
       "Referral Received": 13,
-      "Potential Channel Partner Meeting": 177,
-      "Channel Enablement / Demo Support": 7,
+      "Channel Enablement / Demo Support": 11,
+      "Channel Partner Meeting": 112,
+      "Potential Channel Partner Meeting": 178,
       "1-Discovery Call": 1,
       "Referral Sent": 27,
-      "Channel Partner Meeting": 111,
       "6-Initial Strategic Partner Meeting": 61,
       "Channel Enablement / Product Demo": 16,
       "Partner Agreement Signed": 3,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral: Barker and Associates",
+        "type": "Referral Received",
+        "date": "2026-05-19T20:00:00.000+0000",
+        "account": "Alliance Communication & Technologies",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Referral: VistaBeam",
         "type": "Referral Received",
@@ -512,11 +519,46 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Referral: Barker and Associates",
-        "type": "Referral Received",
-        "date": "2026-05-19T20:00:00.000+0000",
-        "account": "Alliance Communication & Technologies",
+        "subject": "Rev.io / White Label Sync - Bill on Behalf GTM",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-19T19:00:00.000+0000",
+        "account": "White Label Communications",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "KealyWalker Strategic Partner Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-19T18:30:00.000+0000",
+        "account": "KealyWalker",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Anchors Away / Jake + Brad (ThreatCaptain)",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-19T18:00:00.000+0000",
+        "account": "ThreatCaptain",
         "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io/Telcloud Sync",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-19T16:00:00.000+0000",
+        "account": "Telcloud",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "AhelioTech/Rev.io Integrations Sync Up",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-19T15:00:00.000+0000",
+        "account": "AhelioTech",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io Cadence / SureTax",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-19T14:30:00.000+0000",
+        "account": "Wolters Kluwer",
+        "owner": "Usman Zahoor"
       },
       {
         "subject": "Rev.io + DMM Direct Potential Partnership Discussions",
@@ -600,48 +642,6 @@
         "date": "2026-05-13T20:00:00.000+0000",
         "account": "GTIA",
         "owner": "Brook Lee"
-      },
-      {
-        "subject": "Jake Mitchell and Melissa Massey",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-13T19:30:00.000+0000",
-        "account": "InfoComm International",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "ESA Strategic Partnership Discussion",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-05-13T18:00:00.000+0000",
-        "account": "ESA",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Jake Mitchell and Jamie Cain",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-13T16:00:00.000+0000",
-        "account": "HelpGhost",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io PSA + Great America Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-13T15:30:00.000+0000",
-        "account": "Great America",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "ApplicationLink / Rev.io Sync",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-13T14:00:00.000+0000",
-        "account": "ApplicationLink",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Usman / Shauna Sync - Zoom Opportunity",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-12T21:00:00.000+0000",
-        "account": "Wolters Kluwer",
-        "owner": "Usman Zahoor"
       }
     ]
   }
