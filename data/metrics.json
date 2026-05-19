@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T18:44:35.315Z",
+  "lastUpdated": "2026-05-19T19:44:34.741Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,20 +490,34 @@
     ]
   },
   "events": {
-    "ytdCount": 419,
+    "ytdCount": 421,
     "byType": {
+      "Referral Received": 13,
       "Potential Channel Partner Meeting": 177,
       "Channel Enablement / Demo Support": 7,
       "1-Discovery Call": 1,
       "Referral Sent": 27,
       "Channel Partner Meeting": 111,
       "6-Initial Strategic Partner Meeting": 61,
-      "Referral Received": 11,
       "Channel Enablement / Product Demo": 16,
       "Partner Agreement Signed": 3,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral: VistaBeam",
+        "type": "Referral Received",
+        "date": "2026-05-19T20:00:00.000+0000",
+        "account": "Alliance Communication & Technologies",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Referral: Barker and Associates",
+        "type": "Referral Received",
+        "date": "2026-05-19T20:00:00.000+0000",
+        "account": "Alliance Communication & Technologies",
+        "owner": "Jake Mitchell"
+      },
       {
         "subject": "Rev.io + DMM Direct Potential Partnership Discussions",
         "type": "Potential Channel Partner Meeting",
@@ -628,20 +642,6 @@
         "date": "2026-05-12T21:00:00.000+0000",
         "account": "Wolters Kluwer",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Referral Sent - Zakiant",
-        "type": "Referral Sent",
-        "date": "2026-05-12T21:00:00.000+0000",
-        "account": "SkySwitch",
-        "owner": "Cam Sharpe"
-      },
-      {
-        "subject": "(Product Demo) Avtek Solutions / Rev.io PSA",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-12T21:00:00.000+0000",
-        "account": "Avtek Solutions",
-        "owner": "Brook Lee"
       }
     ]
   }
