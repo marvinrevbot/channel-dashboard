@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T20:44:34.885Z",
+  "lastUpdated": "2026-05-20T21:44:35.396Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,20 +490,27 @@
     ]
   },
   "events": {
-    "ytdCount": 427,
+    "ytdCount": 428,
     "byType": {
+      "Referral Sent": 28,
       "Referral Received": 13,
       "Channel Enablement / Demo Support": 11,
       "Channel Partner Meeting": 112,
       "Potential Channel Partner Meeting": 178,
       "1-Discovery Call": 1,
-      "Referral Sent": 27,
       "6-Initial Strategic Partner Meeting": 61,
       "Channel Enablement / Product Demo": 16,
       "Partner Agreement Signed": 3,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral Sent - Empire Telecom",
+        "type": "Referral Sent",
+        "date": "2026-05-20T22:00:00.000+0000",
+        "account": "KealyWalker",
+        "owner": "Connor Flynn"
+      },
       {
         "subject": "Referral: Barker and Associates",
         "type": "Referral Received",
@@ -635,13 +642,6 @@
         "date": "2026-05-13T22:00:00.000+0000",
         "account": "ApplicationLink",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "GTIA Strategic Partner Initial Meeting",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-05-13T20:00:00.000+0000",
-        "account": "GTIA",
-        "owner": "Brook Lee"
       }
     ]
   }
