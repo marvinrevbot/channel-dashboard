@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T21:44:35.396Z",
+  "lastUpdated": "2026-05-20T22:44:35.753Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,15 +490,15 @@
     ]
   },
   "events": {
-    "ytdCount": 428,
+    "ytdCount": 437,
     "byType": {
       "Referral Sent": 28,
+      "Channel Enablement / Demo Support": 16,
+      "Potential Channel Partner Meeting": 180,
+      "Channel Partner Meeting": 113,
+      "6-Initial Strategic Partner Meeting": 62,
       "Referral Received": 13,
-      "Channel Enablement / Demo Support": 11,
-      "Channel Partner Meeting": 112,
-      "Potential Channel Partner Meeting": 178,
       "1-Discovery Call": 1,
-      "6-Initial Strategic Partner Meeting": 61,
       "Channel Enablement / Product Demo": 16,
       "Partner Agreement Signed": 3,
       "null": 5
@@ -512,14 +512,77 @@
         "owner": "Connor Flynn"
       },
       {
-        "subject": "Referral: Barker and Associates",
+        "subject": "DIscuss Beyond Cocktail Party",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-20T21:00:00.000+0000",
+        "account": "N-able",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "Usman Zahoor and Ryan Sigouin",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-20T20:45:00.000+0000",
+        "account": "ScalePad",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io + Documo Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-20T19:30:00.000+0000",
+        "account": "Documo",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Jennifer and Brook sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-20T19:30:00.000+0000",
+        "account": "IntegraMSP",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "Revio Introduction / Business call",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-20T19:30:00.000+0000",
+        "account": "Wolters Kluwer",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Alianza/Rev.io Monthly Sync",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-20T18:30:00.000+0000",
+        "account": "Alianza",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "GTIA Interview - Strategic Partnership Discovery",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-05-20T17:00:00.000+0000",
+        "account": "GTIA",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "rev.io / Commio - call re: collaboration opportunities",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-20T16:30:00.000+0000",
+        "account": "Commio Voice & Text Messaging",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io/Acronis - Bi-weekly Sync",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-20T16:00:00.000+0000",
+        "account": "Acronis",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Referral: VistaBeam",
         "type": "Referral Received",
         "date": "2026-05-19T20:00:00.000+0000",
         "account": "Alliance Communication & Technologies",
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Referral: VistaBeam",
+        "subject": "Referral: Barker and Associates",
         "type": "Referral Received",
         "date": "2026-05-19T20:00:00.000+0000",
         "account": "Alliance Communication & Technologies",
@@ -580,68 +643,6 @@
         "date": "2026-05-18T16:00:00.000+0000",
         "account": "Pinnacle Communications",
         "owner": "Brook Lee"
-      },
-      {
-        "subject": "(Channel Partners Follow Up) Revolve Tech & Rev.io",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-15T19:00:00.000+0000",
-        "account": "Revolve Tech",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Usman Zahoor and Ryan Sigouin",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-15T16:00:00.000+0000",
-        "account": "ScalePad",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Veronika Dombayeva and Brook Lee",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-15T15:30:00.000+0000",
-        "account": "Pax8",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Usman / Ross Sync - EVP Next Steps",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-15T15:00:00.000+0000",
-        "account": "Crexendo Business Solutions",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "John Albert and Brook Lee",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-15T15:00:00.000+0000",
-        "account": "AhelioTech",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "John Albert: Meet with Brook",
-        "type": "1-Discovery Call",
-        "date": "2026-05-15T15:00:00.000+0000",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Referral Sent - Nexcom Networks",
-        "type": "Referral Sent",
-        "date": "2026-05-14T20:00:00.000+0000",
-        "account": "EisnerAmper",
-        "owner": "Connor Flynn"
-      },
-      {
-        "subject": "Billing On Behalf Of Solution Discussion with Rev.io",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-14T17:00:00.000+0000",
-        "account": "AT&T Partner Exchange",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "ApplicationLink / Rev.io Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-13T22:00:00.000+0000",
-        "account": "ApplicationLink",
-        "owner": "Usman Zahoor"
       }
     ]
   }
