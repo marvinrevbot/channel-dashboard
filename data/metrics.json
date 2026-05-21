@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T23:44:34.611Z",
+  "lastUpdated": "2026-05-21T00:44:34.945Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,20 +490,27 @@
     ]
   },
   "events": {
-    "ytdCount": 437,
+    "ytdCount": 438,
     "byType": {
+      "Referral Received": 14,
       "Referral Sent": 28,
       "Channel Enablement / Demo Support": 16,
       "Potential Channel Partner Meeting": 180,
       "Channel Partner Meeting": 113,
       "6-Initial Strategic Partner Meeting": 62,
-      "Referral Received": 13,
       "1-Discovery Call": 1,
       "Channel Enablement / Product Demo": 16,
       "Partner Agreement Signed": 3,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral Received - Gabb",
+        "type": "Referral Received",
+        "date": "2026-05-21T00:00:00.000+0000",
+        "account": "Inteserra/JSI",
+        "owner": "Cam Sharpe"
+      },
       {
         "subject": "Referral Sent - Empire Telecom",
         "type": "Referral Sent",
@@ -636,13 +643,6 @@
         "date": "2026-05-18T19:00:00.000+0000",
         "account": "DMM Direct",
         "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "(Product Demo) Pinnacle Communications / Rev.io",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-18T16:00:00.000+0000",
-        "account": "Pinnacle Communications",
-        "owner": "Brook Lee"
       }
     ]
   }
