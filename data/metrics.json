@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T00:44:34.945Z",
+  "lastUpdated": "2026-05-21T01:44:34.710Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -94,15 +94,24 @@
   },
   "cyberProtect": {
     "wonYTD": 600,
-    "pipeline": 250,
-    "count": 32,
+    "pipeline": 950,
+    "count": 33,
     "byStage": {
+      "2 - Discovery Completed": 2,
       "1- Discovery Scheduled": 1,
-      "2 - Discovery Completed": 1,
       "Closed Lost": 28,
       "Closed Won": 2
     },
     "records": [
+      {
+        "date": "2026-05-31",
+        "name": "Minerva Tech",
+        "account": "Minerva Technology Services",
+        "amount": 700,
+        "stage": "2 - Discovery Completed",
+        "owner": "Connor Flynn",
+        "channelCoverage": null
+      },
       {
         "date": "2026-05-29",
         "name": "First Class - Cyber Protect",
@@ -490,9 +499,9 @@
     ]
   },
   "events": {
-    "ytdCount": 438,
+    "ytdCount": 439,
     "byType": {
-      "Referral Received": 14,
+      "Referral Received": 15,
       "Referral Sent": 28,
       "Channel Enablement / Demo Support": 16,
       "Potential Channel Partner Meeting": 180,
@@ -533,11 +542,11 @@
         "owner": "Usman Zahoor"
       },
       {
-        "subject": "Rev.io + Documo Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-20T19:30:00.000+0000",
-        "account": "Documo",
-        "owner": "Jake Mitchell"
+        "subject": "Referral Received - Gabb",
+        "type": "Referral Received",
+        "date": "2026-05-20T20:00:00.000+0000",
+        "account": "Wolters Kluwer",
+        "owner": "Usman Zahoor"
       },
       {
         "subject": "Jennifer and Brook sync",
@@ -545,6 +554,13 @@
         "date": "2026-05-20T19:30:00.000+0000",
         "account": "IntegraMSP",
         "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io + Documo Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-20T19:30:00.000+0000",
+        "account": "Documo",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Revio Introduction / Business call",
@@ -636,13 +652,6 @@
         "date": "2026-05-19T14:30:00.000+0000",
         "account": "Wolters Kluwer",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io + DMM Direct Potential Partnership Discussions",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-18T19:00:00.000+0000",
-        "account": "DMM Direct",
-        "owner": "Jake Mitchell"
       }
     ]
   }
