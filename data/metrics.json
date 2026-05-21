@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T16:44:35.495Z",
+  "lastUpdated": "2026-05-21T17:44:34.641Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -105,20 +105,20 @@
     "records": [
       {
         "date": "2026-06-30",
-        "name": "Revolve - Cyber Security",
-        "account": "Revolve Tech",
-        "amount": 100,
-        "stage": "2 - Discovery Completed",
-        "owner": "Ingrid Beard",
-        "channelCoverage": null
-      },
-      {
-        "date": "2026-05-31",
         "name": "Minerva Tech",
         "account": "Minerva Technology Services",
         "amount": 700,
         "stage": "2 - Discovery Completed",
         "owner": "Connor Flynn",
+        "channelCoverage": null
+      },
+      {
+        "date": "2026-06-30",
+        "name": "Revolve - Cyber Security",
+        "account": "Revolve Tech",
+        "amount": 100,
+        "stage": "2 - Discovery Completed",
+        "owner": "Ingrid Beard",
         "channelCoverage": null
       },
       {
