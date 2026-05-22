@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T13:44:35.026Z",
+  "lastUpdated": "2026-05-22T14:44:35.772Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -499,13 +499,13 @@
     ]
   },
   "events": {
-    "ytdCount": 443,
+    "ytdCount": 444,
     "byType": {
+      "Referral Sent": 29,
       "Channel Enablement / Demo Support": 17,
       "Potential Channel Partner Meeting": 182,
       "Channel Enablement / Product Demo": 17,
       "Referral Received": 15,
-      "Referral Sent": 28,
       "Channel Partner Meeting": 113,
       "6-Initial Strategic Partner Meeting": 62,
       "1-Discovery Call": 1,
@@ -513,6 +513,13 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral Sent - Big Wave Tech.",
+        "type": "Referral Sent",
+        "date": "2026-05-22T14:00:00.000+0000",
+        "account": "KealyWalker",
+        "owner": "Connor Flynn"
+      },
       {
         "subject": "TaxConnex + Rev.io ~ Monthly Partnership Meeting",
         "type": "Channel Enablement / Demo Support",
@@ -644,13 +651,6 @@
         "type": "Channel Enablement / Demo Support",
         "date": "2026-05-19T19:00:00.000+0000",
         "account": "White Label Communications",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "KealyWalker Strategic Partner Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-19T18:30:00.000+0000",
-        "account": "KealyWalker",
         "owner": "Usman Zahoor"
       }
     ]
