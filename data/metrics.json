@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T21:44:53.855Z",
+  "lastUpdated": "2026-05-26T22:44:47.268Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -499,17 +499,17 @@
     ]
   },
   "events": {
-    "ytdCount": 452,
+    "ytdCount": 457,
     "byType": {
       "Referral Sent": 31,
+      "Potential Channel Partner Meeting": 186,
+      "Partner Agreement Signed": 4,
+      "Channel Partner Meeting": 116,
       "Channel Enablement / Demo Support": 19,
-      "Potential Channel Partner Meeting": 184,
       "6-Initial Strategic Partner Meeting": 63,
-      "Channel Partner Meeting": 114,
       "Channel Enablement / Product Demo": 17,
       "Referral Received": 15,
       "1-Discovery Call": 1,
-      "Partner Agreement Signed": 3,
       "null": 5
     },
     "recent": [
@@ -519,6 +519,41 @@
         "date": "2026-05-26T21:00:00.000+0000",
         "account": "KealyWalker",
         "owner": "Connor Flynn"
+      },
+      {
+        "subject": "Rev.i + Pangea Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-26T20:00:00.000+0000",
+        "account": "Pangea",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io Contract Review NinjaOne",
+        "type": "Partner Agreement Signed",
+        "date": "2026-05-26T17:30:00.000+0000",
+        "account": "NinjaOne",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io + Jenne Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-26T16:00:00.000+0000",
+        "account": "Jenne",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Usman Zahoor and Peter Abrahante",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-26T15:30:00.000+0000",
+        "account": "Pax8",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Jake Mitchell and Andrew Konovalenko",
+        "type": "Channel Partner Meeting",
+        "date": "2026-05-26T13:15:00.000+0000",
+        "account": "QueSee AI",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "FW: Zoom / Wolters Kluwer Reconnect",
@@ -535,18 +570,18 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "CLA / Rev.io Strategic Partnership Discussion",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-05-22T17:00:00.000+0000",
-        "account": "CLA",
-        "owner": "Usman Zahoor"
-      },
-      {
         "subject": "Referral Sent - PingSouth",
         "type": "Referral Sent",
         "date": "2026-05-22T17:00:00.000+0000",
         "account": "KealyWalker",
         "owner": "Connor Flynn"
+      },
+      {
+        "subject": "CLA / Rev.io Strategic Partnership Discussion",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-05-22T17:00:00.000+0000",
+        "account": "CLA",
+        "owner": "Usman Zahoor"
       },
       {
         "subject": "Rev.io + DMM Direct Potential Partnership Discussions",
@@ -617,41 +652,6 @@
         "date": "2026-05-20T22:00:00.000+0000",
         "account": "KealyWalker",
         "owner": "Connor Flynn"
-      },
-      {
-        "subject": "DIscuss Beyond Cocktail Party",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-20T21:00:00.000+0000",
-        "account": "N-able",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Usman Zahoor and Ryan Sigouin",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-20T20:45:00.000+0000",
-        "account": "ScalePad",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Referral Received - Gabb",
-        "type": "Referral Received",
-        "date": "2026-05-20T20:00:00.000+0000",
-        "account": "Wolters Kluwer",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Jennifer and Brook sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-20T19:30:00.000+0000",
-        "account": "IntegraMSP",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Rev.io + Documo Sync",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-20T19:30:00.000+0000",
-        "account": "Documo",
-        "owner": "Jake Mitchell"
       }
     ]
   }
