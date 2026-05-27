@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T17:57:11.394Z",
+  "lastUpdated": "2026-05-27T18:56:57.704Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -499,20 +499,27 @@
     ]
   },
   "events": {
-    "ytdCount": 456,
+    "ytdCount": 457,
     "byType": {
+      "Referral Received": 15,
       "Referral Sent": 31,
       "Potential Channel Partner Meeting": 186,
       "Partner Agreement Signed": 4,
       "Channel Partner Meeting": 116,
       "Channel Enablement / Demo Support": 19,
       "6-Initial Strategic Partner Meeting": 63,
-      "Referral Received": 14,
       "Channel Enablement / Product Demo": 17,
       "1-Discovery Call": 1,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral Received - NetCom",
+        "type": "Referral Received",
+        "date": "2026-05-27T19:00:00.000+0000",
+        "account": "Avalara",
+        "owner": "Connor Flynn"
+      },
       {
         "subject": "Referral Sent - Womack Tech.",
         "type": "Referral Sent",
@@ -645,13 +652,6 @@
         "date": "2026-05-21T13:15:00.000+0000",
         "account": "Yeastar",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Referral Received - Gabb",
-        "type": "Referral Received",
-        "date": "2026-05-21T00:00:00.000+0000",
-        "account": "Inteserra/JSI",
-        "owner": "Cam Sharpe"
       }
     ]
   }
