@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T14:57:17.924Z",
+  "lastUpdated": "2026-05-27T15:56:59.440Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -499,7 +499,7 @@
     ]
   },
   "events": {
-    "ytdCount": 457,
+    "ytdCount": 456,
     "byType": {
       "Referral Sent": 31,
       "Potential Channel Partner Meeting": 186,
@@ -507,8 +507,8 @@
       "Channel Partner Meeting": 116,
       "Channel Enablement / Demo Support": 19,
       "6-Initial Strategic Partner Meeting": 63,
+      "Referral Received": 14,
       "Channel Enablement / Product Demo": 17,
-      "Referral Received": 15,
       "1-Discovery Call": 1,
       "null": 5
     },
@@ -598,6 +598,13 @@
         "owner": "Jake Mitchell"
       },
       {
+        "subject": "Referral: CNG",
+        "type": "Referral Received",
+        "date": "2026-05-22T15:00:00.000+0000",
+        "account": "Sangoma",
+        "owner": "Jake Mitchell"
+      },
+      {
         "subject": "Referral Sent - Big Wave Tech.",
         "type": "Referral Sent",
         "date": "2026-05-22T14:00:00.000+0000",
@@ -645,13 +652,6 @@
         "date": "2026-05-21T00:00:00.000+0000",
         "account": "Inteserra/JSI",
         "owner": "Cam Sharpe"
-      },
-      {
-        "subject": "Referral Sent - Empire Telecom",
-        "type": "Referral Sent",
-        "date": "2026-05-20T22:00:00.000+0000",
-        "account": "KealyWalker",
-        "owner": "Connor Flynn"
       }
     ]
   }
