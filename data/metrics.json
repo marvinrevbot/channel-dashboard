@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T21:56:59.388Z",
+  "lastUpdated": "2026-05-27T22:57:00.152Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -63,7 +63,7 @@
       {
         "date": "2026-03-06",
         "name": "GuentherTech",
-        "account": "GuentherTech",
+        "account": "GuentherTech Inc.",
         "amount": 2070,
         "owner": "Andy Whisenant",
         "productType": "PSA 2.0",
@@ -499,15 +499,15 @@
     ]
   },
   "events": {
-    "ytdCount": 457,
+    "ytdCount": 459,
     "byType": {
       "Referral Received": 15,
+      "6-Initial Strategic Partner Meeting": 64,
+      "Potential Channel Partner Meeting": 187,
       "Referral Sent": 31,
-      "Potential Channel Partner Meeting": 186,
       "Partner Agreement Signed": 4,
       "Channel Partner Meeting": 116,
       "Channel Enablement / Demo Support": 19,
-      "6-Initial Strategic Partner Meeting": 63,
       "Channel Enablement / Product Demo": 17,
       "1-Discovery Call": 1,
       "null": 5
@@ -519,6 +519,20 @@
         "date": "2026-05-27T19:00:00.000+0000",
         "account": "Avalara",
         "owner": "Connor Flynn"
+      },
+      {
+        "subject": "NA Community",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-05-27T18:00:00.000+0000",
+        "account": "GTIA",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "GIA Q2 Virtual Membership Meeting",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-27T16:00:00.000+0000",
+        "account": "Legacy Security Services, Inc.",
+        "owner": "Jake Mitchell"
       },
       {
         "subject": "Referral Sent - Womack Tech.",
@@ -577,18 +591,18 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "Referral Sent - PingSouth",
-        "type": "Referral Sent",
-        "date": "2026-05-22T17:00:00.000+0000",
-        "account": "KealyWalker",
-        "owner": "Connor Flynn"
-      },
-      {
         "subject": "CLA / Rev.io Strategic Partnership Discussion",
         "type": "6-Initial Strategic Partner Meeting",
         "date": "2026-05-22T17:00:00.000+0000",
         "account": "CLA",
         "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Referral Sent - PingSouth",
+        "type": "Referral Sent",
+        "date": "2026-05-22T17:00:00.000+0000",
+        "account": "KealyWalker",
+        "owner": "Connor Flynn"
       },
       {
         "subject": "Rev.io + DMM Direct Potential Partnership Discussions",
@@ -637,20 +651,6 @@
         "type": "Potential Channel Partner Meeting",
         "date": "2026-05-21T17:30:00.000+0000",
         "account": "Ireplyservices",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io FinTech Demo",
-        "type": "Channel Enablement / Product Demo",
-        "date": "2026-05-21T16:00:00.000+0000",
-        "account": "Great America",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Yeastar/Rev.io",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-21T13:15:00.000+0000",
-        "account": "Yeastar",
         "owner": "Usman Zahoor"
       }
     ]
