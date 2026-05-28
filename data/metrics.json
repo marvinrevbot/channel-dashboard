@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T21:56:57.775Z",
+  "lastUpdated": "2026-05-28T22:56:57.976Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,20 +490,55 @@
     ]
   },
   "events": {
-    "ytdCount": 459,
+    "ytdCount": 465,
     "byType": {
+      "6-Initial Strategic Partner Meeting": 65,
+      "Channel Enablement / Demo Support": 22,
+      "Potential Channel Partner Meeting": 189,
       "Referral Received": 15,
-      "6-Initial Strategic Partner Meeting": 64,
-      "Potential Channel Partner Meeting": 187,
       "Referral Sent": 31,
       "Partner Agreement Signed": 4,
       "Channel Partner Meeting": 116,
-      "Channel Enablement / Demo Support": 19,
       "Channel Enablement / Product Demo": 17,
       "1-Discovery Call": 1,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "GTIA - North America Executive Council Monthly Meeting",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-05-28T18:00:00.000+0000",
+        "account": "GTIA",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io / Acronis Partner Alignment",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-28T18:00:00.000+0000",
+        "account": "Acronis",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rightworks resell and referral programs",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-28T17:00:00.000+0000",
+        "account": "Rightworks Corporation",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io <> Stripe Next Steps",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-28T14:30:00.000+0000",
+        "account": "Reed Smith",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "GLC Meeting Invite",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-05-28T00:00:00.000+0000",
+        "account": "5K Technical Services",
+        "owner": "Brook Lee"
+      },
       {
         "subject": "Referral Received - NetCom",
         "type": "Referral Received",
@@ -568,6 +603,13 @@
         "owner": "Jake Mitchell"
       },
       {
+        "subject": "TRX/Rev.IO Weekly Sync",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-25T18:00:00.000+0000",
+        "account": "TRX Services",
+        "owner": "Usman Zahoor"
+      },
+      {
         "subject": "FW: Zoom / Wolters Kluwer Reconnect",
         "type": "Channel Enablement / Demo Support",
         "date": "2026-05-22T18:00:00.000+0000",
@@ -582,13 +624,6 @@
         "owner": "Jake Mitchell"
       },
       {
-        "subject": "CLA / Rev.io Strategic Partnership Discussion",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-05-22T17:00:00.000+0000",
-        "account": "CLA",
-        "owner": "Usman Zahoor"
-      },
-      {
         "subject": "Referral Sent - PingSouth",
         "type": "Referral Sent",
         "date": "2026-05-22T17:00:00.000+0000",
@@ -596,53 +631,18 @@
         "owner": "Connor Flynn"
       },
       {
+        "subject": "CLA / Rev.io Strategic Partnership Discussion",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-05-22T17:00:00.000+0000",
+        "account": "CLA",
+        "owner": "Usman Zahoor"
+      },
+      {
         "subject": "Rev.io + DMM Direct Potential Partnership Discussions",
         "type": "Potential Channel Partner Meeting",
         "date": "2026-05-22T16:00:00.000+0000",
         "account": "DMM Direct",
         "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Rev.io +Guardz Co-Marketing Discussion",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-22T15:30:00.000+0000",
-        "account": "Guardz",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral: CNG",
-        "type": "Referral Received",
-        "date": "2026-05-22T15:00:00.000+0000",
-        "account": "Sangoma",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Sent - Big Wave Tech.",
-        "type": "Referral Sent",
-        "date": "2026-05-22T14:00:00.000+0000",
-        "account": "KealyWalker",
-        "owner": "Connor Flynn"
-      },
-      {
-        "subject": "Rev.io Billing Webinar for Sangoma Partners",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-22T14:00:00.000+0000",
-        "account": "Sangoma",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "TaxConnex + Rev.io ~ Monthly Partnership Meeting",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-21T19:00:00.000+0000",
-        "account": "TaxConnex",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Discovery Call with iReply",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-21T17:30:00.000+0000",
-        "account": "Ireplyservices",
-        "owner": "Usman Zahoor"
       }
     ]
   }
