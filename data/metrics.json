@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T16:56:58.575Z",
+  "lastUpdated": "2026-05-28T17:56:58.324Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -94,12 +94,12 @@
   },
   "cyberProtect": {
     "wonYTD": 600,
-    "pipeline": 950,
+    "pipeline": 850,
     "count": 33,
     "byStage": {
-      "2 - Discovery Completed": 2,
+      "2 - Discovery Completed": 1,
       "1- Discovery Scheduled": 1,
-      "Closed Lost": 28,
+      "Closed Lost": 29,
       "Closed Won": 2
     },
     "records": [
@@ -118,15 +118,6 @@
         "account": "First Class Technology (MI)",
         "amount": 150,
         "stage": "1- Discovery Scheduled",
-        "owner": "Ingrid Beard",
-        "channelCoverage": null
-      },
-      {
-        "date": "2026-06-30",
-        "name": "Revolve - Cyber Security",
-        "account": "Revolve Tech",
-        "amount": 100,
-        "stage": "2 - Discovery Completed",
         "owner": "Ingrid Beard",
         "channelCoverage": null
       },
