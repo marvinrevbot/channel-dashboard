@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T21:57:12.691Z",
+  "lastUpdated": "2026-05-29T22:57:12.505Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,10 +490,10 @@
     ]
   },
   "events": {
-    "ytdCount": 465,
+    "ytdCount": 466,
     "byType": {
+      "Channel Enablement / Demo Support": 23,
       "6-Initial Strategic Partner Meeting": 65,
-      "Channel Enablement / Demo Support": 22,
       "Potential Channel Partner Meeting": 189,
       "Referral Received": 15,
       "Referral Sent": 31,
@@ -504,6 +504,13 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io & Pax8 - Commerce Hub",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-05-29T14:00:00.000+0000",
+        "account": "Pax8",
+        "owner": "Usman Zahoor"
+      },
       {
         "subject": "GTIA - North America Executive Council Monthly Meeting",
         "type": "6-Initial Strategic Partner Meeting",
@@ -636,13 +643,6 @@
         "date": "2026-05-22T17:00:00.000+0000",
         "account": "CLA",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io + DMM Direct Potential Partnership Discussions",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-22T16:00:00.000+0000",
-        "account": "DMM Direct",
-        "owner": "Jake Mitchell"
       }
     ]
   }
