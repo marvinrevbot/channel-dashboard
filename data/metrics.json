@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T21:57:17.182Z",
+  "lastUpdated": "2026-06-01T22:57:13.300Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,11 +490,11 @@
     ]
   },
   "events": {
-    "ytdCount": 467,
+    "ytdCount": 470,
     "byType": {
-      "Channel Enablement / Demo Support": 23,
+      "Potential Channel Partner Meeting": 191,
+      "Channel Enablement / Demo Support": 24,
       "6-Initial Strategic Partner Meeting": 65,
-      "Potential Channel Partner Meeting": 189,
       "Referral Received": 16,
       "Referral Sent": 31,
       "Partner Agreement Signed": 4,
@@ -504,6 +504,27 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io & Ingram Micro - API Integration Discussion & Integrations Hub Intro",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-06-01T19:00:00.000+0000",
+        "account": "Ingram Micro",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "TRX/Rev.IO Weekly Sync",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-01T18:00:00.000+0000",
+        "account": "TRX Services",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io / Intuit Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-06-01T17:00:00.000+0000",
+        "account": "Intuit Inc.",
+        "owner": "Usman Zahoor"
+      },
       {
         "subject": "Rev.io & Pax8 - Commerce Hub",
         "type": "Channel Enablement / Demo Support",
@@ -621,27 +642,6 @@
         "type": "Channel Enablement / Demo Support",
         "date": "2026-05-22T18:00:00.000+0000",
         "account": "Wolters Kluwer",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "30 Min Google Meet | IntuistAI Rev.IO (Jake Mitchell)",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-22T17:30:00.000+0000",
-        "account": "Intuist",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Sent - PingSouth",
-        "type": "Referral Sent",
-        "date": "2026-05-22T17:00:00.000+0000",
-        "account": "KealyWalker",
-        "owner": "Connor Flynn"
-      },
-      {
-        "subject": "CLA / Rev.io Strategic Partnership Discussion",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-05-22T17:00:00.000+0000",
-        "account": "CLA",
         "owner": "Usman Zahoor"
       }
     ]
