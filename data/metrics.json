@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T23:57:29.489Z",
+  "lastUpdated": "2026-06-01T00:57:30.756Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -156,7 +156,7 @@
     },
     "records": [
       {
-        "date": "2026-04-30",
+        "date": "2026-06-30",
         "name": "Authvia - CommerceHub",
         "account": "Authvia",
         "stage": "2 - Discovery Completed",
@@ -164,7 +164,7 @@
         "owner": "Usman Zahoor"
       },
       {
-        "date": "2026-04-30",
+        "date": "2026-06-30",
         "name": "Spectrotel - CommerceHub",
         "account": "Spectrotel",
         "stage": "1- Discovery Scheduled",
@@ -172,7 +172,7 @@
         "owner": "Usman Zahoor"
       },
       {
-        "date": "2026-04-30",
+        "date": "2026-06-30",
         "name": "Sabrhub - CommerceHub",
         "account": "Sabrhub",
         "stage": "1- Discovery Scheduled",
@@ -180,7 +180,7 @@
         "owner": "Usman Zahoor"
       },
       {
-        "date": "2026-04-30",
+        "date": "2026-06-30",
         "name": "Connectbase - CommerceHub",
         "account": "Connectbase",
         "stage": "2 - Discovery Completed",
@@ -188,7 +188,7 @@
         "owner": "Usman Zahoor"
       },
       {
-        "date": "2026-04-30",
+        "date": "2026-06-30",
         "name": "Capchase - CommerceHub",
         "account": "Capchase",
         "stage": "2 - Discovery Completed",
@@ -196,7 +196,7 @@
         "owner": "Usman Zahoor"
       },
       {
-        "date": "2026-04-30",
+        "date": "2026-06-30",
         "name": "PromptVoice - CommerceHub",
         "account": "Prompt Voice",
         "stage": "2 - Discovery Completed",
