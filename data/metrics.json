@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T21:57:14.622Z",
+  "lastUpdated": "2026-06-02T22:57:14.407Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,11 +490,11 @@
     ]
   },
   "events": {
-    "ytdCount": 470,
+    "ytdCount": 474,
     "byType": {
-      "Potential Channel Partner Meeting": 191,
-      "Channel Enablement / Demo Support": 24,
-      "6-Initial Strategic Partner Meeting": 65,
+      "Channel Enablement / Demo Support": 26,
+      "Potential Channel Partner Meeting": 192,
+      "6-Initial Strategic Partner Meeting": 66,
       "Referral Received": 16,
       "Referral Sent": 31,
       "Partner Agreement Signed": 4,
@@ -504,6 +504,34 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "EisnerAmper -> Rev.io Monthly Sync",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-02T16:00:00.000+0000",
+        "account": "EisnerAmper",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "💬 Talk Time:  Jake Mitchell and  Kyle Christensen",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-06-02T15:00:00.000+0000",
+        "account": "Empathmsp",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "GTIA GLC Bi-Weekly Touch Base",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-06-02T14:00:00.000+0000",
+        "account": "GTIA",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io Bill on Behalf Demo for White Label Team",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-02T14:00:00.000+0000",
+        "account": "White Label Communications",
+        "owner": "Usman Zahoor"
+      },
       {
         "subject": "Rev.io & Ingram Micro - API Integration Discussion & Integrations Hub Intro",
         "type": "Potential Channel Partner Meeting",
@@ -615,34 +643,6 @@
         "date": "2026-05-26T16:00:00.000+0000",
         "account": "Jenne",
         "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Usman Zahoor and Peter Abrahante",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-26T15:30:00.000+0000",
-        "account": "Pax8",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Jake Mitchell and Andrew Konovalenko",
-        "type": "Channel Partner Meeting",
-        "date": "2026-05-26T13:15:00.000+0000",
-        "account": "QueSee AI",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "TRX/Rev.IO Weekly Sync",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-25T18:00:00.000+0000",
-        "account": "TRX Services",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "FW: Zoom / Wolters Kluwer Reconnect",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-22T18:00:00.000+0000",
-        "account": "Wolters Kluwer",
-        "owner": "Usman Zahoor"
       }
     ]
   }
