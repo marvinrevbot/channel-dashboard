@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T14:57:24.383Z",
+  "lastUpdated": "2026-06-04T15:57:16.874Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -94,7 +94,7 @@
   },
   "cyberProtect": {
     "wonYTD": 600,
-    "pipeline": 850,
+    "pipeline": 1250,
     "count": 33,
     "byStage": {
       "2 - Discovery Completed": 1,
@@ -116,7 +116,7 @@
         "date": "2026-06-30",
         "name": "First Class - Cyber Protect",
         "account": "First Class Technology (MI)",
-        "amount": 150,
+        "amount": 550,
         "stage": "3 - Initial Product Demo",
         "owner": "Ingrid Beard",
         "channelCoverage": null
