@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T21:57:17.440Z",
+  "lastUpdated": "2026-06-04T22:57:16.695Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,20 +490,48 @@
     ]
   },
   "events": {
-    "ytdCount": 476,
+    "ytdCount": 480,
     "byType": {
-      "Channel Enablement / Demo Support": 28,
+      "6-Initial Strategic Partner Meeting": 67,
+      "Channel Partner Meeting": 117,
+      "Channel Enablement / Demo Support": 30,
       "Potential Channel Partner Meeting": 192,
-      "6-Initial Strategic Partner Meeting": 66,
       "Referral Received": 16,
       "Referral Sent": 31,
       "Partner Agreement Signed": 4,
-      "Channel Partner Meeting": 116,
       "Channel Enablement / Product Demo": 17,
       "1-Discovery Call": 1,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io/KW catch up",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-06-04T18:00:00.000+0000",
+        "account": "KealyWalker",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io Collab",
+        "type": "Channel Partner Meeting",
+        "date": "2026-06-04T16:30:00.000+0000",
+        "account": "Great America",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "(On Site Visit) AVIT / Rev.io",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-04T15:00:00.000+0000",
+        "account": "AVIT",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "Asset Sync & Integration Strategy",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-04T14:30:00.000+0000",
+        "account": "AhelioTech",
+        "owner": "Brook Lee"
+      },
       {
         "subject": "rev.io & N-able",
         "type": "Channel Enablement / Demo Support",
@@ -615,34 +643,6 @@
         "date": "2026-05-27T19:00:00.000+0000",
         "account": "Avalara",
         "owner": "Connor Flynn"
-      },
-      {
-        "subject": "NA Community",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-05-27T18:00:00.000+0000",
-        "account": "GTIA",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "GIA Q2 Virtual Membership Meeting",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-27T16:00:00.000+0000",
-        "account": "Legacy Security Services, Inc.",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "Referral Sent - Womack Tech.",
-        "type": "Referral Sent",
-        "date": "2026-05-26T21:00:00.000+0000",
-        "account": "KealyWalker",
-        "owner": "Connor Flynn"
-      },
-      {
-        "subject": "Rev.i + Pangea Sync",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-26T20:00:00.000+0000",
-        "account": "Pangea",
-        "owner": "Jake Mitchell"
       }
     ]
   }
