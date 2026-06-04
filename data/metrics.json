@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T12:57:23.768Z",
+  "lastUpdated": "2026-06-04T13:57:27.690Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -286,7 +286,7 @@
       {
         "date": "2026-01-16",
         "name": "CommerceHub - Savvy AI",
-        "account": "Savvy AI",
+        "account": "Savvy Logic (Savvy AI)",
         "stage": "2 - Discovery Completed",
         "probability": 10,
         "owner": "Matt Connolly"
