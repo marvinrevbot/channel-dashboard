@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T21:57:16.037Z",
+  "lastUpdated": "2026-06-05T22:57:15.459Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,20 +490,41 @@
     ]
   },
   "events": {
-    "ytdCount": 480,
+    "ytdCount": 483,
     "byType": {
+      "Potential Channel Partner Meeting": 194,
+      "Channel Enablement / Product Demo": 18,
       "6-Initial Strategic Partner Meeting": 67,
       "Channel Partner Meeting": 117,
       "Channel Enablement / Demo Support": 30,
-      "Potential Channel Partner Meeting": 192,
       "Referral Received": 16,
       "Referral Sent": 31,
       "Partner Agreement Signed": 4,
-      "Channel Enablement / Product Demo": 17,
       "1-Discovery Call": 1,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io - Nexio",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-06-05T20:00:00.000+0000",
+        "account": "Cast by Nex.io",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "MSP1337 2 blonds",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-06-05T16:00:00.000+0000",
+        "account": "GTIA",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "Rev.io / Commio - product discussion and demos",
+        "type": "Channel Enablement / Product Demo",
+        "date": "2026-06-05T15:00:00.000+0000",
+        "account": "Commio Voice & Text Messaging",
+        "owner": "Usman Zahoor"
+      },
       {
         "subject": "Rev.io/KW catch up",
         "type": "6-Initial Strategic Partner Meeting",
@@ -622,27 +643,6 @@
         "date": "2026-05-28T17:00:00.000+0000",
         "account": "Rightworks Corporation",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io <> Stripe Next Steps",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-28T14:30:00.000+0000",
-        "account": "Reed Smith",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "GLC Meeting Invite",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-28T00:00:00.000+0000",
-        "account": "5K Technical Services",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Referral Received - NetCom",
-        "type": "Referral Received",
-        "date": "2026-05-27T19:00:00.000+0000",
-        "account": "Avalara",
-        "owner": "Connor Flynn"
       }
     ]
   }
