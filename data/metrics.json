@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T14:57:30.826Z",
+  "lastUpdated": "2026-06-08T15:57:18.068Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,20 +490,27 @@
     ]
   },
   "events": {
-    "ytdCount": 483,
+    "ytdCount": 484,
     "byType": {
+      "Referral Sent": 32,
       "Potential Channel Partner Meeting": 194,
       "Channel Enablement / Product Demo": 18,
       "6-Initial Strategic Partner Meeting": 67,
       "Channel Partner Meeting": 117,
       "Channel Enablement / Demo Support": 30,
       "Referral Received": 16,
-      "Referral Sent": 31,
       "Partner Agreement Signed": 4,
       "1-Discovery Call": 1,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Referral Sent - BCGTECH",
+        "type": "Referral Sent",
+        "date": "2026-06-08T16:00:00.000+0000",
+        "account": "The Compliance Group",
+        "owner": "Jamie Butler"
+      },
       {
         "subject": "Rev.io - Nexio",
         "type": "Potential Channel Partner Meeting",
@@ -635,13 +642,6 @@
         "type": "Channel Enablement / Demo Support",
         "date": "2026-05-28T18:00:00.000+0000",
         "account": "Acronis",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rightworks resell and referral programs",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-05-28T17:00:00.000+0000",
-        "account": "Rightworks Corporation",
         "owner": "Usman Zahoor"
       }
     ]
