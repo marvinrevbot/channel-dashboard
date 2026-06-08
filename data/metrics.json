@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T21:57:16.902Z",
+  "lastUpdated": "2026-06-08T22:57:17.134Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,20 +490,34 @@
     ]
   },
   "events": {
-    "ytdCount": 484,
+    "ytdCount": 486,
     "byType": {
+      "Potential Channel Partner Meeting": 195,
+      "Channel Enablement / Demo Support": 31,
       "Referral Sent": 32,
-      "Potential Channel Partner Meeting": 194,
       "Channel Enablement / Product Demo": 18,
       "6-Initial Strategic Partner Meeting": 67,
       "Channel Partner Meeting": 117,
-      "Channel Enablement / Demo Support": 30,
       "Referral Received": 16,
       "Partner Agreement Signed": 4,
       "1-Discovery Call": 1,
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io / Cynomi @ Pax8 Beyond",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-06-08T22:00:00.000+0000",
+        "account": "Cynomi",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io / NinjaOne Connect @ Pax8 Beyond",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-08T20:30:00.000+0000",
+        "account": "NinjaOne",
+        "owner": "Usman Zahoor"
+      },
       {
         "subject": "Referral Sent - BCGTECH",
         "type": "Referral Sent",
@@ -628,20 +642,6 @@
         "type": "Channel Enablement / Demo Support",
         "date": "2026-05-29T14:00:00.000+0000",
         "account": "Pax8",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "GTIA - North America Executive Council Monthly Meeting",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-05-28T18:00:00.000+0000",
-        "account": "GTIA",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Rev.io / Acronis Partner Alignment",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-05-28T18:00:00.000+0000",
-        "account": "Acronis",
         "owner": "Usman Zahoor"
       }
     ]
