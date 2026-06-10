@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T21:57:57.505Z",
+  "lastUpdated": "2026-06-10T22:57:19.496Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,12 +490,12 @@
     ]
   },
   "events": {
-    "ytdCount": 490,
+    "ytdCount": 491,
     "byType": {
+      "Channel Enablement / Demo Support": 32,
       "Channel Partner Meeting": 119,
       "6-Initial Strategic Partner Meeting": 69,
       "Potential Channel Partner Meeting": 195,
-      "Channel Enablement / Demo Support": 31,
       "Referral Sent": 32,
       "Channel Enablement / Product Demo": 18,
       "Referral Received": 16,
@@ -504,6 +504,13 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Avalara + Rev.io Monthly Partnership Strategy Sync-up",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-10T17:00:00.000+0000",
+        "account": "Avalara",
+        "owner": "Usman Zahoor"
+      },
       {
         "subject": "Rev.io / HelpGhost Lunch @ Pax8 Beyond",
         "type": "Channel Partner Meeting",
@@ -636,13 +643,6 @@
         "date": "2026-06-02T14:00:00.000+0000",
         "account": "GTIA",
         "owner": "Brook Lee"
-      },
-      {
-        "subject": "Rev.io Bill on Behalf Demo for White Label Team",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-06-02T14:00:00.000+0000",
-        "account": "White Label Communications",
-        "owner": "Usman Zahoor"
       }
     ]
   }
