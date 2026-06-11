@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T16:57:23.046Z",
+  "lastUpdated": "2026-06-11T17:57:17.366Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -241,7 +241,7 @@
         "account": "Cavelo Inc.",
         "stage": "2 - Discovery Completed",
         "probability": 10,
-        "owner": "Usman Zahoor"
+        "owner": "Brook Lee"
       },
       {
         "date": "2026-03-03",
@@ -305,7 +305,7 @@
         "account": "Voxtelesys",
         "stage": "3 - Initial Product Demo",
         "probability": 25,
-        "owner": "Matt Connolly"
+        "owner": "Jake Mitchell"
       },
       {
         "date": "2025-11-28",
@@ -341,7 +341,7 @@
         "account": "VoIP.ms",
         "amount": 0,
         "stage": "3 - Initial Product Demo",
-        "owner": "Usman Zahoor"
+        "owner": "Jake Mitchell"
       },
       {
         "date": "2026-04-02",
@@ -365,7 +365,7 @@
         "account": "EisnerAmper",
         "amount": 1500,
         "stage": "4 - Proposal Sent",
-        "owner": "Usman Zahoor"
+        "owner": "Jake Mitchell"
       },
       {
         "date": "2025-12-31",
