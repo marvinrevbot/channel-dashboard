@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T21:57:58.711Z",
+  "lastUpdated": "2026-06-11T22:58:17.763Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,12 +490,12 @@
     ]
   },
   "events": {
-    "ytdCount": 491,
+    "ytdCount": 497,
     "byType": {
-      "Channel Enablement / Demo Support": 32,
-      "Channel Partner Meeting": 119,
-      "6-Initial Strategic Partner Meeting": 69,
-      "Potential Channel Partner Meeting": 195,
+      "Channel Partner Meeting": 120,
+      "6-Initial Strategic Partner Meeting": 70,
+      "Potential Channel Partner Meeting": 197,
+      "Channel Enablement / Demo Support": 34,
       "Referral Sent": 32,
       "Channel Enablement / Product Demo": 18,
       "Referral Received": 16,
@@ -504,6 +504,48 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Usman/Tim Sync",
+        "type": "Channel Partner Meeting",
+        "date": "2026-06-11T19:00:00.000+0000",
+        "account": "Cyber Trends, Inc",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "The Vendor Situationship",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-06-11T19:00:00.000+0000",
+        "account": "ASCII",
+        "owner": "Brook Lee"
+      },
+      {
+        "subject": "System Surveyor & Rev.io",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-06-11T16:00:00.000+0000",
+        "account": "System Surveyor",
+        "owner": "Jake Mitchell"
+      },
+      {
+        "subject": "Rev.io / Ingram Micro Sync",
+        "type": "Potential Channel Partner Meeting",
+        "date": "2026-06-11T15:30:00.000+0000",
+        "account": "Ingram Micro",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "(Referrals / PSA Sync) 4Voice / Rev.io",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-11T14:00:00.000+0000",
+        "account": "4Voice",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Payments Team Meeting",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-11T13:00:00.000+0000",
+        "account": "TRX Services",
+        "owner": "Usman Zahoor"
+      },
       {
         "subject": "Avalara + Rev.io Monthly Partnership Strategy Sync-up",
         "type": "Channel Enablement / Demo Support",
@@ -600,48 +642,6 @@
         "type": "Channel Enablement / Demo Support",
         "date": "2026-06-04T15:00:00.000+0000",
         "account": "AVIT",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Asset Sync & Integration Strategy",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-06-04T14:30:00.000+0000",
-        "account": "AhelioTech",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "rev.io & N-able",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-06-03T19:30:00.000+0000",
-        "account": "N-able",
-        "owner": "Brook Lee"
-      },
-      {
-        "subject": "Rev.io/Acronis - Bi-weekly Sync",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-06-03T16:00:00.000+0000",
-        "account": "Acronis",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "EisnerAmper -> Rev.io Monthly Sync",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-06-02T16:00:00.000+0000",
-        "account": "EisnerAmper",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "💬 Talk Time:  Jake Mitchell and  Kyle Christensen",
-        "type": "Potential Channel Partner Meeting",
-        "date": "2026-06-02T15:00:00.000+0000",
-        "account": "Empathmsp",
-        "owner": "Jake Mitchell"
-      },
-      {
-        "subject": "GTIA GLC Bi-Weekly Touch Base",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-06-02T14:00:00.000+0000",
-        "account": "GTIA",
         "owner": "Brook Lee"
       }
     ]
