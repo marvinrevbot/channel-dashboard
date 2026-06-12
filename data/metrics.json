@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T21:57:18.452Z",
+  "lastUpdated": "2026-06-12T22:57:15.980Z",
   "channelBookings": {
     "ytdTotal": 7875,
     "ytdCount": 8,
@@ -490,12 +490,12 @@
     ]
   },
   "events": {
-    "ytdCount": 497,
+    "ytdCount": 500,
     "byType": {
+      "Channel Enablement / Demo Support": 36,
+      "6-Initial Strategic Partner Meeting": 71,
       "Channel Partner Meeting": 120,
-      "6-Initial Strategic Partner Meeting": 70,
       "Potential Channel Partner Meeting": 197,
-      "Channel Enablement / Demo Support": 34,
       "Referral Sent": 32,
       "Channel Enablement / Product Demo": 18,
       "Referral Received": 16,
@@ -504,6 +504,27 @@
       "null": 5
     },
     "recent": [
+      {
+        "subject": "Rev.io / Stripe",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-12T17:00:00.000+0000",
+        "account": "Stripe",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "Rev.io / KW Sync - Next Steps",
+        "type": "Channel Enablement / Demo Support",
+        "date": "2026-06-12T15:30:00.000+0000",
+        "account": "KealyWalker",
+        "owner": "Usman Zahoor"
+      },
+      {
+        "subject": "GTIA Chapters: Florida, ATL, Vancouver",
+        "type": "6-Initial Strategic Partner Meeting",
+        "date": "2026-06-12T15:00:00.000+0000",
+        "account": "GTIA",
+        "owner": "Brook Lee"
+      },
       {
         "subject": "Usman/Tim Sync",
         "type": "Channel Partner Meeting",
@@ -622,27 +643,6 @@
         "date": "2026-06-05T15:00:00.000+0000",
         "account": "Commio Voice & Text Messaging",
         "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io/KW catch up",
-        "type": "6-Initial Strategic Partner Meeting",
-        "date": "2026-06-04T18:00:00.000+0000",
-        "account": "KealyWalker",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "Rev.io Collab",
-        "type": "Channel Partner Meeting",
-        "date": "2026-06-04T16:30:00.000+0000",
-        "account": "Great America",
-        "owner": "Usman Zahoor"
-      },
-      {
-        "subject": "(On Site Visit) AVIT / Rev.io",
-        "type": "Channel Enablement / Demo Support",
-        "date": "2026-06-04T15:00:00.000+0000",
-        "account": "AVIT",
-        "owner": "Brook Lee"
       }
     ]
   }
